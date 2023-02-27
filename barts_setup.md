@@ -135,7 +135,7 @@ In what follows, we distinguish steps for the two options FULL WIFI and INTERNAL
 * Connect external USB sound card to USB-C hub via micro-USB to USB-A cable.
 * If INTERNAL WIRED:
     * Plug USB-A to ethernet adapter into USB-C hub.
-    * Go to system settings on IPAD, _turn off WiFi_.  This is important
+    * Go to System Preferences on IPAD, _turn off WiFi_.  This is important
       — otherwise the WiFi and wired connections may compete to transmit data
       to the MACBOOK.
     * Plug 3M ethernet cable into ethernet adapter.
@@ -157,7 +157,7 @@ In what follows, we distinguish steps for the two options FULL WIFI and INTERNAL
 * Put projector on table.
 * It should directly in front of the screen, because the projector has no
   horizontal keystone settings.  You'll find this means the projector should be
-  close be about half way between the aisle edge of the pew and the pillar.
+  about half way between the aisle edge of the pew and the pillar.
 * Plug VGA cable into projector.
 * Plug power cable into projector.
 * Connect power cable plug to extension lead.
@@ -223,7 +223,7 @@ In what follows, we distinguish steps for the two options FULL WIFI and INTERNAL
     * Go to System Preferences -> Sharing.  Disable internet sharing.
 * Plug in both mini-DVI to VGA adapters into mini-DVI / Thunderbolt ports.
 * Plug clergy monitor VGA cable into rear VGA adapter.
-* Plug projector VGA cable into rear VGA adapter.
+* Plug projector VGA cable into front VGA adapter.
 * We have set up the configured displays to be:
     1.  The laptop retina display.
     2.  The projector and clergy monitors as one combined external display.
@@ -272,7 +272,7 @@ In what follows, we distinguish steps for the two options FULL WIFI and INTERNAL
 ## Adjust projector
 
 * Make sure the projector is straight in front of the screen.
-* You will need small book, such as the Book of Common Prayer, to rest the
+* You will need a small book, such as the Book of Common Prayer, to rest the
   front projector leg on.
 * Adjust the front projector leg and the right rear projector leg to get the
   image straight on the screen.  Adjust zoom to taste, and focus.
@@ -302,6 +302,8 @@ In what follows, we distinguish steps for the two options FULL WIFI and INTERNAL
         * Lightning to ethernet / lightning adapter
         * Ethernet / lightning adapter to ETHERNET SWITCH
         * Ethernet / lighning adaptor to USB-A power on extension block.
+    * If FULL WIFI:
+        * Lighning to USB-A power on extension block.
 * IPHONE SE:
     * If INTERNAL WIRED:
         * Lightning to USB-A on USB-A ethernet hub on MACBOOK.
@@ -318,13 +320,14 @@ In what follows, we distinguish steps for the two options FULL WIFI and INTERNAL
 
 ## Service starts
 
-* on IPAD, Switcher Studio — turn off welcome panel.
+* On IPAD, Switcher Studio — turn off welcome panel.
 * Enjoy the ride.
 
 ## Service ends
 
-* When clergy have gone out of shot, turn on Thank You panel.
-* When organ done playing, switch to end video.  Turn off USB sound.
+* When clergy have gone out of shot, after a little while, turn on Thank You
+  panel.
+* When organ voluntary has finished, switch to end video.  Turn off USB sound.
 * Turn off projector.
 * When end video done, turn off stream with red button to top left of Switcher
   Studio interface on IPAD.
