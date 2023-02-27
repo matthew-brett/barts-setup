@@ -238,10 +238,9 @@ configuration of the internal shared network.**
     * Check there is a green light on the switch in the socket connected to the
       MACBOOK, to confirm ethernet connection.
 * On IPAD:
+    * Make sure _WiFi is turned off_.  This is important — otherwise the WiFi
+      and wired connections may compete to transmit data to the MACBOOK.
     * Plug USB-A to ethernet adapter into USB-C HUB.
-    * Go to System Preferences on IPAD, _turn off WiFi_.  This is important
-      — otherwise the WiFi and wired connections may compete to transmit data
-      to the MACBOOK.
     * Plug 3 meter ethernet cable into ethernet adapter.
     * Plug other end of the ethernet cable into the ETHERNET SWITCH.
     * Make sure there is a corresponding green light on the switch for the
