@@ -77,7 +77,7 @@ have:
 
 1. HD camera IPHONE 12 via Switcher Cast to IPAD.
 2. HD camera IPHONE SE via Switcher Cast to IPAD.
-3. High resolution PROCLAIM screen from MACBOOK via Switcher Cast to IPAD.
+3. High resolution PROCLAIM OUTPUT from MACBOOK via Switcher Cast to IPAD.
 4. Output video stream from IPAD to MACBOOK
 5. YouTube stream from MACBOOK to internet.
 
