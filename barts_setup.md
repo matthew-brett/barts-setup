@@ -65,7 +65,7 @@ There are two options for networking in this setup:
 1. Fully wireless — FULL WIFI
 2. Wireless internet, wired between COMPUTERISHES — INTERNAL WIRED.
 
-## Fully wireless (FULL WIFI)
+### Fully wireless (FULL WIFI)
 
 All COMPUTERISHES join the StBartholomewPrivate Wifi network.
 
@@ -87,7 +87,7 @@ the PROCLAIM output and the IPAD Switcher Studio view of that output.
 
 It's not clear whether this results in freezing in the YouTube stream.
 
-## Wireless internet, wired between COMPUTERISHES (INTERNAL WIRED)
+### Wireless internet, wired between COMPUTERISHES (INTERNAL WIRED)
 
 This is more complex to set up, but it means that all traffic between the
 COMPUTERISHES goes via a wired connection, massively reducing the WiFi traffic
@@ -121,7 +121,7 @@ In what follows, we distinguish steps for the two options FULL WIFI and INTERNAL
 ### External USB sound box
 
 * Connect 3.5mm church sound headphone jack to left input.
-* Plug in micro-USB to USB-A cable to micro-USB slot.
+* Plug micro-USB to USB-A cable into micro-USB socket at the back of the box.
 
 ### IPAD
 
@@ -223,6 +223,9 @@ In what follows, we distinguish steps for the two options FULL WIFI and INTERNAL
 * Plug in both mini-DVI to VGA adapters into mini-DVI / Thunderbolt ports.
 * Plug clergy monitor VGA cable into rear VGA adapter.
 * Plug projector VGA cable into rear VGA adapter.
+* We have set up the configured displays to be:
+    1.  The laptop retina display.
+    2.  The projector and clergy monitors as one combined external display.
 * Start Proclaim.   Go to File -> Open and open the session for the service
   (there should be one prepared).
 * In Proclaim, select a slide with text, and click "On Air".  Check you see the
