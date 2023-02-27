@@ -146,16 +146,16 @@ In what follows, we distinguish steps for the two options FULL WIFI and INTERNAL
     * Go to System Preferences, _turn on WiFi_.
 * Start Switcher Studio application.  You should not need to log in, but if you
   do have to log in, see username and password in the blue book.
-* Go to sound settings.  Configure USB sound to Mono Left Channel.  Confirm
-  that sound monitor bar at top of screen shows sound for left and right
-  channels.
+* Go to Switcher Studio sound settings by selecting sound icon from panel at
+  bottom right.  Configure USB sound to Mono Left Channel.  Confirm that sound
+  monitor bar at top of screen shows sound for left and right channels.
 * Connect bluetooth headphones.  Monitor sound level.  Adjust level with left
   hand input level volume control on USB sound box.
 
 ### Projector
 
 * Put projector on table.
-* It should directly in front of the screen, because the projector has no
+* It should be directly in front of the screen, because the projector has no
   horizontal keystone settings.  You'll find this means the projector should be
   about half way between the aisle edge of the pew and the pillar.
 * Plug VGA cable into projector.
