@@ -11,7 +11,7 @@ urlcolor: blue
 
 We have four computer-like things:
 
-* an iPad with a keyboard (IPAD).
+* An iPad with a keyboard (IPAD).
 * A [Early 2015 vintage MacBook
   Pro](https://support.apple.com/kb/SP715?locale=en_GB) (MACBOOK).  It has
   2 mini-DVI / Thunderbolt ports and two USB-A USB-3 ports.
@@ -31,7 +31,7 @@ We run the YouTube casting in the following way:
 * The IPAD also saves the stream to its local disk storage, for later use.
 
 We use the MACBOOK to display lyrics for songs, liturgy and slides to the
-following outputs:
+following physical devices in the church:
 
 * A projector, projecting to a screen in front of the pulpit, for the
   congregation.
@@ -41,14 +41,18 @@ following outputs:
 We use the [Proclaim application](https://faithlife.com/products/proclaim) to
 control the outputs to the projector / clergy monitor.
 
-Call this the PROCLAIM OUTPUT.
+We also use Switcher to pass these outputs to Switcher Studio on the IPAD, via
+the network.
 
-The sources for Switcher Studio, running on the IPAD are:
+Call this output — the PROCLAIM OUTPUT.
+
+The Switcher Studio application runs on the IPAD. It receives the following
+inputs:
 
 * Sound input from an external USB sound box.
-* Video camera input from the IPHONE 12.
-* Video camera input from the IPHONE SE.
-* Video screen input from the MACBOOK PROCLAIM OUTPUT.
+* Video camera input via the network from the IPHONE 12.
+* Video camera input via the network from the IPHONE SE.
+* Video screen input via the network from the MACBOOK PROCLAIM OUTPUT.
 
 In order for Switcher Studio (on the IPAD) to get the video inputs, each of the
 IPHONE 12, IPHONE SE and the MACBOOK run the Switcher Cast application.
@@ -58,14 +62,14 @@ output.
 
 For the MACBOOK, we use Switcher Cast to transit the PROCLAIM OUTPUT.
 
-## Network
+### Network
 
 There are two options for networking in this setup:
 
 1. Fully wireless — FULL WIFI
 2. Wireless internet, wired between COMPUTERISHES — INTERNAL WIRED.
 
-### Fully wireless (FULL WIFI)
+#### Fully wireless (FULL WIFI)
 
 All COMPUTERISHES join the StBartholomewPrivate Wifi network.
 
@@ -87,7 +91,7 @@ the PROCLAIM OUTPUT and the IPAD Switcher Studio view of that output.
 
 It's not clear whether this results in freezing in the YouTube stream.
 
-### Wireless internet, wired between COMPUTERISHES (INTERNAL WIRED)
+#### Wireless internet, wired between COMPUTERISHES (INTERNAL WIRED)
 
 This is more complex to set up, but it means that all traffic between the
 COMPUTERISHES goes via a wired connection, massively reducing the WiFi traffic
@@ -109,9 +113,10 @@ With that setup, the only Wifi traffic is the output YouTube stream.  All
 camera and video traffic goes via wired connections.  You should see no dropped
 packets or freezing on the IPAD Switcher Studio interface.
 
-In what follows, we distinguish steps for the two options FULL WIFI and INTERNAL WIRED.
+In what follows, we distinguish steps for the two options: FULL WIFI, and
+INTERNAL WIRED.
 
-## Setup in detail
+## Setup procedure
 
 * Get small black tripod and church sound cable with 3.5mm jack from behind and
   to the right of the pulpit (right when facing towards the chancel).
@@ -119,38 +124,6 @@ In what follows, we distinguish steps for the two options FULL WIFI and INTERNAL
 * Turn on the socket, confirm the extension block has power lights on.
 * If INTERNAL WIRED:
     * Plug power for ETHERNET SWITCH into extension block.
-
-### External USB sound box
-
-* Connect 3.5mm church sound headphone jack to left input.
-* Plug micro-USB to USB-A cable into micro-USB socket at the back of the box.
-
-### IPAD
-
-* Turn on IPAD.
-* PIN to log in is in small blue book.
-* Connect USB-C hub
-* Plug USB-C power adapter into extension block.  Plug USB-C to USB-C cable
-  into power adapter and into USB-C hub.
-* Connect external USB sound card to USB-C hub via micro-USB to USB-A cable.
-* If INTERNAL WIRED:
-    * Plug USB-A to ethernet adapter into USB-C hub.
-    * Go to System Preferences on IPAD, _turn off WiFi_.  This is important
-      — otherwise the WiFi and wired connections may compete to transmit data
-      to the MACBOOK.
-    * Plug 3M ethernet cable into ethernet adapter.
-    * Plug other end of the ethernet cable into the ETHERNET SWITCH.
-    * Make sure there is a green light on the switch for the cable, to confirm
-      there is an active ethernet connection.
-* If FULL WIFI:
-    * Go to System Preferences, _turn on WiFi_.
-* Start Switcher Studio application.  You should not need to log in, but if you
-  do have to log in, see username and password in the blue book.
-* Go to Switcher Studio sound settings by selecting sound icon from panel at
-  bottom right.  Configure USB sound to Mono Left Channel.  Confirm that sound
-  monitor bar at top of screen shows sound for left and right channels.
-* Connect bluetooth headphones.  Monitor sound level.  Adjust level with left
-  hand input level volume control on USB sound box.
 
 ### Projector
 
@@ -173,36 +146,23 @@ In what follows, we distinguish steps for the two options FULL WIFI and INTERNAL
 
 * Turn on phone.  Log in with pin in blue book.
 * If INTERNAL WIRED:
-    * _Turn off the phone WiFi_.  If you don't do this the WiFi and wired
-      connections may compete for connection to the IPAD, and you may get
-      freezing or loss of connection.
-    * Plug in lightning to lightning / ethernet adapter.
-    * Plug USB-A to lightning cable into extension socket USB-A power.  _Be
-      careful to use the extension USB-A for power and not USB-A from the
-      MACBOOK.  If you use USB-A from the MACBOOK, this will complicate the
-      WiFi connection sharing, and probably make it fail._
-    * Plug the lightning end of the USB-A to lightning connector into the
-      lightning to lightning / ethernet adapter.
-    * Plug a 3M ethernet cable into the lightning / ethernet adpator.  Plug the
-      other end into the ETHERNET SWITCH.  Confirm the connection is active
-      with a green light next to the matching plug on the switch.  If you don't
-      get a connection, try unplugging the lighting to lightning / ethernet
-      adapter and plugging it in again.
+    * Turn off the phone WiFi.
+    * You will connect the phone by cable later; see below.
 * If FULL WIFI:
     * _Turn on the phone WiFi_.  Connect to StBartholomewPrivate.
-    * Plug lightning to USB-A cable from phone into power on extension block.
+    * Plug lightning to USB-A cable from phone into USB-A power on extension
+      block.
 
 ### IPHONE SE
 
 * Turn on.  Log in with pin in blue book.
 * If INTERNAL WIRED:
-    * _Turn off the phone WiFi_.  If you don't do this the WiFi and wired
-      connections may compete for connection to the IPAD, and you may get
-      freezing or loss of connection.
-    * Plug USB-A to lightning cable into MACBOOK USB-A / ethernet hub.
-    * Plug the lightning end of the USB-A to lightning connector into the IPHONE SE.
+    * Turn off the phone WiFi.
+    * You will connect the phone by cable later; see below.
 * If FULL WIFI:
     * _Turn on the phone WiFi_.  Connect to StBartholomewPrivate.
+    * Plug lightning to USB-A cable from phone into USB-A power on extension
+      block.
 
 ### MACBOOK
 
@@ -210,15 +170,6 @@ In what follows, we distinguish steps for the two options FULL WIFI and INTERNAL
 * Plug power adapter into extension block, connect other end of power cable
   (magsafe) to MACBOOK.
 * Connect WiFi to StBartholomewsPrivate, if not already connected.
-* If INTERNAL WIRED:
-    * Plug in 3 x USB-A / ethernet hub.
-    * Plug 2M ethernet cable into USB-A / ethernet hub.
-    * Plug other end of ethernet cable into ETHERNET SWITCH.
-    * Check there is a green light on the switch for MACBOOK cable, to confirm
-      ethernet connection.
-    * Go to System Preferences -> Sharing.  Sharing options should be set to
-      "Share your internet connection from:" — Wi-Fi "To computers using:"
-      — USB 10/100/1000 ethernet and iPhone.  Enable internet sharing.
 * If FULL WIFI:
     * Go to System Preferences -> Sharing.  Disable internet sharing.
 * Plug in both mini-DVI to VGA adapters into mini-DVI / Thunderbolt ports.
@@ -232,7 +183,99 @@ In what follows, we distinguish steps for the two options FULL WIFI and INTERNAL
 * In Proclaim, select a slide with text, and click "On Air".  Check you see the
   output on the projector, and on the clergy monitor.
 
-### Camera setup
+### External USB sound box
+
+* Connect 3.5mm church sound headphone jack to left input.
+* Plug micro-USB to USB-A cable into micro-USB socket at the back of the box.
+
+### IPAD
+
+* Turn on IPAD.
+* PIN to log in is in small blue book.
+* Connect USB-C hub (USB-C HUB).
+* Plug USB-C power adapter into extension block.  Plug USB-C to USB-C cable
+  into power adapter and into USB-C HUB.
+* Connect external USB sound card to USB-C HUB via micro-USB to USB-A cable.
+* If INTERNAL WIRED:
+    * Go to System Preferences on IPAD, _turn off WiFi_.
+    * You will connect the iPad by cable later; see below.
+* If FULL WIFI:
+    * Go to System Preferences, _turn on WiFi_.
+* Start Switcher Studio application.  You should not need to log in, but if you
+  do have to log in, see username and password in the blue book.
+* Go to Switcher Studio sound settings by selecting sound icon from panel at
+  bottom right.  Configure USB sound to Mono Left Channel.  Confirm that sound
+  monitor bar at top of screen shows sound for left and right channels.
+* Connect Bluetooth headphones.  Monitor sound level.  Adjust level with left
+  hand input level volume control on USB sound box.
+
+### Extra network setup if INTERNAL WIRED
+
+**This entire section applies only if you are using INTERNAL WIRED
+networking.**
+
+**You need set up Internet Sharing on the MACBOOK before connecting the other
+devices to the network, as here, because Internet Sharing also sets up
+automatic
+([DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol))
+configuration of the internal shared network.**
+
+* On MACBOOK:
+    * Plug in USB-A to 3 x USB-A / ethernet hub (USB-A HUB).
+* On IPHONE SE:
+    * Make sure the _phone WiFi_ is off.  If you don't do this the WiFi and wired
+      connections may compete for connection to the IPAD, and you may get
+      freezing or loss of connection.
+    * Plug USB-A to lightning cable into MACBOOK USB-A HUB.
+    * Plug the lightning end of the USB-A to lightning connector into the
+      IPHONE SE.
+* On MACBOOK:
+    * Go to System Preferences -> Sharing.  Sharing options should be set to
+      "Share your internet connection from:" — Wi-Fi — "To computers using:"
+      — USB 10/100/1000 ethernet and iPhone.  Enable internet sharing.
+    * Plug 2 meter ethernet cable into USB-A HUB.
+    * Plug other end of ethernet cable into ETHERNET SWITCH.
+    * Check there is a green light on the switch in the socket connected to the
+      MACBOOK, to confirm ethernet connection.
+* On IPAD:
+    * Plug USB-A to ethernet adapter into USB-C HUB.
+    * Go to System Preferences on IPAD, _turn off WiFi_.  This is important
+      — otherwise the WiFi and wired connections may compete to transmit data
+      to the MACBOOK.
+    * Plug 3 meter ethernet cable into ethernet adapter.
+    * Plug other end of the ethernet cable into the ETHERNET SWITCH.
+    * Make sure there is a corresponding green light on the switch for the
+      cable, to confirm there is an active ethernet connection.
+* On IPHONE 12:
+    * Make sure _the phone WiFi_ is off._  If you don't do this the WiFi and
+      wired connections may compete for connection to the IPAD, and you may get
+      freezing or loss of connection.
+    * Plug in lightning to lightning / ethernet adapter (L2LE ADAPTER).
+    * Plug USB-A to lightning cable into extension socket USB-A power.  _Be
+      careful to use the extension USB-A for power and not USB-A from the
+      MACBOOK.  If you use USB-A from the MACBOOK, this will complicate the
+      WiFi connection sharing, and probably make it fail._
+    * Plug the lightning end of the USB-A to lightning cable into the
+      L2LE ADAPTER.
+    * Plug a 3 meter ethernet cable into the L2LE ADAPTER.  Plug the other end
+      into the ETHERNET SWITCH.
+    * Confirm the connection is active with a green light next to the matching
+      plug on the ETHERNET SWITCH.  If you don't get a connection, try
+      unplugging the L2LE ADAPTER and plugging it in again.
+
+*If the internal wired network is not working* try the following:
+
+* Check that internet sharing is enabled on the MACBOOK, as above.
+* Unplug the power from the ETHERNET SWITCH.  Wait a few seconds.  Plug it back
+  in again.
+* Unplug the USB-A to lightning connection to the IPHONE SE.  Plug it back in
+  again.
+
+### Video and camera setup
+
+*If you are using the INTERNAL WIRED network and any of the Switcher Cast
+connections below do not work, consider resetting the internal network, as
+above.*
 
 * Make sure Switcher Studio application is running on the IPAD.
 * Select video inputs from icons at bottom of Switcher Studio screen.
@@ -243,19 +286,19 @@ In what follows, we distinguish steps for the two options FULL WIFI and INTERNAL
 * Run the Switcher Cast application on IPHONE 12.  Share camera.  Go to IPAD
   Switcher Studio interface, and select the iPhone camera that appears.  Move
   IPHONE 12 around to confirm you can see the camera output in the Switcher
-  Studio inferface.
+  Studio interface.
 * Move silver tripod to aisle end of pew.  Mount IPHONE 12, and adjust for good
   view of the chancel, with the left hand view just taking in the lectern, so
   we can see the readings if necessary from this camera.
 * Run the Switcher Cast application on IPHONE SE.  Share camera.  Go to IPAD
   Switcher Studio interface, and select the iPhone camera that appears.  Move
   IPHONE SE around to confirm you can see the camera output in the Switcher
-  Studio inferface.
+  Studio interface.
 * Pull out legs and extend central column of the small black tripod, put in
   front of front pew next to the equipment table.  Mount IPHONE SE.  Adjust so
   the camera has a good view of the musicians and the lectern.
 
-## Stream setup
+### Stream setup
 
 * Go to IPAD.  Make sure the main (IPHONE 12) camera is the current view.  Add
   the Welcome panel to the current view, ready to start the stream.
@@ -269,7 +312,7 @@ In what follows, we distinguish steps for the two options FULL WIFI and INTERNAL
 * Go back to the MACBOOK YouTube interface. When the stream becomes available,
   click Go Live.
 
-## Adjust projector
+### Adjust projector
 
 * Make sure the projector is straight in front of the screen.
 * You will need a small book, such as the Book of Common Prayer, to rest the
@@ -280,18 +323,18 @@ In what follows, we distinguish steps for the two options FULL WIFI and INTERNAL
   to adjust the vertical keystone.  It seems to be about right more or less in
   the centre of its range.
 
-## Full list of connections for reference
+### Full list of connections for reference
 
 * MACBOOK:
     * Magsafe power.
     * mini-DVI to VGA to clergy monitor.
     * mini-DVI to VGA to projector.
     * If INTERNAL WIRED:
-        * USB-A to USB-A / ethernet hub.
+        * USB-A to USB-A HUB.
         * Ethernet from hub to ETHERNET SWITCH
-        * USB-A from hub to IPHONE SE lightning.
+        * USB-A from USB-A HUB to IPHONE SE lightning.
 * IPAD:
-    * USB-C hub
+    * USB-C HUB:
         * USB-A to USB external sound
         * USB-C to USB-C power adapter
         * If INTERNAL WIRED:
@@ -306,24 +349,24 @@ In what follows, we distinguish steps for the two options FULL WIFI and INTERNAL
         * Lighning to USB-A power on extension block.
 * IPHONE SE:
     * If INTERNAL WIRED:
-        * Lightning to USB-A on USB-A ethernet hub on MACBOOK.
+        * Lightning to USB-A on USB-A HUB on MACBOOK.
     * If FULL WIFI:
         * Lightning to USB-A power on extension block.
 
-## Check text in Proclaim
+### Check text in Proclaim
 
 * Get service sheet and hymn book.
 * Go through Proclaim slides checking words from listed hymns and printed
   choruses.
 * Check with clergy about missing verses, and with musicians about any
-  not-printed repeats to chorus versses.
+  not-printed repeats to chorus verses.
 
-## Service starts
+### Service starts
 
 * On IPAD, Switcher Studio — turn off welcome panel.
 * Enjoy the ride.
 
-## Service ends
+### Service ends
 
 * When clergy have gone out of shot, after a little while, turn on Thank You
   panel.
