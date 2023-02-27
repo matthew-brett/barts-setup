@@ -83,7 +83,7 @@ have:
 
 As a result, when running this way, you will see many dropped packets and some
 freezing on the IPAD Switcher Studio interface, and considerable delay between
-the PROCLAIM output and the IPAD Switcher Studio view of that output.
+the PROCLAIM OUTPUT and the IPAD Switcher Studio view of that output.
 
 It's not clear whether this results in freezing in the YouTube stream.
 
@@ -117,6 +117,8 @@ In what follows, we distinguish steps for the two options FULL WIFI and INTERNAL
   to the right of the pulpit (right when facing towards the chancel).
 * Plug extension cord into socket at the aisle end of the front pew.
 * Turn on the socket, confirm the extension block has power lights on.
+* If INTERNAL WIRED:
+    * Plug power for ETHERNET SWITCH into extension block.
 
 ### External USB sound box
 
@@ -138,7 +140,6 @@ In what follows, we distinguish steps for the two options FULL WIFI and INTERNAL
       to the MACBOOK.
     * Plug 3M ethernet cable into ethernet adapter.
     * Plug other end of the ethernet cable into the ETHERNET SWITCH.
-    * Plug in power to ETHERNET switch.
     * Make sure there is a green light on the switch for the cable, to confirm
       there is an active ethernet connection.
 * If FULL WIFI:
@@ -146,7 +147,7 @@ In what follows, we distinguish steps for the two options FULL WIFI and INTERNAL
 * Start Switcher Studio application.  You should not need to log in, but if you
   do have to log in, see username and password in the blue book.
 * Go to sound settings.  Configure USB sound to Mono Left Channel.  Confirm
-  that sound monitor bar at top of screen show sound for left and right
+  that sound monitor bar at top of screen shows sound for left and right
   channels.
 * Connect bluetooth headphones.  Monitor sound level.  Adjust level with left
   hand input level volume control on USB sound box.
