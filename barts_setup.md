@@ -143,7 +143,7 @@ In what follows, we distinguish steps for the two options FULL WIFI and INTERNAL
     * Make sure there is a green light on the switch for the cable, to confirm
       there is an active ethernet connection.
 * If FULL WIFI:
-    * Go to system settings, _turn on WiFi_.
+    * Go to System Preferences, _turn on WiFi_.
 * Start Switcher Studio application.  You should not need to log in, but if you
   do have to log in, see username and password in the blue book.
 * Go to sound settings.  Configure USB sound to Mono Left Channel.  Confirm
