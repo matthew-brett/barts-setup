@@ -23,7 +23,7 @@ Call these four — the COMPUTERISHES.
 We run the YouTube casting in the following way:
 
 * The IPAD runs [Switcher Studio](https://www.switcherstudio.com/).  This is an
-  application from which you can accept and *switch* between camera input from
+  application from which you can accept and *switch* between video input from
   various sources, to create a live stream.
 * The IPAD sends this stream output to YouTube Studio, running from the Safari
   browser on the MACBOOK.  YouTube then transmits this as a live stream to the
@@ -39,7 +39,7 @@ following physical devices in the church:
   rest of us are seeing on the projector screen.
 
 We use the [Proclaim application](https://faithlife.com/products/proclaim) to
-control the outputs to the projector / clergy monitor.
+control the outputs to the projector and the clergy monitor.
 
 We also use Switcher to pass these outputs to Switcher Studio on the IPAD, via
 the network.
@@ -67,7 +67,8 @@ For the MACBOOK, we use Switcher Cast to transit the PROCLAIM OUTPUT.
 There are two options for networking in this setup:
 
 1. Fully wireless — FULL WIFI
-2. Wireless internet, wired between COMPUTERISHES — INTERNAL WIRED.
+2. Wireless connection to the internet, wired connection between COMPUTERISHES
+   — INTERNAL WIRED.
 
 #### Fully wireless (FULL WIFI)
 
@@ -122,8 +123,6 @@ INTERNAL WIRED.
   to the right of the pulpit (right when facing towards the chancel).
 * Plug extension cord into socket at the aisle end of the front pew.
 * Turn on the socket, confirm the extension block has power lights on.
-* If INTERNAL WIRED:
-    * Plug power for ETHERNET SWITCH into extension block.
 
 ### Projector
 
@@ -144,25 +143,25 @@ INTERNAL WIRED.
 
 ### IPHONE 12
 
-* Turn on phone.  Log in with pin in blue book.
-* If INTERNAL WIRED:
-    * Turn off the phone WiFi.
-    * You will connect the phone by cable later; see below.
+* Turn on phone.  Log in with PIN in blue book.
 * If FULL WIFI:
     * _Turn on the phone WiFi_.  Connect to StBartholomewPrivate.
     * Plug lightning to USB-A cable from phone into USB-A power on extension
       block.
+* If INTERNAL WIRED:
+    * Turn off the phone WiFi.
+    * You will connect the phone by cable later; see below.
 
 ### IPHONE SE
 
-* Turn on.  Log in with pin in blue book.
-* If INTERNAL WIRED:
-    * Turn off the phone WiFi.
-    * You will connect the phone by cable later; see below.
+* Turn on.  Log in with PIN in blue book.
 * If FULL WIFI:
     * _Turn on the phone WiFi_.  Connect to StBartholomewPrivate.
     * Plug lightning to USB-A cable from phone into USB-A power on extension
       block.
+* If INTERNAL WIRED:
+    * Turn off the phone WiFi.
+    * You will connect the phone by cable later; see below.
 
 ### MACBOOK
 
@@ -172,7 +171,7 @@ INTERNAL WIRED.
 * Connect WiFi to StBartholomewsPrivate, if not already connected.
 * If FULL WIFI:
     * Go to System Preferences -> Sharing.  Disable internet sharing.
-* Plug in both mini-DVI to VGA adapters into mini-DVI / Thunderbolt ports.
+* Plug both mini-DVI to VGA adapters into mini-DVI / Thunderbolt ports.
 * Plug clergy monitor VGA cable into rear VGA adapter.
 * Plug projector VGA cable into front VGA adapter.
 * We have set up the configured displays to be:
@@ -220,6 +219,7 @@ automatic
 ([DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol))
 configuration of the internal shared network.**
 
+* Plug power for ETHERNET SWITCH into extension block.
 * On MACBOOK:
     * Plug in USB-A to 3 x USB-A / ethernet hub (USB-A HUB).
 * On IPHONE SE:
