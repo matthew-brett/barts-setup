@@ -11,12 +11,13 @@ urlcolor: blue
 
 We have four computer-like things:
 
-* An iPad with a keyboard (IPAD).
+* An [iPad pro 4th generation](https://support.apple.com/kb/SP815) with
+  a keyboard (IPAD).
 * A [Early 2015 vintage MacBook
   Pro](https://support.apple.com/kb/SP715?locale=en_GB) (MACBOOK).  It has
   2 mini-DVI / Thunderbolt ports and two USB-A USB-3 ports.
-* An iPhone 12 or so (IPHONE 12).
-* An iPhone SE 2020 or so (IPHONE SE).
+* An iPhone 12 (IPHONE 12).
+* An iPhone 8 (IPHONE 8).
 
 Call these four — the COMPUTERISHES.
 
@@ -49,13 +50,15 @@ Call this output — the PROCLAIM OUTPUT.
 The Switcher Studio application runs on the IPAD. It receives the following
 inputs:
 
-* Sound input from an external USB sound box.
+* Sound input from an external USB sound card — in fact a [Focusrite Scarlett
+  2i2](https://focusrite.com/en/usb-audio-interface/scarlett/scarlett-2i2).
+  Call this USB SOUND.
 * Video camera input via the network from the IPHONE 12.
-* Video camera input via the network from the IPHONE SE.
+* Video camera input via the network from the IPHONE 8.
 * Video screen input via the network from the MACBOOK PROCLAIM OUTPUT.
 
 In order for Switcher Studio (on the IPAD) to get the video inputs, each of the
-IPHONE 12, IPHONE SE and the MACBOOK run the Switcher Cast application.
+IPHONE 12, IPHONE 8 and the MACBOOK run the Switcher Cast application.
 
 For the two IPHONES, we use Switcher Cast to transmit the *camera* video
 output.
@@ -81,7 +84,7 @@ This is a _lot_ of network traffic carried on Wifi via the router, because we
 have:
 
 1. HD camera IPHONE 12 via Switcher Cast to IPAD.
-2. HD camera IPHONE SE via Switcher Cast to IPAD.
+2. HD camera IPHONE 8 via Switcher Cast to IPAD.
 3. High resolution PROCLAIM OUTPUT from MACBOOK via Switcher Cast to IPAD.
 4. Output video stream from IPAD to MACBOOK
 5. YouTube stream from MACBOOK to internet.
@@ -102,12 +105,12 @@ It works like this:
 
 * The MACBOOK attaches to the Wifi router in the usual way.  This connects the
   MACBOOK to the internet.
-* We _disable WiFi_ on all other COMPUTERISHES (IPAD, IPHONE 12, IPHONE SE).
+* We _disable WiFi_ on all other COMPUTERISHES (IPAD, IPHONE 12, IPHONE 8).
 * We use Mac Internet Sharing to share the MACBOOK WiFi internet connection
   with the other COMPUTERISHES.
-* All of the MACBOOK, the IPAD and the IPHONE 12 connect together via ethernet
+* All of the MACBOOK, the IPAD and the IPHONE 12 connect together via Ethernet
   cables to a wired switch.  Call the wired switch — the ETHERNET SWITCH.
-* The IPHONE SE connects to the MACBOOK Wifi internet via a direct USB
+* The IPHONE 8 connects to the MACBOOK Wifi internet via a direct USB
   connection.
 
 With that setup, the only Wifi traffic is the output YouTube stream.  All
@@ -152,7 +155,7 @@ INTERNAL WIRED.
     * Turn off the phone WiFi.
     * You will connect the phone by cable later; see below.
 
-### IPHONE SE
+### IPHONE 8
 
 * Turn on.  Log in with PIN in blue book.
 * If FULL WIFI:
@@ -182,10 +185,10 @@ INTERNAL WIRED.
 * In Proclaim, select a slide with text, and click "On Air".  Check you see the
   output on the projector, and on the clergy monitor.
 
-### External USB sound box
+### USB SOUND
 
 * Connect 3.5mm church sound headphone jack to left input.
-* Plug micro-USB to USB-A cable into micro-USB socket at the back of the box.
+* Plug USB-C to USB-A cable into USB-C socket at the back of the box.
 
 ### IPAD
 
@@ -194,7 +197,7 @@ INTERNAL WIRED.
 * Connect USB-C hub (USB-C HUB).
 * Plug USB-C power adapter into extension block.  Plug USB-C to USB-C cable
   into power adapter and into USB-C HUB.
-* Connect external USB sound card to USB-C HUB via micro-USB to USB-A cable.
+* Connect external USB SOUND to USB-C HUB via USB-C to USB-A cable.
 * If INTERNAL WIRED:
     * Go to System Preferences on IPAD, _turn off WiFi_.
     * You will connect the iPad by cable later; see below.
@@ -221,54 +224,61 @@ configuration of the internal shared network.**
 
 * Plug power for ETHERNET SWITCH into extension block.
 * On MACBOOK:
-    * Plug in USB-A to 3 x USB-A / ethernet hub (USB-A HUB).
-* On IPHONE SE:
+    * Plug in USB-A to 3 x USB-A / Ethernet hub (USB-A HUB).
+* On IPHONE 8:
     * Make sure the _phone WiFi_ is off.  If you don't do this the WiFi and wired
       connections may compete for connection to the IPAD, and you may get
       freezing or loss of connection.
     * Plug USB-A to lightning cable into MACBOOK USB-A HUB.
     * Plug the lightning end of the USB-A to lightning connector into the
-      IPHONE SE.
+      IPHONE 8.
 * On MACBOOK:
     * Go to System Preferences -> Sharing.  Sharing options should be set to
       "Share your internet connection from:" — Wi-Fi — "To computers using:"
-      — USB 10/100/1000 ethernet and iPhone.  Enable internet sharing.
-    * Plug 2 meter ethernet cable into USB-A HUB.
-    * Plug other end of ethernet cable into ETHERNET SWITCH.
+      — USB 10/100/1000 Ethernet and iPhone.  Enable internet sharing.
+    * Plug 2 meter Ethernet cable into USB-A HUB.
+    * Plug other end of Ethernet cable into ETHERNET SWITCH.
     * Check there is a green light on the switch in the socket connected to the
-      MACBOOK, to confirm ethernet connection.
+      MACBOOK, to confirm Ethernet connection.
 * On IPAD:
     * Make sure _WiFi is turned off_.  This is important — otherwise the WiFi
       and wired connections may compete to transmit data to the MACBOOK.
-    * Plug USB-A to ethernet adapter into USB-C HUB.
-    * Plug 3 meter ethernet cable into ethernet adapter.
-    * Plug other end of the ethernet cable into the ETHERNET SWITCH.
+    * Plug USB-A to Ethernet adapter into USB-C HUB.
+    * Plug 3 meter Ethernet cable into Ethernet adapter.
+    * Plug other end of the Ethernet cable into the ETHERNET SWITCH.
     * Make sure there is a corresponding green light on the switch for the
-      cable, to confirm there is an active ethernet connection.
+      cable, to confirm there is an active Ethernet connection.
 * On IPHONE 12:
     * Make sure _the phone WiFi_ is off._  If you don't do this the WiFi and
       wired connections may compete for connection to the IPAD, and you may get
       freezing or loss of connection.
-    * Plug in lightning to lightning / ethernet adapter (L2LE ADAPTER).
+    * Plug in lightning to lightning / Ethernet adapter (L2LE ADAPTER).
     * Plug USB-A to lightning cable into extension socket USB-A power.  _Be
       careful to use the extension USB-A for power and not USB-A from the
-      MACBOOK.  If you use USB-A from the MACBOOK, this will complicate the
-      WiFi connection sharing, and probably make it fail._
+      MACBOOK.  If you use USB-A from the MACBOOK, this may complicate the WiFi
+      connection sharing, and it may fail._
     * Plug the lightning end of the USB-A to lightning cable into the
       L2LE ADAPTER.
-    * Plug a 3 meter ethernet cable into the L2LE ADAPTER.  Plug the other end
+    * Plug a 3 meter Ethernet cable into the L2LE ADAPTER.  Plug the other end
       into the ETHERNET SWITCH.
     * Confirm the connection is active with a green light next to the matching
       plug on the ETHERNET SWITCH.  If you don't get a connection, try
       unplugging the L2LE ADAPTER and plugging it in again.
+
+#### Reset wired network
 
 *If the internal wired network is not working* try the following:
 
 * Check that internet sharing is enabled on the MACBOOK, as above.
 * Unplug the power from the ETHERNET SWITCH.  Wait a few seconds.  Plug it back
   in again.
-* Unplug the USB-A to lightning connection to the IPHONE SE.  Plug it back in
+* Unplug the USB-A to lightning connection to the IPHONE 8.  Plug it back in
   again.
+
+#### Check internet sharing
+
+See [this SO
+post](https://apple.stackexchange.com/questions/43805/show-active-connections-to-internet-sharing)
 
 ### Video and camera setup
 
@@ -289,12 +299,12 @@ above.*
 * Move silver tripod to aisle end of pew.  Mount IPHONE 12, and adjust for good
   view of the chancel, with the left hand view just taking in the lectern, so
   we can see the readings if necessary from this camera.
-* Run the Switcher Cast application on IPHONE SE.  Share camera.  Go to IPAD
+* Run the Switcher Cast application on IPHONE 8.  Share camera.  Go to IPAD
   Switcher Studio interface, and select the iPhone camera that appears.  Move
-  IPHONE SE around to confirm you can see the camera output in the Switcher
+  IPHONE 8 around to confirm you can see the camera output in the Switcher
   Studio interface.
 * Pull out legs and extend central column of the small black tripod, put in
-  front of front pew next to the equipment table.  Mount IPHONE SE.  Adjust so
+  front of front pew next to the equipment table.  Mount IPHONE 8.  Adjust so
   the camera has a good view of the musicians and the lectern.
 
 ### Stream setup
@@ -331,22 +341,22 @@ above.*
     * If INTERNAL WIRED:
         * USB-A to USB-A HUB.
         * Ethernet from hub to ETHERNET SWITCH
-        * USB-A from USB-A HUB to IPHONE SE lightning.
+        * USB-A from USB-A HUB to IPHONE 8 lightning.
 * IPAD:
     * USB-C HUB:
         * USB-A to USB external sound
         * USB-C to USB-C power adapter
         * If INTERNAL WIRED:
-            * USB-A ethernet adaptor
+            * USB-A Ethernet adaptor
             * Ethernet cable from adaptor to ETHERNET SWITCH
 * IPHONE 12:
     * If INTERNAL WIRED:
-        * Lightning to ethernet / lightning adapter
+        * Lightning to Ethernet / lightning adapter
         * Ethernet / lightning adapter to ETHERNET SWITCH
-        * Ethernet / lighning adaptor to USB-A power on extension block.
+        * Ethernet / lightning adaptor to USB-A power on extension block.
     * If FULL WIFI:
-        * Lighning to USB-A power on extension block.
-* IPHONE SE:
+        * Lightning to USB-A power on extension block.
+* IPHONE 8:
     * If INTERNAL WIRED:
         * Lightning to USB-A on USB-A HUB on MACBOOK.
     * If FULL WIFI:
