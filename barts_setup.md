@@ -21,6 +21,9 @@ We have four computer-like things:
 
 Call these four — the COMPUTERISHES.
 
+The church has WiFi via a Mesh network carried by several Eero Wifi nodes
+- call these NODEs.
+
 We run the YouTube casting in the following way:
 
 * The IPAD runs [Switcher Studio](https://www.switcherstudio.com/).  This is an
@@ -28,7 +31,7 @@ We run the YouTube casting in the following way:
   various sources, to create a live stream.
 * The IPAD sends this stream output to YouTube Studio, running from the Safari
   browser on the MACBOOK.  YouTube then transmits this as a live stream to the
-  internet.
+  internet via a NODE.
 * The IPAD also saves the stream to its local disk storage, for later use.
 
 We use the MACBOOK to display lyrics for songs, liturgy and slides to the
@@ -65,22 +68,21 @@ output.
 
 For the MACBOOK, we use Switcher Cast to transit the PROCLAIM OUTPUT.
 
-### Network
+### Two options for networking
 
 There are two options for networking in this setup:
 
-1. Fully wireless — FULL WIFI
-2. Wireless connection to the internet, wired connection between COMPUTERISHES
-   — INTERNAL WIRED.
+1. Fully wireless — WIFI
+2. Fully wired  — WIRED
 
-#### Fully wireless (FULL WIFI)
+#### WIFI
 
-All COMPUTERISHES join the StBartholomewPrivate Wifi network.
+All COMPUTERISHES join the StBartholomewPrivate Wifi network, carried by the
+NODEs.
 
-All network traffic between COMPUTERISHES therefore goes through the WiFi
-network via the nearby Wifi router.
+All network traffic between COMPUTERISHES therefore goes through the nearest Wifi NODE.
 
-This is a _lot_ of network traffic carried on Wifi via the router, because we
+This is a _lot_ of network traffic carried on Wifi via the NODE, because we
 have:
 
 1. HD camera IPHONE 12 via Switcher Cast to IPAD.
@@ -95,30 +97,24 @@ the PROCLAIM OUTPUT and the IPAD Switcher Studio view of that output.
 
 It's not clear whether this results in freezing in the YouTube stream.
 
-#### Wireless internet, wired between COMPUTERISHES (INTERNAL WIRED)
+#### WIRED
 
-This is more complex to set up, but it means that all traffic between the
-COMPUTERISHES goes via a wired connection, massively reducing the WiFi traffic
-via the router.
+All traffic between the COMPUTERISHES and to the NODE goes via a wired Ethernet
+connection, massively reducing the WiFi traffic to that from the NODE to
+internet via the Mesh network.
 
 It works like this:
 
-* The MACBOOK attaches to the Wifi router in the usual way.  This connects the
-  MACBOOK to the internet.
-* We _disable WiFi_ on all other COMPUTERISHES (IPAD, IPHONE 12, IPHONE 8).
-* We use Mac Internet Sharing to share the MACBOOK WiFi internet connection
-  with the other COMPUTERISHES.
-* All of the MACBOOK, the IPAD and the IPHONE 12 connect together via Ethernet
-  cables to a wired switch.  Call the wired switch — the ETHERNET SWITCH.
-* The IPHONE 8 connects to the MACBOOK Wifi internet via a direct USB
-  connection.
+* We turn off WiFi for all COMPUTERISHES.
+* We move one of the NODEs near to us.
+* We plug the NODE to an Ethernet hub — call this the ETHERNET HUB.
+* We plug each COMPUTERISH to the ETHERNET HUB with Ethernet cables.
 
-With that setup, the only Wifi traffic is the output YouTube stream.  All
-camera and video traffic goes via wired connections.  You should see no dropped
-packets or freezing on the IPAD Switcher Studio interface.
+With that setup, all camera and video traffic goes via wired connections.  You
+should see no dropped packets or freezing on the IPAD Switcher Studio
+interface.
 
-In what follows, we distinguish steps for the two options: FULL WIFI, and
-INTERNAL WIRED.
+In what follows, we distinguish steps for the two options: WIFI, and WIRED.
 
 ## Setup procedure
 
@@ -144,36 +140,28 @@ INTERNAL WIRED.
   from the top of the steps in the chancel.
 * Plug power into extension block.
 
-### IPHONE 12
+### For both IPHONE 12 and IPHONE 8
 
 * Turn on phone.  Log in with PIN in blue book.
-* If FULL WIFI:
+* If WIFI:
     * _Turn on the phone WiFi_.  Connect to StBartholomewPrivate.
-    * Plug lightning to USB-A cable from phone into USB-A power on extension
-      block.
-* If INTERNAL WIRED:
+    * Plug lightning to USB-A cable from phone into USB-A power on power
+      extension block.
+* If WIRED:
     * Turn off the phone WiFi.
-    * You will connect the phone by cable later; see below.
-
-### IPHONE 8
-
-* Turn on.  Log in with PIN in blue book.
-* If FULL WIFI:
-    * _Turn on the phone WiFi_.  Connect to StBartholomewPrivate.
-    * Plug lightning to USB-A cable from phone into USB-A power on extension
-      block.
-* If INTERNAL WIRED:
-    * Turn off the phone WiFi.
-    * You will connect the phone by cable later; see below.
+    * Plug lightning to lightning / Ethernet adapter (L2LE ADAPTER) into phone.
+    * Plug lightning to USB-A cable from L2LE ADAPTER into USB-A power on
+      power extension block.
 
 ### MACBOOK
 
 * Turn on MACBOOK, log in as St Bartholomew's, password in blue book.
 * Plug power adapter into extension block, connect other end of power cable
   (magsafe) to MACBOOK.
-* Connect WiFi to StBartholomewsPrivate, if not already connected.
-* If FULL WIFI:
-    * Go to System Preferences -> Sharing.  Disable internet sharing.
+* If WIFI:
+    * Connect WiFi to StBartholomewsPrivate
+* If WIRED:
+    * Turn off Wifi.
 * Plug both mini-DVI to VGA adapters into mini-DVI / Thunderbolt ports.
 * Plug clergy monitor VGA cable into rear VGA adapter.
 * Plug projector VGA cable into front VGA adapter.
@@ -198,11 +186,10 @@ INTERNAL WIRED.
 * Plug USB-C power adapter into extension block.  Plug USB-C to USB-C cable
   into power adapter and into USB-C HUB.
 * Connect external USB SOUND to USB-C HUB via USB-C to USB-A cable.
-* If INTERNAL WIRED:
-    * Go to System Preferences on IPAD, _turn off WiFi_.
-    * You will connect the iPad by cable later; see below.
-* If FULL WIFI:
+* If WIFI:
     * Go to System Preferences, _turn on WiFi_.
+* If WIRED:
+    * Go to System Preferences on IPAD, _turn off WiFi_.
 * Start Switcher Studio application.  You should not need to log in, but if you
   do have to log in, see username and password in the blue book.
 * Go to Switcher Studio sound settings by selecting sound icon from panel at
@@ -211,80 +198,56 @@ INTERNAL WIRED.
 * Connect Bluetooth headphones.  Monitor sound level.  Adjust level with left
   hand input level volume control on USB sound box.
 
-### Extra network setup if INTERNAL WIRED
+### Extra network setup if WIRED network
 
-**This entire section applies only if you are using INTERNAL WIRED
-networking.**
+**This entire section applies only if you are using WIRED networking.**
 
-**You need set up Internet Sharing on the MACBOOK before connecting the other
-devices to the network, as here, because Internet Sharing also sets up
-automatic
-([DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol))
-configuration of the internal shared network.**
+The summary is:
 
-* Plug power for ETHERNET SWITCH into extension block.
+* Turn off WiFi for all COMPUTERISHES.
+* Connect NODE to ETHERNET HUB.
+* Connect all COMPUTERISHES to ETHERNET HUB.
+
+The NODE provides Ethernet addresses to every COMPUTERISH via
+[DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol)).
+
+In detail:
+
+* _Make sure WiFi is off for all COMPUTERISHES_.  If you forget for some
+  devices, the Wifi connections may compete for connection with the wired
+  network, and you may get freezing or loss of connection.
+* Unplug the Eero NODE from near the sound board, and plug it into to our power
+  extension block.  Wait for the light on the NODE to stop flashing, at which
+  point it is connected to the Mesh network.
+* Plug power for ETHERNET HUB into extension block.
+* Connect an Ethernet cable from the NODE to the ETHERNET HUB.  You should see
+  a green light above the corresponding ETHERNET HUB socket, telling you there is an active Ethernet connection.
 * On MACBOOK:
     * Plug in USB-A to 3 x USB-A / Ethernet hub (USB-A HUB).
-* On IPHONE 8:
-    * Make sure the _phone WiFi_ is off.  If you don't do this the WiFi and wired
-      connections may compete for connection to the IPAD, and you may get
-      freezing or loss of connection.
-    * Plug USB-A to lightning cable into MACBOOK USB-A HUB.
-    * Plug the lightning end of the USB-A to lightning connector into the
-      IPHONE 8.
-* On MACBOOK:
-    * Go to System Preferences -> Sharing.  Sharing options should be set to
-      "Share your internet connection from:" — Wi-Fi — "To computers using:"
-      — USB 10/100/1000 Ethernet and iPhone.  Enable internet sharing.
-    * Plug 2 meter Ethernet cable into USB-A HUB.
-    * Plug other end of Ethernet cable into ETHERNET SWITCH.
-    * Check there is a green light on the switch in the socket connected to the
-      MACBOOK, to confirm Ethernet connection.
+    * Connect USB-A HUB to ETHERNET HUB with 2 meter Ethernet cable.
 * On IPAD:
-    * Make sure _WiFi is turned off_.  This is important — otherwise the WiFi
-      and wired connections may compete to transmit data to the MACBOOK.
     * Plug USB-A to Ethernet adapter into USB-C HUB.
     * Plug 3 meter Ethernet cable into Ethernet adapter.
-    * Plug other end of the Ethernet cable into the ETHERNET SWITCH.
-    * Make sure there is a corresponding green light on the switch for the
-      cable, to confirm there is an active Ethernet connection.
-* On IPHONE 12:
-    * Make sure _the phone WiFi_ is off._  If you don't do this the WiFi and
-      wired connections may compete for connection to the IPAD, and you may get
-      freezing or loss of connection.
-    * Plug in lightning to lightning / Ethernet adapter (L2LE ADAPTER).
-    * Plug USB-A to lightning cable into extension socket USB-A power.  _Be
-      careful to use the extension USB-A for power and not USB-A from the
-      MACBOOK.  If you use USB-A from the MACBOOK, this may complicate the WiFi
-      connection sharing, and it may fail._
-    * Plug the lightning end of the USB-A to lightning cable into the
-      L2LE ADAPTER.
+    * Plug other end of the Ethernet cable into the ETHERNET HUB.
+    * Make sure there is a corresponding green light on the ETHERNET HUB socket
+      for the cable, to confirm there is an active Ethernet connection.
+* On IPHONE 12 and IPHONE 8:
     * Plug a 3 meter Ethernet cable into the L2LE ADAPTER.  Plug the other end
-      into the ETHERNET SWITCH.
+      into the ETHERNET HUB.
     * Confirm the connection is active with a green light next to the matching
-      plug on the ETHERNET SWITCH.  If you don't get a connection, try
+      plug on the ETHERNET HUB.  If you don't get a connection, try
       unplugging the L2LE ADAPTER and plugging it in again.
 
-#### Reset wired network
+#### To reset wired network
 
-*If the internal wired network is not working* try the following:
-
-* Check that internet sharing is enabled on the MACBOOK, as above.
-* Unplug the power from the ETHERNET SWITCH.  Wait a few seconds.  Plug it back
-  in again.
-* Unplug the USB-A to lightning connection to the IPHONE 8.  Plug it back in
-  again.
-
-#### Check internet sharing
-
-See [this SO
-post](https://apple.stackexchange.com/questions/43805/show-active-connections-to-internet-sharing)
+*If the wired network is not working*, unplug the power from the
+ETHERNET HUB.  Wait a few seconds.  Plug it back in again.  You should see
+green lights over each of the connected Ethernet cables.
 
 ### Video and camera setup
 
-*If you are using the INTERNAL WIRED network and any of the Switcher Cast
-connections below do not work, consider resetting the internal network, as
-above.*
+*If you are using the WIRED network and any of the Switcher Cast connections
+below do not work, consider resetting the wired network, as above.*
 
 * Make sure Switcher Studio application is running on the IPAD.
 * Select video inputs from icons at bottom of Switcher Studio screen.
@@ -329,8 +292,8 @@ above.*
 * Adjust the front projector leg and the right rear projector leg to get the
   image straight on the screen.  Adjust zoom to taste, and focus.
 * If you have the projector straight in front of the screen you should not need
-  to adjust the vertical keystone.  It seems to be about right more or less in
-  the centre of its range.
+  to adjust the vertical keystone.  It seems to be about right when more or
+  less in the centre of its range.
 
 ### Full list of connections for reference
 
@@ -338,29 +301,23 @@ above.*
     * Magsafe power.
     * mini-DVI to VGA to clergy monitor.
     * mini-DVI to VGA to projector.
-    * If INTERNAL WIRED:
+    * If WIRED:
         * USB-A to USB-A HUB.
-        * Ethernet from hub to ETHERNET SWITCH
-        * USB-A from USB-A HUB to IPHONE 8 lightning.
+        * Ethernet from hub to ETHERNET HUB
 * IPAD:
     * USB-C HUB:
         * USB-A to USB external sound
         * USB-C to USB-C power adapter
-        * If INTERNAL WIRED:
+        * If WIRED:
             * USB-A Ethernet adaptor
-            * Ethernet cable from adaptor to ETHERNET SWITCH
-* IPHONE 12:
-    * If INTERNAL WIRED:
-        * Lightning to Ethernet / lightning adapter
-        * Ethernet / lightning adapter to ETHERNET SWITCH
-        * Ethernet / lightning adaptor to USB-A power on extension block.
-    * If FULL WIFI:
+            * Ethernet cable from adaptor to ETHERNET HUB
+* IPHONE 12 and IPHONE 8:
+    * If WIFI:
         * Lightning to USB-A power on extension block.
-* IPHONE 8:
-    * If INTERNAL WIRED:
-        * Lightning to USB-A on USB-A HUB on MACBOOK.
-    * If FULL WIFI:
-        * Lightning to USB-A power on extension block.
+    * If WIRED:
+        * Lightning to Ethernet / lightning adapter (L2LE ADAPTER).
+        * L2LE ADAPTER to ETHERNET HUB
+        * L2LE ADAPTER to USB-A power on extension block.
 
 ### Check text in Proclaim
 
