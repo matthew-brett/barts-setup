@@ -11,8 +11,8 @@ urlcolor: blue
 
 We have four computer-like things:
 
-* An [iPad pro 4th generation](https://support.apple.com/kb/SP815) with
-  a keyboard (IPAD).
+* An [iPad Pro (12.9 inch) (4th
+  generation)](https://support.apple.com/kb/SP815) with a keyboard (IPAD).
 * A [Early 2015 vintage MacBook
   Pro](https://support.apple.com/kb/SP715?locale=en_GB) (MACBOOK).  It has
   2 mini-DVI / Thunderbolt ports and two USB-A USB-3 ports.
@@ -21,8 +21,18 @@ We have four computer-like things:
 
 Call these four — the COMPUTERISHES.
 
+![IPAD](images/ipad_pro.jpg)
+
+![MACBOOK](images/macbook_pro.jpg)
+
+![IPHONE 12](images/iphone_12.jpg)
+
+![IPHONE 8](images/iphone_8.jpg)
+
 The church has WiFi via a Mesh network carried by several Eero Wifi nodes
 - call these NODEs.
+
+![NODE](images/eero_node.jpg)
 
 We run the YouTube casting in the following way:
 
@@ -59,6 +69,8 @@ inputs:
 * Video camera input via the network from the IPHONE 12.
 * Video camera input via the network from the IPHONE 8.
 * Video screen input via the network from the MACBOOK PROCLAIM OUTPUT.
+
+![USB SOUND](images/usb_sound.jpg)
 
 In order for Switcher Studio (on the IPAD) to get the video inputs, each of the
 IPHONE 12, IPHONE 8 and the MACBOOK run the Switcher Cast application.
@@ -105,10 +117,13 @@ internet via the Mesh network.
 
 It works like this:
 
-* We turn off WiFi for all COMPUTERISHES.
-* We move one of the NODEs near to us.
-* We plug the NODE to an Ethernet hub — call this the ETHERNET HUB.
-* We plug each COMPUTERISH to the ETHERNET HUB with Ethernet cables.
+* Turn off WiFi for all COMPUTERISHES.
+* Plug one of the NODEs into a power socket near us.
+* We have an 8-port Ethernet hub — call this the ETHERNET HUB.
+* Connect the NODE to the ETHERNET HUB with an Ethernet cable.
+* Plug each COMPUTERISH to the ETHERNET HUB with Ethernet cables.
+
+![ETHERNET HUB](images/hub.jpg)
 
 With that setup, all camera and video traffic goes via wired connections.  You
 should see no dropped packets or freezing on the IPAD Switcher Studio
@@ -131,14 +146,18 @@ In what follows, we distinguish steps for the two options: WIFI, and WIRED.
   about half way between the aisle edge of the pew and the pillar.
 * Plug VGA cable into projector.
 * Plug power cable into projector.
-* Connect power cable plug to extension lead.
+* Connect power cable plug to extension power.
 * Turn on projector to let it warm up.
+
+![Projector placement](images/projector_placement.jpg)
 
 ### Clergy monitor
 
 * Put on table next to projector screen.  Adjust angle so someone can read it
   from the top of the steps in the chancel.
 * Plug power into extension block.
+
+![Clergy monitor](images/clergy_monitor.jpg)
 
 ### For both IPHONE 12 and IPHONE 8
 
@@ -152,6 +171,8 @@ In what follows, we distinguish steps for the two options: WIFI, and WIRED.
     * Plug lightning to lightning / Ethernet adapter (L2LE ADAPTER) into phone.
     * Plug lightning to USB-A cable from L2LE ADAPTER into USB-A power on
       power extension block.
+
+![L2LE ADAPTER](images/L2LE_adapter.jpg)
 
 ### MACBOOK
 
@@ -198,6 +219,8 @@ In what follows, we distinguish steps for the two options: WIFI, and WIRED.
 * Connect Bluetooth headphones.  Monitor sound level.  Adjust level with left
   hand input level volume control on USB sound box.
 
+![UBS-C HUB](images/usb_c_hub.jpg)
+
 ### Extra network setup if WIRED network
 
 **This entire section applies only if you are using WIRED networking.**
@@ -237,6 +260,8 @@ In detail:
     * Confirm the connection is active with a green light next to the matching
       plug on the ETHERNET HUB.  If you don't get a connection, try
       unplugging the L2LE ADAPTER and plugging it in again.
+
+![USB-A HUB](images/usb_a_hub.jpg)
 
 #### To reset wired network
 
