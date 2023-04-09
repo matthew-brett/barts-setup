@@ -137,6 +137,13 @@ In what follows, we distinguish steps for the two options: WIFI, and WIRED.
 * Plug extension cord into socket at the aisle end of the front pew.
 * Turn on the socket, confirm the extension block has power lights on.
 
+### Extra network setup if WIRED network
+
+If a Eero NODE is not already plugged in to the power extension block under the
+front pew, go find one, unplug it, and plug it into to our power extension
+block.  Wait for the light on the NODE to stop flashing, at which point it is
+connected to the Mesh network.
+
 ### Projector
 
 * Put projector on table.
@@ -183,9 +190,19 @@ In what follows, we distinguish steps for the two options: WIFI, and WIRED.
 * Plug power adapter into extension block, connect other end of power cable
   (magsafe) to MACBOOK.
 * If WIFI:
+    * Turn on WiFi.
     * Connect WiFi to StBartholomewsPrivate
 * If WIRED:
     * Turn off Wifi.
+    * Plug in USB-A to 3 x USB-A / Ethernet hub (USB-A HUB).
+    * Connect USB-A HUB to the NODE with an Ethernet cable.
+    * Go to System Preferences -> Sharing.  Internet sharing options should be
+      set to "Share your internet connection from:" — USB 10/100/1000 — "To
+      computers using:" — iPhone USB.  Enable internet sharing.
+    * Plug lightning to USB-A cable for IPHONE 8 into the USB-A HUB.
+
+![USB-A HUB](images/usb_a_hub.jpg)
+
 * Plug both mini-DVI to VGA adapters into mini-DVI / Thunderbolt ports.
 * Plug clergy monitor VGA cable into rear VGA adapter.
 * Plug projector VGA cable into front VGA adapter.
@@ -207,6 +224,9 @@ In what follows, we distinguish steps for the two options: WIFI, and WIRED.
 * Turn on IPAD.
 * PIN to log in is in small blue book.
 * Connect USB-C hub (USB-C HUB).
+
+![UBS-C HUB](images/usb_c_hub.jpg)
+
 * Plug USB-C power adapter into extension block.  Plug USB-C to USB-C cable
   into power adapter and into USB-C HUB.
 * Connect external USB SOUND to USB-C HUB via USB-C to USB-A cable.
@@ -214,6 +234,9 @@ In what follows, we distinguish steps for the two options: WIFI, and WIRED.
     * Go to System Preferences, _turn on WiFi_.
 * If WIRED:
     * Go to System Preferences on IPAD, _turn off WiFi_.
+    * Plug USB-A to Ethernet adapter into USB-C HUB.
+    * Plug Ethernet cable into Ethernet adapter.
+    * Plug other end of the Ethernet cable into the NODE.
 * Start Switcher Studio application.  You should not need to log in, but if you
   do have to log in, see username and password in the blue book.
 * Go to Switcher Studio sound settings by selecting sound icon from panel at
@@ -222,46 +245,7 @@ In what follows, we distinguish steps for the two options: WIFI, and WIRED.
 * Connect Bluetooth headphones.  Monitor sound level.  Adjust level with left
   hand input level volume control on USB sound box.
 
-![UBS-C HUB](images/usb_c_hub.jpg)
-
-### Extra network setup if WIRED network
-
-**This entire section applies only if you are using WIRED networking.**
-
-The summary is:
-
-* Turn off WiFi for all COMPUTERISHES except IPHONE 12.
-* Connect IPAD and MACBOOK to NODE with Ethernet cables.
-* Connect IPHONE 8 to MACBOOK via USB, and enable internet sharing.
-
-The NODE provides IP addresses to the IPAD and MACBOOCK via
-[DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol)).
-
-In detail:
-
-* _Make sure WiFi is off_ for all the IPAD, MACBOOK, IPHONE 8.  If you forget
-  for any of these devices, the Wifi connections may compete for connection
-  with the wired network, and you may get freezing or loss of connection.
-* If a Eero NODE is not already plugged in to the power extension block under
-  the front pew, go find one, unplug it, and plug it into to our power
-  extension block.  Wait for the light on the NODE to stop flashing, at which
-  point it is connected to the Mesh network.
-* On MACBOOK:
-    * Plug in USB-A to 3 x USB-A / Ethernet hub (USB-A HUB).
-    * Connect USB-A HUB to the NODE with an Ethernet cable.
-    * Go to System Preferences -> Sharing.  Internet sharing options should be
-      set to "Share your internet connection from:" — USB 10/100/1000 — "To
-      computers using:" — iPhone USB.  Enable internet sharing.
-    * Plug lightning to USB-A cable for IPHONE 8 into the USB-A HUB.
-
-![USB-A HUB](images/usb_a_hub.jpg)
-
-* On IPAD:
-    * Plug USB-A to Ethernet adapter into USB-C HUB.
-    * Plug 3 meter Ethernet cable into Ethernet adapter.
-    * Plug other end of the Ethernet cable into the NODE.
-
-#### To reset wired network
+### To reset WIRED network
 
 *If the wired network is not working*, unplug the Ethernet cables to the NODE.
 Wait a few seconds.  Plug them back in again. This should reset the IP
