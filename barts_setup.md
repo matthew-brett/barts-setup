@@ -85,7 +85,7 @@ For the MACBOOK, we use Switcher Cast to transit the PROCLAIM OUTPUT.
 There are two options for networking in this setup:
 
 1. Fully wireless — WIFI
-2. Fully wired  — WIRED
+2. Partly wired  — WIRED
 
 #### WIFI
 
@@ -111,23 +111,22 @@ It's not clear whether this results in freezing in the YouTube stream.
 
 #### WIRED
 
-All traffic between the COMPUTERISHES and to the NODE goes via a wired Ethernet
-connection, massively reducing the WiFi traffic to that from the NODE to
+Nearly all traffic between the COMPUTERISHES and to the NODE goes via a wired
+Ethernet connection, greatly reducing the WiFi traffic to that from the NODE to
 internet via the Mesh network.
 
-It works like this:
+Our current setup is this:
 
-* Turn off WiFi for all COMPUTERISHES.
-* Plug one of the NODEs into a power socket near us.
-* We have an 8-port Ethernet hub — call this the ETHERNET HUB.
-* Connect the NODE to the ETHERNET HUB with an Ethernet cable.
-* Plug each COMPUTERISH to the ETHERNET HUB with Ethernet cables.
+* The IPAD and the MACBOOK connect directly to the NODE via Ethernet.
+* The IPHONE 8 gets its wired network from the MACBOOK via USB using Internet
+  Sharing.
+* The IPHONE 12 connects via WiFi to the NODE.
 
-![ETHERNET HUB](images/hub.jpg)
-
-With that setup, all camera and video traffic goes via wired connections.  You
-should see no dropped packets or freezing on the IPAD Switcher Studio
-interface.
+With that setup, all camera, video and internet traffic for the IPAD, MACBOOK
+and IPHONE 8 goes via wired connections.  In practice the IPHONE 12 connection
+via Wifi is stable in this situation, especially so, because you have taken away
+most of the Wifi network load with the wired connections. You should see no
+dropped packets or freezing on the IPAD Switcher Studio interface.
 
 In what follows, we distinguish steps for the two options: WIFI, and WIRED.
 
@@ -159,7 +158,14 @@ In what follows, we distinguish steps for the two options: WIFI, and WIRED.
 
 ![Clergy monitor](images/clergy_monitor.jpg)
 
-### For both IPHONE 12 and IPHONE 8
+### IPHONE 12
+
+* Turn on phone.  Log in with PIN in blue book.
+* Plug lightning to USB-A cable from phone into USB-A power on power extension
+  block.
+* _Turn on the phone WiFi_.  Connect to StBartholomewPrivate.
+
+### For IPHONE 8
 
 * Turn on phone.  Log in with PIN in blue book.
 * If WIFI:
@@ -167,12 +173,9 @@ In what follows, we distinguish steps for the two options: WIFI, and WIRED.
     * Plug lightning to USB-A cable from phone into USB-A power on power
       extension block.
 * If WIRED:
-    * Turn off the phone WiFi.
-    * Plug lightning to lightning / Ethernet adapter (L2LE ADAPTER) into phone.
-    * Plug lightning to USB-A cable from L2LE ADAPTER into USB-A power on
-      power extension block.
-
-![L2LE ADAPTER](images/L2LE_adapter.jpg)
+    * _Turn off the phone WiFi_.
+    * In due course, plug lightning to USB-A cable from phone into USB-A on
+      MACBOOK USB-A hub (see below).
 
 ### MACBOOK
 
@@ -227,47 +230,45 @@ In what follows, we distinguish steps for the two options: WIFI, and WIRED.
 
 The summary is:
 
-* Turn off WiFi for all COMPUTERISHES.
-* Connect NODE to ETHERNET HUB.
-* Connect all COMPUTERISHES to ETHERNET HUB.
+* Turn off WiFi for all COMPUTERISHES except IPHONE 12.
+* Connect IPAD and MACBOOK to NODE with Ethernet cables.
+* Connect IPHONE 8 to MACBOOK via USB, and enable internet sharing.
 
-The NODE provides Ethernet addresses to every COMPUTERISH via
+The NODE provides IP addresses to the IPAD and MACBOOCK via
 [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol)).
 
 In detail:
 
-* _Make sure WiFi is off for all COMPUTERISHES_.  If you forget for some
-  devices, the Wifi connections may compete for connection with the wired
-  network, and you may get freezing or loss of connection.
-* Unplug the Eero NODE from near the sound board, and plug it into to our power
+* _Make sure WiFi is off_ for all the IPAD, MACBOOK, IPHONE 8.  If you forget
+  for any of these devices, the Wifi connections may compete for connection
+  with the wired network, and you may get freezing or loss of connection.
+* If a Eero NODE is not already plugged in to the power extension block under
+  the front pew, go find one, unplug it, and plug it into to our power
   extension block.  Wait for the light on the NODE to stop flashing, at which
   point it is connected to the Mesh network.
-* Plug power for ETHERNET HUB into extension block.
-* Connect an Ethernet cable from the NODE to the ETHERNET HUB.  You should see
-  a green light above the corresponding ETHERNET HUB socket, telling you there is an active Ethernet connection.
 * On MACBOOK:
     * Plug in USB-A to 3 x USB-A / Ethernet hub (USB-A HUB).
-    * Connect USB-A HUB to ETHERNET HUB with 2 meter Ethernet cable.
-* On IPAD:
-    * Plug USB-A to Ethernet adapter into USB-C HUB.
-    * Plug 3 meter Ethernet cable into Ethernet adapter.
-    * Plug other end of the Ethernet cable into the ETHERNET HUB.
-    * Make sure there is a corresponding green light on the ETHERNET HUB socket
-      for the cable, to confirm there is an active Ethernet connection.
-* On IPHONE 12 and IPHONE 8:
-    * Plug a 3 meter Ethernet cable into the L2LE ADAPTER.  Plug the other end
-      into the ETHERNET HUB.
-    * Confirm the connection is active with a green light next to the matching
-      plug on the ETHERNET HUB.  If you don't get a connection, try
-      unplugging the L2LE ADAPTER and plugging it in again.
+    * Connect USB-A HUB to the NODE with an Ethernet cable.
+    * Go to System Preferences -> Sharing.  Internet sharing options should be
+      set to "Share your internet connection from:" — USB 10/100/1000 — "To
+      computers using:" — iPhone USB.  Enable internet sharing.
+    * Plug lightning to USB-A cable for IPHONE 8 into the USB-A HUB.
 
 ![USB-A HUB](images/usb_a_hub.jpg)
 
+* On IPAD:
+    * Plug USB-A to Ethernet adapter into USB-C HUB.
+    * Plug 3 meter Ethernet cable into Ethernet adapter.
+    * Plug other end of the Ethernet cable into the NODE.
+
 #### To reset wired network
 
-*If the wired network is not working*, unplug the power from the
-ETHERNET HUB.  Wait a few seconds.  Plug it back in again.  You should see
-green lights over each of the connected Ethernet cables.
+*If the wired network is not working*, unplug the Ethernet cables to the NODE.
+Wait a few seconds.  Plug them back in again. This should reset the IP
+addresses for the MACBOOK and the IPAD.
+
+If the USB network connection for the IPHONE 8 is not working, try turning off
+Internet sharing on the MACBOOK, and turning it back on again.
 
 ### Video and camera setup
 
@@ -318,7 +319,9 @@ below do not work, consider resetting the wired network, as above.*
   image straight on the screen.  Adjust zoom to taste, and focus.
 * If you have the projector straight in front of the screen you should not need
   to adjust the vertical keystone.  It seems to be about right when more or
-  less in the centre of its range.
+  less in the centre of its range.  You may need to move the projector left and
+  right a bit to get the keystone right. If that doesn't correct the keystone,
+  you can try rotating the screen.
 
 ### Full list of connections for reference
 
@@ -328,21 +331,21 @@ below do not work, consider resetting the wired network, as above.*
     * mini-DVI to VGA to projector.
     * If WIRED:
         * USB-A to USB-A HUB.
-        * Ethernet from hub to ETHERNET HUB
+        * Ethernet from USB-A HUB to NODE.
 * IPAD:
     * USB-C HUB:
         * USB-A to USB external sound
         * USB-C to USB-C power adapter
         * If WIRED:
             * USB-A Ethernet adaptor
-            * Ethernet cable from adaptor to ETHERNET HUB
-* IPHONE 12 and IPHONE 8:
+            * Ethernet cable from adaptor to NODE.
+* IPHONE 8:
     * If WIFI:
         * Lightning to USB-A power on extension block.
     * If WIRED:
-        * Lightning to Ethernet / lightning adapter (L2LE ADAPTER).
-        * L2LE ADAPTER to ETHERNET HUB
-        * L2LE ADAPTER to USB-A power on extension block.
+        * Lightning to USB-A on MACBOOK USB-A HUB.
+* IPHONE 12:
+    * Lightning to USB-A power on extension block.
 
 ### Check text in Proclaim
 
