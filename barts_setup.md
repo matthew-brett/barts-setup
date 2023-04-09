@@ -181,8 +181,7 @@ connected to the Mesh network.
       extension block.
 * If WIRED:
     * _Turn off the phone WiFi_.
-    * In due course, plug lightning to USB-A cable from phone into USB-A on
-      MACBOOK USB-A hub (see below).
+    * Plug lightning to USB-A cable from phone into USB-A on port on MACBOOK.
 
 ### MACBOOK
 
@@ -195,11 +194,13 @@ connected to the Mesh network.
 * If WIRED:
     * Turn off Wifi.
     * Plug in USB-A to 3 x USB-A / Ethernet hub (USB-A HUB).
+    * You should already have attached the IPHONE 8 to a MACBOOK USB-A port
+      (see above).  If you haven't done that, do it now — any USB-A port will
+      do - direct to the MACBOOK or on the USB-A HUB.
     * Connect USB-A HUB to the NODE with an Ethernet cable.
     * Go to System Preferences -> Sharing.  Internet sharing options should be
       set to "Share your internet connection from:" — USB 10/100/1000 — "To
       computers using:" — iPhone USB.  Enable internet sharing.
-    * Plug lightning to USB-A cable for IPHONE 8 into the USB-A HUB.
 
 ![USB-A HUB](images/usb_a_hub.jpg)
 
