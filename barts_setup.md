@@ -296,7 +296,7 @@ You are now ready to accept the PROCLAIM OUTPUT to Switcher Studio on the IPAD.
 * Select the Settings icon for the USB Audio Input panel, and select Left to
   Mono, confirm, to make the left channel go to both channels.
 * Look at the output sound monitoring panel at the top of the interface to
-  confirm that sound is not coming through on both channels:
+  confirm that sound is now coming through on both channels:
 
 ![Switcher top sound monitoring panel](images/switcher_top_sound.png)
 
@@ -393,7 +393,8 @@ you do, see the Appendix.
 
 * When clergy have gone out of shot, after a little while, turn on Thank You
   panel.
-* When organ voluntary has finished, switch to end video.  Turn off USB sound.
+* When organ voluntary has finished, switch to end video.  Go to the USB Audio
+  Input panel and click Mute to turn off the ambient sound.
 * Turn off projector.
 * When end video done, turn off stream with red button to top left of Switcher
   Studio interface on IPAD.
