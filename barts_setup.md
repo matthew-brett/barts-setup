@@ -251,32 +251,6 @@ addresses for the MACBOOK and the IPAD.
 If the USB network connection for the IPHONE 8 is not working, try turning off
 Internet sharing on the MACBOOK, and turning it back on again.
 
-### Video and camera setup
-
-*If you are using the WIRED network and any of the Switcher Cast connections
-below do not work, consider resetting the wired network, as above.*
-
-* Make sure Switcher Studio application is running on the IPAD.
-* Select video inputs from icons at bottom of Switcher Studio screen.
-* Disable IPAD camera as video input.
-* Run the Switcher Cast application on the MACBOOK.
-* Go back to the IPAD and select Display 2 from MACBOOK as video input.  You
-  should see the PROCLAIM OUTPUT.
-* Run the Switcher Cast application on IPHONE 12.  Share camera.  Go to IPAD
-  Switcher Studio interface, and select the iPhone camera that appears.  Move
-  IPHONE 12 around to confirm you can see the camera output in the Switcher
-  Studio interface.
-* Move silver tripod to aisle end of pew.  Mount IPHONE 12, and adjust for good
-  view of the chancel, with the left hand view just taking in the lectern, so
-  we can see the readings if necessary from this camera.
-* Run the Switcher Cast application on IPHONE 8.  Share camera.  Go to IPAD
-  Switcher Studio interface, and select the iPhone camera that appears.  Move
-  IPHONE 8 around to confirm you can see the camera output in the Switcher
-  Studio interface.
-* Pull out legs and extend central column of the small black tripod, put in
-  front of front pew next to the equipment table.  Mount IPHONE 8.  Adjust so
-  the camera has a good view of the musicians and the lectern.
-
 ### Proclaim setup
 
 * Go the MACBOOK
@@ -299,8 +273,9 @@ below do not work, consider resetting the wired network, as above.*
 
 ![Proclaim on air](images/proclaim_on_air.jpg)
 
-### Switcher Studio setup
+### Switcher Studio and camera setup
 
+* Make sure Switcher Studio application is running on the IPAD.
 * Go to Audio settings by selecting the audio icon from the line at the bottom
   left of the interface:
 
@@ -327,17 +302,25 @@ below do not work, consider resetting the wired network, as above.*
 * Enable PROCLAIM OUTPUT. Do this by making sure that Switcher Cast is running
   on the IPAD, and that Proclaim is "On Air".  In Switcher on the IPAD, you
   should see "Display 1 on Saint's Macbook Pro" and "Display 2 on Saint's
-  Macbook Pro".  Enable Display 2.
+  Macbook Pro".  Enable Display 2.  You should see the PROCLAIM OUTPUT
+  appearing in various preview panels on the left of the Switcher interface.
 * Enable IPHONE 12 — run Switcher Cast on IPHONE 12, select "SHARE THIS
-  DEVICE", then "SHARE THIS CAMERA", go to IPAD Swicher Interface, and select
-  "iPhone (2)"
+  DEVICE", then "SHARE THIS CAMERA", go to IPAD Switcher Interface, and select
+  "iPhone (2)".  Wave in front of the IPHONE 12 camera to confirm you can see
+  the live camera output in the Switcher Studio interface.
 * Enable IPHONE 8 — run Switcher Cast on IPHONE 8, select "SHARE THIS
   DEVICE", then "SHARE THIS CAMERA", go to IPAD Swicher Interface, and select
-  "iPhone (229)"
+  "iPhone (229)". Wave in front of the IPHONE 8 camera to make sure it is live.
 
 ![Switcher video sources](images/switcher_video_sources.png)
 
-* Select main chancel view to be current.
+* Move silver tripod to aisle end of pew.  Mount IPHONE 12, and adjust for good
+  view of the chancel, with the left hand view just taking in the lectern, so
+  we can see the readings if necessary from this camera.
+* Pull out legs and extend central column of the small black tripod, put in
+  front of front pew next to the equipment table.  Mount IPHONE 8.  Adjust so
+  the camera has a good view of the musicians and the lectern.
+* Select main chancel view to be current on Switcher Studio.
 * Click on appropriate "Welcome to" message as overlay.
 
 ![Switcher video sources](images/switcher_video_sources.png)
@@ -348,7 +331,7 @@ below do not work, consider resetting the wired network, as above.*
 You probably won't need to futz with the Switcher stream configuration, but if
 you do, see the Appendix.
 
-### Stream setup
+### YouTube stream setup
 
 * Go to IPAD.  Make sure your current view in Switcher is the one you want to
   start with the Welcome panel.
@@ -363,9 +346,12 @@ you do, see the Appendix.
   available.  If not, ask the clergy.
 * You usually don't need to change the stream settings, but see the appendix at
   the end for a screenshot, in case you do.
-* Start the live stream 15 minutes before the service.
+* Plan to start the live stream 15 minutes before the service.
 * Go to IPAD, Switcher Studio.  Click on red button at top left, to start
   recording and live stream.
+
+![Switcher record button](images/switcher_record_button.png)
+
 * Go back to the MACBOOK YouTube interface. When the stream becomes available,
   click Go Live.
 
