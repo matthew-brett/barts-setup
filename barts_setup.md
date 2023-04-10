@@ -290,7 +290,7 @@ below do not work, consider resetting the wired network, as above.*
 ![Proclaim file open](images/proclaim_file_open.jpg)
 
 * Select the Proclaim setup file for today's service, and open it.  If it does
-  not exist, run and find Charlie to ask — but we, your humble authors, have
+  not exist, run and find the clergy to ask — but we, your humble authors, have
   never that that problem.
 
 ![Proclaim file open](images/proclaim_file_open.jpg)
@@ -303,18 +303,68 @@ below do not work, consider resetting the wired network, as above.*
 
 ![Proclaim on air](images/proclaim_on_air.jpg)
 
+### Switcher Studio setup
+
+* Go to Audio settings by selecting the audio icon from the line at the bottom
+  left of the interface:
+
+![Switcher icons - sound](images/switcher_sound.png)
+
+* Look at the USB Audio Input panel, and check sound is coming through on
+  left monitor bar:
+
+![Switcher USB Sound](images/switcher_usb_audio.png)
+
+* Select the Settings icon for the USB Audio Input panel, and select Left to
+  Mono, confirm, to make the left channel go to both channels.
+* Look at the output sound monitoring panel at the top of the interface to
+  confirm that sound is not coming through on both channels:
+
+![Switcher top sound monitoring panel](images/switcher_top_sound.png)
+
+* Go to the video input panel by selecting the video icon from line at the
+  bottom right of the interface.
+
+![Switcher icons - video](images/switcher_video.png)
+
+* Disable the IPAD camera by unchecking the "Built-in Camera".
+* Enable PROCLAIM OUTPUT. Do this by making sure that Switcher Cast is running
+  on the IPAD, and that Proclaim is "On Air".  In Switcher on the IPAD, you
+  should see "Display 1 on Saint's Macbook Pro" and "Display 2 on Saint's
+  Macbook Pro".  Enable Display 2.
+* Enable IPHONE 12 — run Switcher Cast on IPHONE 12, select "SHARE THIS
+  DEVICE", then "SHARE THIS CAMERA", go to IPAD Swicher Interface, and select
+  "iPhone (2)"
+* Enable IPHONE 8 — run Switcher Cast on IPHONE 8, select "SHARE THIS
+  DEVICE", then "SHARE THIS CAMERA", go to IPAD Swicher Interface, and select
+  "iPhone (229)"
+
+![Switcher video sources](images/switcher_video_sources.png)
+
+* Select main chancel view to be current.
+* Click on appropriate "Welcome to" message as overlay.
+
+![Switcher video sources](images/switcher_video_sources.png)
+
+* Tee up next view in preview panel of switcher - typically the main chancel
+  view with a text panel.
+
+You probably won't need to futz with the Switcher stream configuration, but if
+you do, see the Appendix.
+
 ### Stream setup
 
-* Go to IPAD.  Make sure the main (IPHONE 12) camera is the current view.  Add
-  the Welcome panel to the current view, ready to start the stream.
+* Go to IPAD.  Make sure your current view in Switcher is the one you want to
+  start with the Welcome panel.
 * Open Safari on MACBOOK
 * Open YouTube in Safari.
-* If you are not already in YouTube studio, click the Create button and then select "Go Live".
+* If you are not already in YouTube studio, click the Create button and then
+  select "Go Live" — or just go direct to <https://studio.youtube.com>.
 
 ![YouTube create button](images/youtube_studio_create.jpg)
 
 * Select scheduled live stream session for service.  There should be one
-  available:
+  available.  If not, ask the clergy.
 * You usually don't need to change the stream settings, but see the appendix at
   the end for a screenshot, in case you do.
 * Start the live stream 15 minutes before the service.
@@ -335,30 +385,6 @@ below do not work, consider resetting the wired network, as above.*
   less in the centre of its range.  You may need to move the projector left and
   right a bit to get the keystone right. If that doesn't correct the keystone,
   you can try rotating the screen.
-
-### Full list of connections for reference
-
-* MACBOOK:
-    * Magsafe power.
-    * mini-DVI to VGA to clergy monitor.
-    * mini-DVI to VGA to projector.
-    * If WIRED:
-        * USB-A to USB-A HUB.
-        * Ethernet from USB-A HUB to NODE.
-* IPAD:
-    * USB-C HUB:
-        * USB-A to USB external sound
-        * USB-C to USB-C power adapter
-        * If WIRED:
-            * USB-A Ethernet adaptor
-            * Ethernet cable from adaptor to NODE.
-* IPHONE 8:
-    * If WIFI:
-        * Lightning to USB-A power on extension block.
-    * If WIRED:
-        * Lightning to USB-A on MACBOOK USB-A HUB.
-* IPHONE 12:
-    * Lightning to USB-A power on extension block.
 
 ### Check text in Proclaim
 
@@ -383,8 +409,36 @@ below do not work, consider resetting the wired network, as above.*
   Studio interface on IPAD.
 * Go to YouTube interface on Safari, on the MACBOOK, and turn off live stream.
 
-## Appendix
+## Appendices
+
+### Miscellaneous settings
 
 ![IPAD info](images/ipad_info.jpg)
 
+![Switcher stream config](images/switcher_stream_config.png)
+
 ![YouTube stream settings](images/youtube_stream_settings.jpg)
+
+### Full list of physical connections
+
+* MACBOOK:
+    * Magsafe power.
+    * mini-DVI to VGA to clergy monitor.
+    * mini-DVI to VGA to projector.
+    * If WIRED:
+        * USB-A to USB-A HUB.
+        * Ethernet from USB-A HUB to NODE.
+* IPAD:
+    * USB-C HUB:
+        * USB-A to USB external sound
+        * USB-C to USB-C power adapter
+        * If WIRED:
+            * USB-A Ethernet adaptor
+            * Ethernet cable from adaptor to NODE.
+* IPHONE 8:
+    * If WIFI:
+        * Lightning to USB-A power on extension block.
+    * If WIRED:
+        * Lightning to USB-A on MACBOOK USB-A HUB.
+* IPHONE 12:
+    * Lightning to USB-A power on extension block.
