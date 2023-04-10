@@ -112,8 +112,8 @@ It's not clear whether this results in freezing in the YouTube stream.
 #### WIRED
 
 Nearly all traffic between the COMPUTERISHES and to the NODE goes via a wired
-Ethernet connection, greatly reducing the WiFi traffic to that from the NODE to
-internet via the Mesh network.
+Ethernet connection, greatly reducing the WiFi traffic going to and from the
+NODE.
 
 Our current setup is this:
 
@@ -210,10 +210,6 @@ connected to the Mesh network.
 * We have set up the configured displays to be:
     1.  The laptop retina display.
     2.  The projector and clergy monitors as one combined external display.
-* Start Proclaim.   Go to File -> Open and open the session for the service
-  (there should be one prepared).
-* In Proclaim, select a slide with text, and click "On Air".  Check you see the
-  output on the projector, and on the clergy monitor.
 
 ### USB SOUND
 
