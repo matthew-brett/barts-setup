@@ -359,7 +359,7 @@ you do, see the Appendix.
 * Open Safari on MACBOOK
 * Open YouTube in Safari.
 * If you are not already in YouTube studio, click the Create button and then
-  select "Go Live" — or just go direct to <https://studio.youtube.com>.
+  select "Go Live".
 
 ![YouTube create button](images/youtube_studio_create.jpg)
 
