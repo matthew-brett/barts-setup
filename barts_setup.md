@@ -261,7 +261,7 @@ Internet sharing on the MACBOOK, and turning it back on again.
 
 * Select the Proclaim setup file for today's service, and open it.  If it does
   not exist, run and find the clergy to ask — but we, your humble authors, have
-  never that that problem.
+  never had that problem.
 
 ![Proclaim file find](images/proclaim_file_find.jpg)
 
@@ -272,6 +272,13 @@ Internet sharing on the MACBOOK, and turning it back on again.
 ![Proclaim edit mode](images/proclaim_edit.jpg)
 
 ![Proclaim on air](images/proclaim_on_air.jpg)
+
+* Run Switcher Cast on the MACBOOK, and make sure you have enabled the "Accept
+  requests automatically" toggle at the bottom of the Switcher Cast interface.
+
+![Switcher Cast accept automatically](images/cast_accept.png)
+
+You are now ready to accept the PROCLAIM OUTPUT to Switcher Studio on the IPAD.
 
 ### Switcher Studio and camera setup
 
@@ -299,11 +306,12 @@ Internet sharing on the MACBOOK, and turning it back on again.
 ![Switcher icons - video](images/switcher_video.png)
 
 * Disable the IPAD camera by unchecking the "Built-in Camera".
-* Enable PROCLAIM OUTPUT. Do this by making sure that Switcher Cast is running
-  on the IPAD, and that Proclaim is "On Air".  In Switcher on the IPAD, you
-  should see "Display 1 on Saint's Macbook Pro" and "Display 2 on Saint's
-  Macbook Pro".  Enable Display 2.  You should see the PROCLAIM OUTPUT
-  appearing in various preview panels on the left of the Switcher interface.
+* Enable PROCLAIM OUTPUT. Making sure that Switcher Cast is running
+  on the MACBOOK, and that Proclaim is "On Air" (see above).  In Switcher
+  Studio on the IPAD, you should see "Display 1 on Saint's Macbook Pro" and
+  "Display 2 on Saint's Macbook Pro".  Enable Display 2.  You should see the
+  PROCLAIM OUTPUT appearing in various preview panels on the left of the
+  Switcher Studio interface.
 * Enable IPHONE 12 — run Switcher Cast on IPHONE 12, select "SHARE THIS
   DEVICE", then "SHARE THIS CAMERA", go to IPAD Switcher Interface, and select
   "iPhone (2)".  Wave in front of the IPHONE 12 camera to confirm you can see
