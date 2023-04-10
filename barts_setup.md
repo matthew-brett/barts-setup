@@ -263,7 +263,7 @@ Internet sharing on the MACBOOK, and turning it back on again.
   not exist, run and find the clergy to ask — but we, your humble authors, have
   never that that problem.
 
-![Proclaim file open](images/proclaim_file_open.jpg)
+![Proclaim file find](images/proclaim_file_find.jpg)
 
 * Once open, switch Proclaim from Edit mode, to On Air, by clicking the "On
   Air" button. The causes the Proclaim output to go out to the projector and
