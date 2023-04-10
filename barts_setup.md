@@ -181,7 +181,7 @@ connected to the Mesh network.
       extension block.
 * If WIRED:
     * _Turn off the phone WiFi_.
-    * Plug lightning to USB-A cable from phone into USB-A on port on MACBOOK.
+    * Plug lightning to USB-A cable from phone into USB-A port on MACBOOK.
 
 ### MACBOOK
 
@@ -226,7 +226,7 @@ connected to the Mesh network.
 * PIN to log in is in small blue book.
 * Connect USB-C hub (USB-C HUB).
 
-![UBS-C HUB](images/usb_c_hub.jpg)
+![USB-C HUB](images/usb_c_hub.jpg)
 
 * Plug USB-C power adapter into extension block.  Plug USB-C to USB-C cable
   into power adapter and into USB-C HUB.
@@ -281,14 +281,42 @@ below do not work, consider resetting the wired network, as above.*
   front of front pew next to the equipment table.  Mount IPHONE 8.  Adjust so
   the camera has a good view of the musicians and the lectern.
 
+### Proclaim setup
+
+* Go the MACBOOK
+* Open Proclaim application
+* Go to File -> Open
+
+![Proclaim file open](images/proclaim_file_open.jpg)
+
+* Select the Proclaim setup file for today's service, and open it.  If it does
+  not exist, run and find Charlie to ask — but we, your humble authors, have
+  never that that problem.
+
+![Proclaim file open](images/proclaim_file_open.jpg)
+
+* Once open, switch Proclaim from Edit mode, to On Air, by clicking the "On
+  Air" button. The causes the Proclaim output to go out to the projector and
+  clergy monitor.
+
+![Proclaim edit mode](images/proclaim_edit.jpg)
+
+![Proclaim on air](images/proclaim_on_air.jpg)
+
 ### Stream setup
 
 * Go to IPAD.  Make sure the main (IPHONE 12) camera is the current view.  Add
   the Welcome panel to the current view, ready to start the stream.
 * Open Safari on MACBOOK
-* Open YouTube studio in Safari.
+* Open YouTube in Safari.
+* If you are not already in YouTube studio, click the Create button and then select "Go Live".
+
+![YouTube create button](images/youtube_studio_create.jpg)
+
 * Select scheduled live stream session for service.  There should be one
-  available.
+  available:
+* You usually don't need to change the stream settings, but see the appendix at
+  the end for a screenshot, in case you do.
 * Start the live stream 15 minutes before the service.
 * Go to IPAD, Switcher Studio.  Click on red button at top left, to start
   recording and live stream.
@@ -354,3 +382,9 @@ below do not work, consider resetting the wired network, as above.*
 * When end video done, turn off stream with red button to top left of Switcher
   Studio interface on IPAD.
 * Go to YouTube interface on Safari, on the MACBOOK, and turn off live stream.
+
+## Appendix
+
+![IPAD info](images/ipad_info.jpg)
+
+![YouTube stream settings](images/youtube_stream_settings.jpg)
