@@ -350,8 +350,8 @@ you do, see the Appendix.
 
 ![YouTube create button](images/youtube_studio_create.jpg)
 
-* Select scheduled live stream session for service.  There should be one
-  available.  If not, ask the clergy.
+* Select scheduled upcoming live stream session for service.  There should be
+  one available.  If not, ask the clergy.
 * You usually don't need to change the stream settings, but see the appendix at
   the end for a screenshot, in case you do.
 * Plan to start the live stream 15 minutes before the service.
