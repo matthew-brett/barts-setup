@@ -67,11 +67,13 @@ inputs:
 * Sound input from an external USB sound card — in fact a [Focusrite Scarlett
   2i2](https://focusrite.com/en/usb-audio-interface/scarlett/scarlett-2i2).
   Call this USB SOUND.
+
+  ![USB SOUND](images/usb_sound.jpg)
+
 * Video camera input via the network from the IPHONE 12.
 * Video camera input via the network from the IPHONE 8.
 * Video screen input via the network from the MACBOOK PROCLAIM OUTPUT.
 
-![USB SOUND](images/usb_sound.jpg)
 
 In order for Switcher Studio (on the IPAD) to get the video inputs, each of the
 IPHONE 12, IPHONE 8 and the MACBOOK run the Switcher Cast application.
