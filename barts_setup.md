@@ -285,7 +285,7 @@ addresses for the MACBOOK, the IPAD and the IPHONE 8.
 * Take the opportunity to check that the Proclaim file input is properly
   syncronized with the latest version on the cloud.  There should be a green check mark next to the On Air button:
 
-  ![Proclaim synchronized check](images/proclaim_sync_check.jpg)
+  ![Proclaim synchronized check](images/proclaim_sync_check.png)
 
   If not, please click on the icon and ask Proclaim to sync.
 
@@ -402,7 +402,7 @@ you do, see the Appendix.
 * Do a final check to make sure the Proclaim output is synchonized — you should
   see the green check mark next to the On Air button — see above:
 
-  ![Proclaim synchronized check](images/proclaim_sync_check.jpg)
+  ![Proclaim synchronized check](images/proclaim_sync_check.png)
 
 ### Service starts
 
