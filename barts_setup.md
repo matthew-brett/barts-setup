@@ -42,7 +42,8 @@ We run the YouTube casting in the following way:
 * The IPAD sends this stream output to YouTube Studio, running from the Safari
   browser on the MACBOOK.  YouTube then transmits this as a live stream to the
   internet via a NODE.
-* The IPAD also saves the stream to its local disk storage, for later use.
+* The IPAD also saves the stream to its local disk storage, for later editing
+  or upload.
 
 We use the MACBOOK to display lyrics for songs, liturgy and slides to the
 following physical devices in the church:
@@ -55,8 +56,8 @@ following physical devices in the church:
 We use the [Proclaim application](https://faithlife.com/products/proclaim) to
 control the outputs to the projector and the clergy monitor.
 
-We also use Switcher to pass these outputs to Switcher Studio on the IPAD, via
-the network.
+We also use the Switcher Cast Mac application to pass these outputs to Switcher
+Studio on the IPAD, via the network.
 
 Call this output — the PROCLAIM OUTPUT.
 
@@ -75,8 +76,8 @@ inputs:
 In order for Switcher Studio (on the IPAD) to get the video inputs, each of the
 IPHONE 12, IPHONE 8 and the MACBOOK run the Switcher Cast application.
 
-For the two IPHONES, we use Switcher Cast to transmit the *camera* video
-output.
+For the two IPHONES, we use the *Switcher Cast* application to transmit the
+*camera* video output.
 
 For the MACBOOK, we use Switcher Cast to transit the PROCLAIM OUTPUT.
 
@@ -85,7 +86,7 @@ For the MACBOOK, we use Switcher Cast to transit the PROCLAIM OUTPUT.
 There are two options for networking in this setup:
 
 1. Fully wireless — WIFI
-2. Partly wired  — WIRED
+2. Mostly wired  — WIRED
 
 #### WIFI
 
@@ -117,16 +118,20 @@ NODE.
 
 Our current setup is this:
 
-* The IPAD and the MACBOOK connect directly to the NODE via Ethernet.
-* The IPHONE 8 gets its wired network from the MACBOOK via USB using Internet
-  Sharing.
-* The IPHONE 12 connects via WiFi to the NODE.
+* The IPAD, MACBOOK and the IPHONE 8 connect to an ETHERNET
+  HUB via Ethernet cables.  The ETHERNET HUB connects to the NODE, and
+  therefore to the rest of the church network and the internet, via an Ethernet
+  cable to the NODE.
+* IPHONE 12 connects to the church network via WiFi to the NODE.
 
-With that setup, all camera, video and internet traffic for the IPAD, MACBOOK
-and IPHONE 8 goes via wired connections.  In practice the IPHONE 12 connection
-via Wifi is stable in this situation, especially so, because you have taken away
-most of the Wifi network load with the wired connections. You should see no
-dropped packets or freezing on the IPAD Switcher Studio interface.
+![ETHERNET HUB](images/hub.jpg)
+
+With that setup, all camera, video and internet traffic for the IPAD,
+MACBOOK and IPHONE 8 goes via wired connections.  In practice the IPHONE 12
+connection via Wifi is fairly stable in this situation, especially so,
+because you have taken away most of the Wifi network load with the wired
+connections. You should see few dropped packets or freezing in the IPHONE 12
+input, from the IPAD Switcher Studio interface.
 
 In what follows, we distinguish steps for the two options: WIFI, and WIRED.
 
@@ -143,6 +148,10 @@ If a Eero NODE is not already plugged in to the power extension block under the
 front pew, go find one, unplug it, and plug it into to our power extension
 block.  Wait for the light on the NODE to stop flashing, at which point it is
 connected to the Mesh network.
+
+Plug the ETHERNET HUB power supply into a power extension.  Connect the
+ETHERNET HUB and the NODE with an Ethernet cable (maybe the 2 metre blue
+Ethernet cable).
 
 ### Projector
 
@@ -178,10 +187,14 @@ connected to the Mesh network.
 * If WIFI:
     * _Turn on the phone WiFi_.  Connect to StBartholomewPrivate.
     * Plug lightning to USB-A cable from phone into USB-A power on power
-      extension block.
+      extension block.  It's most convenient to use a USB power plug on the
+      nearest extension block.
 * If WIRED:
     * _Turn off the phone WiFi_.
-    * Plug lightning to USB-A cable from phone into USB-A port on MACBOOK.
+    * Plug lightning to USB-A / lightning power adapter (L2USB) into phone.
+    * Plug USB-A to Ethernet connector into the L2USB connector.
+    * Plug lightning to USB-A cable from phone into USB-A power somewhere; the
+      USB-A power sockets on the power extension block are convenient.
 
 ### MACBOOK
 
@@ -197,10 +210,7 @@ connected to the Mesh network.
     * You should already have attached the IPHONE 8 to a MACBOOK USB-A port
       (see above).  If you haven't done that, do it now — any USB-A port will
       do - direct to the MACBOOK or on the USB-A HUB.
-    * Connect USB-A HUB to the NODE with an Ethernet cable.
-    * Go to System Preferences -> Sharing.  Internet sharing options should be
-      set to "Share your internet connection from:" — USB 10/100/1000 — "To
-      computers using:" — iPhone USB.  Enable internet sharing.
+    * Connect USB-A HUB to the ETHERNET HUB with an Ethernet cable.
 
 ![USB-A HUB](images/usb_a_hub.jpg)
 
@@ -233,7 +243,7 @@ connected to the Mesh network.
     * Go to System Preferences on IPAD, _turn off WiFi_.
     * Plug USB-A to Ethernet adapter into USB-C HUB.
     * Plug Ethernet cable into Ethernet adapter.
-    * Plug other end of the Ethernet cable into the NODE.
+    * Plug other end of the Ethernet cable into the ETHERNET HUB.
 * Start Switcher Studio application.  You should not need to log in, but if you
   do have to log in, see username and password in the blue book.
 * Go to Switcher Studio sound settings by selecting sound icon from panel at
@@ -244,12 +254,9 @@ connected to the Mesh network.
 
 ### To reset WIRED network
 
-*If the wired network is not working*, unplug the Ethernet cables to the NODE.
-Wait a few seconds.  Plug them back in again. This should reset the IP
-addresses for the MACBOOK and the IPAD.
-
-If the USB network connection for the IPHONE 8 is not working, try turning off
-Internet sharing on the MACBOOK, and turning it back on again.
+*If the wired network is not working*, unplug the power to the ETHERNET HUB.
+Wait a few seconds.  Plug the power back in again. This should reset the IP
+addresses for the MACBOOK, the IPAD and the IPHONE 8.
 
 ### Proclaim setup
 
@@ -269,9 +276,16 @@ Internet sharing on the MACBOOK, and turning it back on again.
   Air" button. The causes the Proclaim output to go out to the projector and
   clergy monitor.
 
-![Proclaim edit mode](images/proclaim_edit.jpg)
+  ![Proclaim edit mode](images/proclaim_edit.jpg)
 
-![Proclaim on air](images/proclaim_on_air.jpg)
+  ![Proclaim on air](images/proclaim_on_air.jpg)
+
+* Take the opportunity to check that the Proclaim file input is properly
+  syncronized with the latest version on the cloud.  There should be a green check mark next to the On Air button:
+
+  ![Proclaim synchronized check](images/proclaim_sync_check.jpg)
+
+  If not, please click on the icon and ask Proclaim to sync.
 
 * Run Switcher Cast on the MACBOOK, and make sure you have enabled the "Accept
   requests automatically" toggle at the bottom of the Switcher Cast interface.
@@ -383,6 +397,10 @@ you do, see the Appendix.
   choruses.
 * Check with clergy about missing verses, and with musicians about any
   not-printed repeats to chorus verses.
+* Do a final check to make sure the Proclaim output is synchonized — you should
+  see the green check mark next to the On Air button — see above:
+
+  ![Proclaim synchronized check](images/proclaim_sync_check.jpg)
 
 ### Service starts
 
@@ -412,24 +430,29 @@ you do, see the Appendix.
 
 ### Full list of physical connections
 
+If WIRED - Ethernet cable from NODE to ETHERNET HUB.
+
 * MACBOOK:
     * Magsafe power.
     * mini-DVI to VGA to clergy monitor.
     * mini-DVI to VGA to projector.
     * If WIRED:
         * USB-A to USB-A HUB.
-        * Ethernet from USB-A HUB to NODE.
+        * Ethernet from USB-A HUB to ETHERNET HUB.
 * IPAD:
     * USB-C HUB:
         * USB-A to USB external sound
         * USB-C to USB-C power adapter
         * If WIRED:
             * USB-A Ethernet adaptor
-            * Ethernet cable from adaptor to NODE.
+            * Ethernet cable from adaptor to ETHERNET HUB.
 * IPHONE 8:
     * If WIFI:
         * Lightning to USB-A power on extension block.
     * If WIRED:
-        * Lightning to USB-A on MACBOOK USB-A HUB.
+        * L2USB adapter plugged into lightning port.
+        * USB to Ethernet adapter plugged into L2USB adapter.
+        * Ethernet cable from USB to Ethernet adaptor to ETHERNET HUB.
+        * L2USB lightning input to USB-A power on extension block.
 * IPHONE 12:
     * Lightning to USB-A power on extension block.
