@@ -141,8 +141,12 @@ In what follows, we distinguish steps for the two options: WIFI, and WIRED.
 
 * Get small black tripod and church sound cable with 3.5mm jack from behind and
   to the right of the pulpit (right when facing towards the chancel).
-* Plug extension cord into socket at the aisle end of the front pew.
-* Turn on the socket, confirm the extension block has power lights on.
+* Make sure the 4-plug extension cord is plugged into the socket at the aisle
+  end of the front pew.
+* Make sure the socket is turned on, confirm the extension lead has power
+  lights on.
+* Plug the 6-plug extension block into the 4-plug extension lead.  You'll be
+  plugging most of the equipment into the 6-plug extension block.
 
 ### Extra network setup if WIRED network
 
