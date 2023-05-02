@@ -130,10 +130,10 @@ Our current setup is this:
 
 With that setup, all camera, video and internet traffic for the IPAD,
 MACBOOK and IPHONE 8 goes via wired connections.  In practice the IPHONE 12
-connection via Wifi is fairly stable in this situation, especially so,
-because you have taken away most of the Wifi network load with the wired
-connections. You should see few dropped packets or freezing in the IPHONE 12
-input, from the IPAD Switcher Studio interface.
+connection via Wifi is fairly stable in this situation, because you have taken
+away most of the Wifi network load with the wired connections. You may see
+a few dropped packets or freezing in the IPHONE 12 input, from the IPAD
+Switcher Studio interface.
 
 In what follows, we distinguish steps for the two options: WIFI, and WIRED.
 
@@ -188,9 +188,9 @@ Ethernet cable).
 * Turn on phone.  Log in with PIN in blue book.
 * If WIFI:
     * _Turn on the phone WiFi_.  Connect to StBartholomewPrivate.
-    * Plug lightning to USB-A cable from phone into USB-A power on power
-      extension block.  It's most convenient to use a USB power plug on the
-      nearest extension block.
+    * Plug lightning to USB-A cable from phone into USB-A power somewhere.
+      It's most convenient to use a USB power plug on the nearest extension
+      block.
 * If WIRED:
     * _Turn off the phone WiFi_.
     * Plug lightning to USB-A / lightning power adapter (L2USB) into phone.
@@ -209,16 +209,13 @@ Ethernet cable).
 * If WIRED:
     * Turn off Wifi.
     * Plug in USB-A to 3 x USB-A / Ethernet hub (USB-A HUB).
-    * You should already have attached the IPHONE 8 to a MACBOOK USB-A port
-      (see above).  If you haven't done that, do it now — any USB-A port will
-      do - direct to the MACBOOK or on the USB-A HUB.
     * Connect USB-A HUB to the ETHERNET HUB with an Ethernet cable.
 
 ![USB-A HUB](images/usb_a_hub.jpg)
 
 * Plug both mini-DVI to VGA adapters into mini-DVI / Thunderbolt ports.
-* Plug clergy monitor VGA cable into rear VGA adapter.
-* Plug projector VGA cable into front VGA adapter.
+* Plug clergy monitor VGA cable into VGA adapter nearer the back of the laptop.
+* Plug projector VGA cable into the other VGA adapter.
 * We have set up the configured displays to be:
     1.  The laptop retina display.
     2.  The projector and clergy monitors as one combined external display.
