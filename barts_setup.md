@@ -404,9 +404,10 @@ you do, see the Appendix.
   image straight on the screen.  Adjust zoom to taste, and focus.
 * If you have the projector straight in front of the screen you should not need
   to adjust the vertical keystone.  It seems to be about right when more or
-  less in the centre of its range.  You may need to move the projector left and
-  right a bit to get the keystone right. If that doesn't correct the keystone,
-  you can try rotating the screen.
+  less in the centre of its range. 
+* You may need to move the projector left and right a bit to get the horizontal
+  keystone right. If that doesn't correct the keystone, you can try rotating
+  the projector screen a little.
 
 ### Check text in Proclaim
 
@@ -431,6 +432,9 @@ you do, see the Appendix.
   panel.
 * When organ voluntary has finished, switch to end video.  Go to the USB Audio
   Input panel and click Mute to turn off the ambient sound.
+
+  ![Switcher end video](images/switcher_end_video.png)
+
 * Turn off projector.
 * When end video done, turn off stream with red button to top left of Switcher
   Studio interface on IPAD.
