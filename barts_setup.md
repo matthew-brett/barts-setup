@@ -204,11 +204,12 @@ Ethernet cable).
     * _Turn off the phone WiFi_.
     * Plug lightning to USB-A / lightning power adapter (L2USB) into phone.
     * Plug USB-A to Ethernet connector into the L2USB connector.
+
+      ![IPHONE 8 with L2USB connector and Ethernet connector](images/iphone_8_connected.png)
+
     * Plug lightning to USB-A cable into L2USB connector, and into USB-A power
       somewhere; the USB-A power sockets on the power extension block are
       convenient.
-
-![IPHONE 8 with L2USB connector and Ethernet connector](images/iphone_8_connected.png)
 
 ### MACBOOK
 
