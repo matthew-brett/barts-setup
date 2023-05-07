@@ -354,7 +354,7 @@ You are now ready to accept the PROCLAIM OUTPUT to Switcher Studio on the IPAD.
 * Select main chancel view to be current on Switcher Studio.
 * Click on appropriate "Welcome to" message as overlay.
 
-![Switcher video sources](images/switcher_video_sources.png)
+![Switcher welcome panel](images/switcher_welcome_panel.png)
 
 * Tee up next view in preview panel of switcher - typically the main chancel
   view with a text panel.
@@ -373,7 +373,7 @@ you do, see the Appendix.
 
 ![YouTube create button](images/youtube_studio_create.jpg)
 
-* Click on the Manage button on the left, and select scheduled upcoming live
+* Click on the Manage button on the left, and open scheduled upcoming live
   stream session for this service.  There should be one available.  If not, ask
   the clergy.
 * You usually don't need to change the stream settings, but see the appendix at
