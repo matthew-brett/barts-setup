@@ -90,6 +90,11 @@ There are two options for networking in this setup:
 1. Fully wireless — WIFI
 2. Mostly wired  — WIRED
 
+The following picture is the whole setup, except the IPHONE 12, using the WIRED
+configuration.
+
+![Whole setup using WIRED connections](images/whole_setup_with_iphone.jpg).
+
 #### WIFI
 
 All COMPUTERISHES join the StBartholomewPrivate Wifi network, carried by the
@@ -235,7 +240,7 @@ Ethernet cable).
 * PIN to log in is in small blue book.
 * Connect USB-C hub (USB-C HUB).
 
-![USB-C HUB](images/usb_c_hub.jpg)
+![USB-C HUB](images/usb_c_hub.png)
 
 * Plug USB-C power adapter into extension block.  Plug USB-C to USB-C cable
   into power adapter and into USB-C HUB.
@@ -244,8 +249,7 @@ Ethernet cable).
     * Go to System Preferences, _turn on WiFi_.
 * If WIRED:
     * Go to System Preferences on IPAD, _turn off WiFi_.
-    * Plug USB-A to Ethernet adapter into USB-C HUB.
-    * Plug Ethernet cable into Ethernet adapter.
+    * Plug Ethernet cable into USB-C HUB.
     * Plug other end of the Ethernet cable into the ETHERNET HUB.
 * Start Switcher Studio application.  You should not need to log in, but if you
   do have to log in, see username and password in the blue book.
@@ -331,13 +335,13 @@ You are now ready to accept the PROCLAIM OUTPUT to Switcher Studio on the IPAD.
   Switcher Studio interface.
 * Enable IPHONE 12 — run Switcher Cast on IPHONE 12, select "SHARE THIS
   DEVICE", then "SHARE THIS CAMERA", go to IPAD Switcher Interface, and select
-  "iPhone (2)".  Wave in front of the IPHONE 12 camera to confirm you can see
+  "StBiPhone12".  Wave in front of the IPHONE 12 camera to confirm you can see
   the live camera output in the Switcher Studio interface.
-* Enable IPHONE 8 — run Switcher Cast on IPHONE 8, select "SHARE THIS
-  DEVICE", then "SHARE THIS CAMERA", go to IPAD Swicher Interface, and select
-  "iPhone (229)". Wave in front of the IPHONE 8 camera to make sure it is live.
+* Enable IPHONE 8 — run Switcher Cast on IPHONE 8, select "SHARE THIS DEVICE",
+  then "SHARE THIS CAMERA", go to IPAD Swicher Interface, and select
+  "StBiPhone8". Wave in front of the IPHONE 8 camera to make sure it is live.
 
-![Switcher video sources](images/switcher_video_sources.png)
+![Switcher video sources](images/switcher_video_sources.jpg)
 
 * Move silver tripod to aisle end of pew.  Mount IPHONE 12, and adjust for good
   view of the chancel, with the left hand view just taking in the lectern, so
@@ -353,7 +357,7 @@ You are now ready to accept the PROCLAIM OUTPUT to Switcher Studio on the IPAD.
 * Tee up next view in preview panel of switcher - typically the main chancel
   view with a text panel.
 
-You probably won't need to futz with the Switcher stream configuration, but if
+You probably won't need to futz with the Switcher *stream configuration*, but if
 you do, see the Appendix.
 
 ### YouTube stream setup
