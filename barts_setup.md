@@ -297,7 +297,8 @@ addresses for the MACBOOK, the IPAD and the IPHONE 8.
   ![Proclaim on air](images/proclaim_on_air.jpg)
 
 * Take the opportunity to check that the Proclaim file input is properly
-  syncronized with the latest version on the cloud.  There should be a green check mark next to the On Air button:
+  synchronized with the latest version in the cloud.  There should be a green
+  check mark next to the On Air button:
 
   ![Proclaim synchronized check](images/proclaim_sync_check.png)
 
@@ -361,7 +362,7 @@ You are now ready to accept the PROCLAIM OUTPUT to Switcher Studio on the IPAD.
 * Select main chancel view to be current on Switcher Studio.
 * Click on appropriate "Welcome to" message as overlay.
 
-  ![Switcher welcome panel](images/switcher_welcome_panel.png)
+  ![Switcher welcome panel](images/switcher_welcome.png)
 
 * Tee up next view in preview panel of switcher - typically the main chancel
   view with a text panel.
