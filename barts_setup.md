@@ -207,6 +207,8 @@ Ethernet cable).
     * Plug lightning to USB-A cable from phone into USB-A power somewhere; the
       USB-A power sockets on the power extension block are convenient.
 
+![IPHONE 8 with L2USB connector and Ethernet connector](images/iphone_8_connected.png)
+
 ### MACBOOK
 
 * Turn on MACBOOK, log in as St Bartholomew's, password in blue book.
