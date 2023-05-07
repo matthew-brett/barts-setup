@@ -90,8 +90,8 @@ There are two options for networking in this setup:
 1. Fully wireless — WIFI
 2. Mostly wired  — WIRED
 
-The following picture is the whole setup, except the IPHONE 12, using the WIRED
-configuration.
+The following picture is the whole setup, except the IPHONE 12 and projector,
+using the WIRED configuration.
 
 ![Whole setup using WIRED connections](images/whole_setup_with_iphone.jpg).
 
@@ -188,8 +188,8 @@ Ethernet cable).
 ### IPHONE 12
 
 * Turn on phone.  Log in with PIN in blue book.
-* Plug lightning to USB-A cable from phone into USB-A power on power extension
-  block.
+* Plug lightning to USB-A cable from phone into USB-A power somewhere.
+  It's most convenient to use a USB power plug on the nearest extension block.
 * _Turn on the phone WiFi_.  Connect to StBartholomewPrivate.
 
 ### For IPHONE 8
@@ -197,15 +197,15 @@ Ethernet cable).
 * Turn on phone.  Log in with PIN in blue book.
 * If WIFI:
     * _Turn on the phone WiFi_.  Connect to StBartholomewPrivate.
-    * Plug lightning to USB-A cable from phone into USB-A power somewhere.
-      It's most convenient to use a USB power plug on the nearest extension
-      block.
+    * Plug lightning to USB-A cable from phone into USB-A power somewhere; the
+      USB-A power sockets on the power extension block are convenient.
 * If WIRED:
     * _Turn off the phone WiFi_.
     * Plug lightning to USB-A / lightning power adapter (L2USB) into phone.
     * Plug USB-A to Ethernet connector into the L2USB connector.
-    * Plug lightning to USB-A cable from phone into USB-A power somewhere; the
-      USB-A power sockets on the power extension block are convenient.
+    * Plug lightning to USB-A cable into L2USB connector, and into USB-A power
+      somewhere; the USB-A power sockets on the power extension block are
+      convenient.
 
 ![IPHONE 8 with L2USB connector and Ethernet connector](images/iphone_8_connected.png)
 
@@ -246,7 +246,7 @@ Ethernet cable).
 
 * Plug USB-C power adapter into extension block.  Plug USB-C to USB-C cable
   into power adapter and into USB-C HUB.
-* Connect external USB SOUND to USB-C HUB via USB-C to USB-A cable.
+* Connect USB SOUND to USB-C HUB via USB-C to USB-A cable.
 * If WIFI:
     * Go to System Preferences, _turn on WiFi_.
 * If WIRED:
@@ -256,7 +256,11 @@ Ethernet cable).
 * Start Switcher Studio application.  You should not need to log in, but if you
   do have to log in, see username and password in the blue book.
 * Go to Switcher Studio sound settings by selecting sound icon from panel at
-  bottom right.  Configure USB sound to Mono Left Channel.  Confirm that sound
+  bottom right.
+
+  ![Switcher sound icone](images/switcher_sound.png)
+
+* Configure USB sound to Mono Left Channel.  Confirm that sound
   monitor bar at top of screen shows sound for left and right channels.
 * Connect Bluetooth headphones.  Monitor sound level.  Adjust level with left
   hand input level volume control on USB sound box.
@@ -451,7 +455,7 @@ If WIRED - Ethernet cable from NODE to ETHERNET HUB.
         * Ethernet from USB-A HUB to ETHERNET HUB.
 * IPAD:
     * USB-C HUB:
-        * USB-A to USB external sound
+        * USB-A to external USB SOUND
         * USB-C to USB-C power adapter
         * If WIRED:
             * USB-A Ethernet adaptor

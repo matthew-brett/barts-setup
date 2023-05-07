@@ -5,4 +5,4 @@
 * IPHONE 8 with connector
 * Display settings
 * Ethernet hub with 3 connections
-* Switcher Studio - stereo from mono
+* Switcher Studio - USB sound stereo from mono
