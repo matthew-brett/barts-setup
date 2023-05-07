@@ -129,9 +129,10 @@ Our current setup is this:
   HUB via Ethernet cables.  The ETHERNET HUB connects to the NODE, and
   therefore to the rest of the church network and the internet, via an Ethernet
   cable to the NODE.
-* IPHONE 12 connects to the church network via WiFi to the NODE.
 
-![ETHERNET HUB](images/hub.jpg)
+  ![ETHERNET HUB](images/hub.jpg)
+
+* IPHONE 12 connects to the church network via WiFi to the NODE.
 
 With that setup, all camera, video and internet traffic for the IPAD,
 MACBOOK and IPHONE 8 goes via wired connections.  In practice the IPHONE 12
@@ -220,9 +221,10 @@ Ethernet cable).
 * If WIRED:
     * Turn off Wifi.
     * Plug in USB-A to 3 x USB-A / Ethernet hub (USB-A HUB).
-    * Connect USB-A HUB to the ETHERNET HUB with an Ethernet cable.
 
-![USB-A HUB](images/usb_a_hub.jpg)
+      ![USB-A HUB](images/usb_a_hub.jpg)
+
+    * Connect USB-A HUB to the ETHERNET HUB with an Ethernet cable.
 
 * Plug both mini-DVI to VGA adapters into mini-DVI / Thunderbolt ports.
 * Plug clergy monitor VGA cable into VGA adapter nearer the back of the laptop.
@@ -277,13 +279,13 @@ addresses for the MACBOOK, the IPAD and the IPHONE 8.
 * Open Proclaim application
 * Go to File -> Open
 
-![Proclaim file open](images/proclaim_file_open.jpg)
+  ![Proclaim file open](images/proclaim_file_open.jpg)
 
 * Select the Proclaim setup file for today's service, and open it.  If it does
   not exist, run and find the clergy to ask — but we, your humble authors, have
   never had that problem.
 
-![Proclaim file find](images/proclaim_file_find.jpg)
+  ![Proclaim file find](images/proclaim_file_find.jpg)
 
 * Once open, switch Proclaim from Edit mode, to On Air, by clicking the "On
   Air" button. The causes the Proclaim output to go out to the projector and
@@ -303,7 +305,7 @@ addresses for the MACBOOK, the IPAD and the IPHONE 8.
 * Run Switcher Cast on the MACBOOK, and make sure you have enabled the "Accept
   requests automatically" toggle at the bottom of the Switcher Cast interface.
 
-![Switcher Cast accept automatically](images/cast_accept.png)
+  ![Switcher Cast accept automatically](images/cast_accept.png)
 
 You are now ready to accept the PROCLAIM OUTPUT to Switcher Studio on the IPAD.
 
@@ -313,24 +315,24 @@ You are now ready to accept the PROCLAIM OUTPUT to Switcher Studio on the IPAD.
 * Go to Audio settings by selecting the audio icon from the line at the bottom
   left of the interface:
 
-![Switcher icons - sound](images/switcher_sound.png)
+  ![Switcher icons - sound](images/switcher_sound.png)
 
 * Look at the USB Audio Input panel, and check sound is coming through on
   left monitor bar:
 
-![Switcher USB Sound](images/switcher_usb_audio.png)
+  ![Switcher USB Sound](images/switcher_usb_audio.png)
 
 * Select the Settings icon for the USB Audio Input panel, and select Left to
   Mono, confirm, to make the left channel go to both channels.
 * Look at the output sound monitoring panel at the top of the interface to
   confirm that sound is now coming through on both channels:
 
-![Switcher top sound monitoring panel](images/switcher_top_sound.png)
+  ![Switcher top sound monitoring panel](images/switcher_top_sound.png)
 
 * Go to the video input panel by selecting the video icon from line at the
   bottom right of the interface.
 
-![Switcher icons - video](images/switcher_video.png)
+  ![Switcher icons - video](images/switcher_video.png)
 
 * Disable the IPAD camera by unchecking the "Built-in Camera".
 * Enable PROCLAIM OUTPUT. Making sure that Switcher Cast is running
@@ -347,7 +349,7 @@ You are now ready to accept the PROCLAIM OUTPUT to Switcher Studio on the IPAD.
   then "SHARE THIS CAMERA", go to IPAD Swicher Interface, and select
   "StBiPhone8". Wave in front of the IPHONE 8 camera to make sure it is live.
 
-![Switcher video sources](images/switcher_video_sources.jpg)
+  ![Switcher video sources](images/switcher_video_sources.jpg)
 
 * Move silver tripod to aisle end of pew.  Mount IPHONE 12, and adjust for good
   view of the chancel, with the left hand view just taking in the lectern, so
@@ -358,7 +360,7 @@ You are now ready to accept the PROCLAIM OUTPUT to Switcher Studio on the IPAD.
 * Select main chancel view to be current on Switcher Studio.
 * Click on appropriate "Welcome to" message as overlay.
 
-![Switcher welcome panel](images/switcher_welcome_panel.png)
+  ![Switcher welcome panel](images/switcher_welcome_panel.png)
 
 * Tee up next view in preview panel of switcher - typically the main chancel
   view with a text panel.
@@ -375,7 +377,7 @@ you do, see the Appendix.
 * If you are not already in YouTube studio, click the Create button and then
   select "Go Live".
 
-![YouTube create button](images/youtube_studio_create.jpg)
+  ![YouTube create button](images/youtube_studio_create.jpg)
 
 * Click on the Manage button on the left, and open scheduled upcoming live
   stream session for this service.  There should be one available.  If not, ask
@@ -386,7 +388,7 @@ you do, see the Appendix.
 * Go to IPAD, Switcher Studio.  Click on red button at top left, to start
   recording and live stream.
 
-![Switcher record button](images/switcher_record_button.png)
+  ![Switcher record button](images/switcher_record_button.png)
 
 * Go back to the MACBOOK YouTube interface. When the stream becomes available,
   click Go Live.
