@@ -228,6 +228,10 @@ Ethernet cable).
     1.  The laptop retina display.
     2.  The projector and clergy monitors as one combined external display.
 
+  Here's what that setup looks like in System Preferences -> Displays:
+
+  ![Mac monitor setup](images/mac_monitor_setup.jpg)
+
 ### USB SOUND
 
 * Connect 3.5mm church sound headphone jack to left input.
