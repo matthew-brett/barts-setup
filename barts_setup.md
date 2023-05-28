@@ -88,7 +88,7 @@ For the MACBOOK, we use Switcher Cast to transit the PROCLAIM OUTPUT.
 There are two options for networking in this setup:
 
 1. Fully wireless — WIFI
-2. Mostly wired  — WIRED
+2. Fully wired  — WIRED
 
 The following picture is the whole setup, except the IPHONE 12 and projector,
 using the WIRED configuration.
@@ -119,27 +119,19 @@ It's not clear whether this results in freezing in the YouTube stream.
 
 #### WIRED
 
-Nearly all traffic between the COMPUTERISHES and to the NODE goes via a wired
+All traffic between the COMPUTERISHES and to the NODE goes via a wired
 Ethernet connection, greatly reducing the WiFi traffic going to and from the
 NODE.
 
 Our current setup is this:
 
-* The IPAD, MACBOOK and the IPHONE 8 connect to an ETHERNET
-  HUB via Ethernet cables.  The ETHERNET HUB connects to the NODE, and
-  therefore to the rest of the church network and the internet, via an Ethernet
-  cable to the NODE.
+* All COMPUTERISHES connect to an ETHERNET SWITCH via Ethernet cables.  The
+  ETHERNET SWITCH connects to the NODE, and therefore to the rest of the church
+  network and the internet, via an Ethernet cable to the NODE.
 
-  ![ETHERNET HUB](images/hub.jpg)
+  ![ETHERNET SWITCH](images/hub.jpg)
 
-* IPHONE 12 connects to the church network via WiFi to the NODE.
-
-With that setup, all camera, video and internet traffic for the IPAD,
-MACBOOK and IPHONE 8 goes via wired connections.  In practice the IPHONE 12
-connection via Wifi is fairly stable in this situation, because you have taken
-away most of the Wifi network load with the wired connections. You may see
-a few dropped packets or freezing in the IPHONE 12 input, from the IPAD
-Switcher Studio interface.
+With that setup, all camera and video traffic goes via wired connections.
 
 In what follows, we distinguish steps for the two options: WIFI, and WIRED.
 
@@ -161,8 +153,8 @@ front pew, go find one, unplug it, and plug it into to our power extension
 block.  Wait for the light on the NODE to stop flashing, at which point it is
 connected to the Mesh network.
 
-Plug the ETHERNET HUB power supply into a power extension.  Connect the
-ETHERNET HUB and the NODE with an Ethernet cable (maybe the 2 metre blue
+Plug the ETHERNET SWITCH power supply into a power extension.  Connect the
+ETHERNET SWITCH and the NODE with an Ethernet cable (maybe the 2 metre blue
 Ethernet cable).
 
 ### Projector
@@ -186,16 +178,11 @@ Ethernet cable).
 
 ![Clergy monitor](images/clergy_monitor.jpg)
 
-### IPHONE 12
+### For both IPHONE 12 and IPHONE 8
 
 * Turn on phone.  Log in with PIN in blue book.
-* Plug lightning to USB-A cable from phone into USB-A power somewhere.
-  It's most convenient to use a USB power plug on the nearest extension block.
-* _Turn on the phone WiFi_.  Connect to StBartholomewPrivate.
-
-### For IPHONE 8
-
-* Turn on phone.  Log in with PIN in blue book.
+* You will need the red 3 metre lightning to USB cable for the IPHONE 8.  Use
+  the green 5 metre lighting to USB cable for the IPHONE 12.
 * If WIFI:
     * _Turn on the phone WiFi_.  Connect to StBartholomewPrivate.
     * Plug lightning to USB-A cable from phone into USB-A power somewhere; the
@@ -203,6 +190,9 @@ Ethernet cable).
 * If WIRED:
     * _Turn off the phone WiFi_.
     * Plug lightning to USB-A / lightning power adapter (L2USB) into phone.
+
+      ![Lightning to USB adapter](images/l2usb.png)
+
     * Plug USB-A to Ethernet connector into the L2USB connector.
 
       ![IPHONE 8 with L2USB connector and Ethernet connector](images/iphone_8_connected.png)
@@ -210,6 +200,10 @@ Ethernet cable).
     * Plug lightning to USB-A cable into L2USB connector, and into USB-A power
       somewhere; the USB-A power sockets on the power extension block are
       convenient.
+    * Connect Ethernet cable between the Ethernet connector and the ETHERNET
+      SWITCH; blue 3 meter cable for IPHONE 8, yellow 6 meter cable for IPHONE
+      12.
+
 
 ### MACBOOK
 
@@ -225,7 +219,7 @@ Ethernet cable).
 
       ![USB-A HUB](images/usb_a_hub.jpg)
 
-    * Connect USB-A HUB to the ETHERNET HUB with an Ethernet cable.
+    * Connect USB-A HUB to the ETHERNET SWITCH with an Ethernet cable.
 
 * Plug both mini-DVI to VGA adapters into mini-DVI / Thunderbolt ports.
 * Plug clergy monitor VGA cable into VGA adapter nearer the back of the laptop.
@@ -255,7 +249,7 @@ Ethernet cable).
 * If WIRED:
     * Go to System Preferences on IPAD, _turn off WiFi_.
     * Plug Ethernet cable into USB-C HUB.
-    * Plug other end of the Ethernet cable into the ETHERNET HUB.
+    * Plug other end of the Ethernet cable into the ETHERNET SWITCH.
 * Start Switcher Studio application.  You should not need to log in, but if you
   do have to log in, see username and password in the blue book.
 * Go to Switcher Studio sound settings by selecting sound icon from panel at
@@ -270,7 +264,7 @@ Ethernet cable).
 
 ### To reset WIRED network
 
-*If the wired network is not working*, unplug the power to the ETHERNET HUB.
+*If the wired network is not working*, unplug the power to the ETHERNET SWITCH.
 Wait a few seconds.  Plug the power back in again. This should reset the IP
 addresses for the MACBOOK, the IPAD and the IPHONE 8.
 
@@ -452,7 +446,7 @@ you do, see the Appendix.
 
 ### Full list of physical connections
 
-If WIRED - Ethernet cable from NODE to ETHERNET HUB.
+If WIRED - Ethernet cable from NODE to ETHERNET SWITCH.
 
 * MACBOOK:
     * Magsafe power.
@@ -460,21 +454,18 @@ If WIRED - Ethernet cable from NODE to ETHERNET HUB.
     * mini-DVI to VGA to projector.
     * If WIRED:
         * USB-A to USB-A HUB.
-        * Ethernet from USB-A HUB to ETHERNET HUB.
+        * Ethernet from USB-A HUB to ETHERNET SWITCH.
 * IPAD:
     * USB-C HUB:
         * USB-A to external USB SOUND
         * USB-C to USB-C power adapter
         * If WIRED:
-            * USB-A Ethernet adaptor
-            * Ethernet cable from adaptor to ETHERNET HUB.
-* IPHONE 8:
+            * Ethernet cable from USB-C HUB to ETHERNET SWITCH.
+* IPHONE 8 and IPHONE 12:
     * If WIFI:
         * Lightning to USB-A power on extension block.
     * If WIRED:
         * L2USB adapter plugged into lightning port.
         * USB to Ethernet adapter plugged into L2USB adapter.
-        * Ethernet cable from USB to Ethernet adaptor to ETHERNET HUB.
+        * Ethernet cable from USB to Ethernet adaptor to ETHERNET SWITCH.
         * L2USB lightning input to USB-A power on extension block.
-* IPHONE 12:
-    * Lightning to USB-A power on extension block.
