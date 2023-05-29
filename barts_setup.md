@@ -268,9 +268,11 @@ Ethernet cable).
 
 ### To reset WIRED network
 
-*If the wired network is not working*, unplug the power to the ETHERNET SWITCH.
-Wait a few seconds.  Plug the power back in again. This should reset the IP
-addresses for the MACBOOK, the IPAD and the IPHONE 8.
+*If the wired network is not working*
+
+* Check that WiFi is _off_ for all COMPUTERISHES devices.
+* Unplug the power to the ETHERNET SWITCH. Wait a few seconds.  Plug the power
+  back in again. This should reset the IP addresses for all COMPUTERISHES.
 
 ### Proclaim setup
 
@@ -335,12 +337,15 @@ You are now ready to accept the PROCLAIM OUTPUT to Switcher Studio on the IPAD.
   ![Switcher icons - video](images/switcher_video.png)
 
 * Disable the IPAD camera by unchecking the "Built-in Camera".
-* Enable PROCLAIM OUTPUT. Making sure that Switcher Cast is running
-  on the MACBOOK, and that Proclaim is "On Air" (see above).  In Switcher
-  Studio on the IPAD, you should see "Display 1 on Saint's Macbook Pro" and
-  "Display 2 on Saint's Macbook Pro".  Enable Display 2.  You should see the
-  PROCLAIM OUTPUT appearing in various preview panels on the left of the
-  Switcher Studio interface.
+* Enable PROCLAIM OUTPUT. Making sure that Switcher Cast is running on the
+  MACBOOK, and that Proclaim is "On Air" (see above).  In Switcher Studio on
+  the IPAD, you should see "Display 1 on Saint's Macbook Pro" and "Display
+  2 on Saint's Macbook Pro".  Enable Display 2.  You should see the PROCLAIM
+  OUTPUT appearing in various preview panels on the left of the Switcher
+  Studio interface.  **Note** — if you get a spinning icon on Switcher Studio
+  for Display 2, and fail to connect, and you are using WIRED connections,
+  check that the WiFi is off on the MACBOOK.  If it was on, turn it off, and
+  restart Switcher Studio on the IPAD.
 * Enable IPHONE 12 — run Switcher Cast on IPHONE 12, select "SHARE THIS
   DEVICE", then "SHARE THIS CAMERA", go to IPAD Switcher Interface, and select
   "StBiPhone12".  Wave in front of the IPHONE 12 camera to confirm you can see
