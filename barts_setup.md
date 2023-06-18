@@ -236,6 +236,8 @@ Ethernet cable).
   to be one display, and then set the projector to *mirror* the clergy display,
   so they form a single display.
 
+See the end of the document for display troubleshooting.
+
 ### USB SOUND
 
 * Connect 3.5mm church sound headphone jack to left input.
@@ -281,10 +283,10 @@ Ethernet cable).
    SWITCH.
 3. Check that there is a connection from the ETHERNET SWITCH to the MESH NODE.
 4. Check that there is a green light on the ETHERNET SWITCH corresponding to
-   each COMPUTERISH Ethernet connection, and the NODE Ethernet connection:
-5. Unplug the power to the ETHERNET SWITCH.
-Wait a few seconds.  Plug the power back in again. This should reset the IP
-addresses for the MACBOOK, the IPAD and the IPHONE 8.
+   each COMPUTERISH Ethernet connection, and the NODE Ethernet connection. This
+   tells you that the cable is carrying a live Ethernet connection.
+5. Unplug the power to the ETHERNET SWITCH. Wait a few seconds.  Plug the power
+   back in again. This should reset the IP addresses for all the COMPUTERISHES.
 
 ### Proclaim setup
 
@@ -490,3 +492,17 @@ If WIRED - Ethernet cable from NODE to ETHERNET SWITCH.
         * USB to Ethernet adapter plugged into L2USB adapter.
         * Ethernet cable from USB to Ethernet adaptor to ETHERNET SWITCH.
         * L2USB lightning input to USB-A power on extension block.
+
+
+### MACBOOK Display troubleshooting
+
+1. Make sure Proclaim is running and in "On Air" mode.
+2. Close the Switcher Cast application on the MACBOOK.
+3. Unplug both DVI connectors from the MACBOOK.  Wait a few seconds.  Plug them
+   back in again.
+4. Check you can see the PROCLAIM OUTPUT on both the projector and the clergy
+   monitor.   If not, check the System Settings -> Displays setup, as above.
+   Unplug and replug the DVI cables again.
+5. When the displays are giving the right output, start Switcher Cast again, go
+   to the IPAD, and connect Switcher Studio to the MACBOOK display output
+   again.
