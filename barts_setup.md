@@ -154,7 +154,7 @@ block.  Wait for the light on the NODE to stop flashing, at which point it is
 connected to the Mesh network.
 
 Plug the ETHERNET SWITCH power supply into a power extension.  Connect the
-ETHERNET SWITCH and the NODE with an Ethernet cable (maybe the 2 metre blue
+ETHERNET SWITCH and the NODE with an Ethernet cable (maybe the 2 metre red
 Ethernet cable).
 
 ### Projector
@@ -195,7 +195,7 @@ Ethernet cable).
 
     * Plug USB-A to Ethernet connector into the L2USB connector.
 
-      ![IPHONE 8 with L2USB connector and Ethernet connector](images/iphone_8_connected.png)
+      ![IPHONE 8 with L2USB connector and Ethernet connector](images/iphone_8_connected.jpg)
 
     * Plug lightning to USB-A cable into L2USB connector, and into USB-A power
       somewhere; the USB-A power sockets on the power extension block are
@@ -231,6 +231,10 @@ Ethernet cable).
   Here's what that setup looks like in System Preferences -> Displays:
 
   ![Mac monitor setup](images/mac_monitor_setup.jpg)
+
+  Specifically, in System Settings -> Displays, we have set the laptop display
+  to be one display, and then set the projector to *mirror* the clergy display,
+  so they form a single display.
 
 ### USB SOUND
 
@@ -270,9 +274,17 @@ Ethernet cable).
 
 *If the wired network is not working*
 
-* Check that WiFi is _off_ for all COMPUTERISHES devices.
-* Unplug the power to the ETHERNET SWITCH. Wait a few seconds.  Plug the power
-  back in again. This should reset the IP addresses for all COMPUTERISHES.
+*If the wired network is not working*:
+
+1. Check that WiFi is _off_ for all COMPUTERISHES.
+2. Check that all COMPUTERISHES have Ethernet cable connections to the ETHERNET
+   SWITCH.
+3. Check that there is a connection from the ETHERNET SWITCH to the MESH NODE.
+4. Check that there is a green light on the ETHERNET SWITCH corresponding to
+   each COMPUTERISH Ethernet connection, and the NODE Ethernet connection:
+5. Unplug the power to the ETHERNET SWITCH.
+Wait a few seconds.  Plug the power back in again. This should reset the IP
+addresses for the MACBOOK, the IPAD and the IPHONE 8.
 
 ### Proclaim setup
 
