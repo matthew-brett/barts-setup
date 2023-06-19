@@ -97,7 +97,7 @@ using the WIRED configuration.
 
 #### WIFI
 
-All COMPUTERISHES join the StBartholomewPrivate Wifi network, carried by the
+All COMPUTERISHES join the "StBartholomewPrivate" Wifi network, carried by the
 NODEs.
 
 All network traffic between COMPUTERISHES therefore goes through the nearest Wifi NODE.
@@ -201,9 +201,6 @@ and it has display signal coming from the MACBOOK.
 * If WIRED:
     * _Turn off the phone WiFi_.
     * Plug lightning to USB-A / lightning power adapter (L2USB) into phone.
-
-      ![Lightning to USB adapter](images/l2usb.png)
-
     * Plug USB-A to Ethernet connector into the L2USB connector.
 
       ![IPHONE 8 with L2USB connector and Ethernet connector](images/iphone_8_connected.jpg)
@@ -367,14 +364,21 @@ You are now ready to accept the PROCLAIM OUTPUT to Switcher Studio on the IPAD.
   interface.  **Note** — if you get a spinning icon on Switcher Studio for
   Display 2, and fail to connect, and you are using WIRED connections, check
   that the WiFi is off on the MACBOOK.  If it was on, turn it off, and restart
-  Switcher Studio on the IPAD.
-* Enable IPHONE 12 — run Switcher Cast on IPHONE 12, select "SHARE THIS
-  DEVICE", then "SHARE THIS CAMERA", go to IPAD Switcher Interface, and select
-  "StBiPhone12".  Wave your hand in front of the IPHONE 12 camera to confirm
-  you can see the live camera output in the Switcher Studio interface.
-* Enable IPHONE 8 — run Switcher Cast on IPHONE 8, select "sHARE THIS DEVICE",
-  then "sHARE THIS CAMERA", go to IPAD Switcher Interface, and select
-  "StBiPhone8". Wave in front of the IPHONE 8 camera to make sure it is live.
+  Switcher Studio on the IPAD.  You'll have to go back and reconfigure the
+  sound using the steps above, if you had to restart Switcher Studio.
+* Follow the next set of steps for both the IPHONE 12 and IPHONE 8:
+    * If WIFI:
+        * Confirm that iPhone WiFi is on, and you are connected to
+          the "StBartholomewPrivate" WiFi network.
+    * If WIRED:
+        * Confirm that WiFi is off, the Ethernet cable is connected, and the
+          corresponding cable has a green light on the ETHERNET SWITCH,
+          indicating a live connection.
+    * Run Switcher Cast on iPhone, select "SHARE THIS DEVICE", then "SHARE THIS CAMERA".
+    * Go to IPAD Switcher Interface, and select "StBiPhone12" (IPHONE 12) or
+      "StBiPhone8" (IPHONE 8).  Wave your hand in front of the iPhone camera to
+      confirm you can see the live camera output in the Switcher Studio
+      interface.
 
   ![Switcher video sources](images/switcher_video_sources.jpg)
 
