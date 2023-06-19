@@ -143,19 +143,27 @@ In what follows, we distinguish steps for the two options: WIFI, and WIRED.
   end of the front pew.
 * Make sure the socket is turned on, confirm the extension lead has power
   lights on.
-* Plug the 6-plug extension block into the 4-plug extension lead.  You'll be
+* Plug the 6-plug EXTENSION BLOCK into the 4-plug extension lead.  You'll be
   plugging most of the equipment into the 6-plug extension block.
 
 ### Extra network setup if WIRED network
 
-If a Eero NODE is not already plugged in to the power extension block under the
-front pew, go find one, unplug it, and plug it into to our power extension
-block.  Wait for the light on the NODE to stop flashing, at which point it is
-connected to the Mesh network.
+If a Eero NODE is not already plugged into the power extension cord under the
+front pew, go find one; there may be one plugged into the power for the sound
+desk next to the organ pipes. Unplug the NODE, and plug it into to the
+EXTENSION BLOCK.  Wait for the light on the NODE to stop flashing, at which
+point it is connected to the Mesh network.
 
-Plug the ETHERNET SWITCH power supply into a power extension.  Connect the
+Plug the ETHERNET SWITCH power supply into the EXTENSION BLOCK.  Connect the
 ETHERNET SWITCH and the NODE with an Ethernet cable (maybe the 2 metre red
 Ethernet cable).
+
+The colour of the Ethernet cable tells you its length:
+
+* 10cm : white
+* 2 metres : red
+* 3 metres : blue
+* 6 metres : yellow
 
 ### Projector
 
@@ -170,11 +178,14 @@ Ethernet cable).
 
 ![Projector placement](images/projector_placement.jpg)
 
+See below for the section on *adjusting the projector*, when it has warmed up,
+and it has display signal coming from the MACBOOK.
+
 ### Clergy monitor
 
 * Put on table next to projector screen.  Adjust angle so someone can read it
   from the top of the steps in the chancel.
-* Plug power into extension block.
+* Plug power into EXTENSION BLOCK.
 
 ![Clergy monitor](images/clergy_monitor.jpg)
 
@@ -186,7 +197,7 @@ Ethernet cable).
 * If WIFI:
     * _Turn on the phone WiFi_.  Connect to StBartholomewPrivate.
     * Plug lightning to USB-A cable from phone into USB-A power somewhere; the
-      USB-A power sockets on the power extension block are convenient.
+      USB-A power sockets on the EXTENSION BLOCK are convenient.
 * If WIRED:
     * _Turn off the phone WiFi_.
     * Plug lightning to USB-A / lightning power adapter (L2USB) into phone.
@@ -198,8 +209,7 @@ Ethernet cable).
       ![IPHONE 8 with L2USB connector and Ethernet connector](images/iphone_8_connected.jpg)
 
     * Plug lightning to USB-A cable into L2USB connector, and into USB-A power
-      somewhere; the USB-A power sockets on the power extension block are
-      convenient.
+      somewhere; the USB-A power sockets on the EXTENSION BLOCK are convenient.
     * Connect Ethernet cable between the Ethernet connector and the ETHERNET
       SWITCH; blue 3 meter cable for IPHONE 8, yellow 6 meter cable for IPHONE
       12.
@@ -208,13 +218,13 @@ Ethernet cable).
 ### MACBOOK
 
 * Turn on MACBOOK, log in as St Bartholomew's, password in blue book.
-* Plug power adapter into extension block, connect other end of power cable
+* Plug power adapter into EXTENSION BLOCK, connect other end of power cable
   (magsafe) to MACBOOK.
 * If WIFI:
     * Turn on WiFi.
     * Connect WiFi to StBartholomewsPrivate
 * If WIRED:
-    * Turn off Wifi.
+    * _Turn off Wifi_.
     * Plug in USB-A to 3 x USB-A / Ethernet hub (USB-A HUB).
 
       ![USB-A HUB](images/usb_a_hub.jpg)
@@ -241,7 +251,9 @@ See the end of the document for display troubleshooting.
 ### USB SOUND
 
 * Connect 3.5mm church sound headphone jack to left input.
-* Plug USB-C to USB-A cable into USB-C socket at the back of the box.
+* Plug USB-C to USB-A cable into USB-C socket at the back of the box.  You will
+  soon connect the USB-A end to the USB-C hub connected to the IPAD (see
+  below).
 
 ### IPAD
 
@@ -251,8 +263,8 @@ See the end of the document for display troubleshooting.
 
 ![USB-C HUB](images/usb_c_hub.png)
 
-* Plug USB-C power adapter into extension block.  Plug USB-C to USB-C cable
-  into power adapter and into USB-C HUB.
+* Plug USB-C power adapter plug into EXTENSION BLOCK.  Plug USB-C to USB-C
+  cable into power adapter and into USB-C HUB.
 * Connect USB SOUND to USB-C HUB via USB-C to USB-A cable.
 * If WIFI:
     * Go to System Preferences, _turn on WiFi_.
@@ -269,12 +281,10 @@ See the end of the document for display troubleshooting.
 
 * Configure USB sound to Mono Left Channel.  Confirm that sound
   monitor bar at top of screen shows sound for left and right channels.
-* Connect Bluetooth headphones.  Monitor sound level.  Adjust level with left
-  hand input level volume control on USB sound box.
+* Connect Bluetooth headphones by turning them on.  Monitor sound level.
+  Adjust level with left hand input level volume control on USB sound box.
 
 ### To reset WIRED network
-
-*If the wired network is not working*
 
 *If the wired network is not working*:
 
@@ -318,10 +328,7 @@ See the end of the document for display troubleshooting.
 
   If not, please click on the icon and ask Proclaim to sync.
 
-* Run Switcher Cast on the MACBOOK, and make sure you have enabled the "Accept
-  requests automatically" toggle at the bottom of the Switcher Cast interface.
-
-  ![Switcher Cast accept automatically](images/cast_accept.png)
+* Run Switcher Cast on the MACBOOK.
 
 You are now ready to accept the PROCLAIM OUTPUT to Switcher Studio on the IPAD.
 
@@ -354,18 +361,19 @@ You are now ready to accept the PROCLAIM OUTPUT to Switcher Studio on the IPAD.
 * Enable PROCLAIM OUTPUT. Making sure that Switcher Cast is running on the
   MACBOOK, and that Proclaim is "On Air" (see above).  In Switcher Studio on
   the IPAD, you should see "Display 1 on Saint's Macbook Pro" and "Display
-  2 on Saint's Macbook Pro".  Enable Display 2.  You should see the PROCLAIM
-  OUTPUT appearing in various preview panels on the left of the Switcher
-  Studio interface.  **Note** — if you get a spinning icon on Switcher Studio
-  for Display 2, and fail to connect, and you are using WIRED connections,
-  check that the WiFi is off on the MACBOOK.  If it was on, turn it off, and
-  restart Switcher Studio on the IPAD.
+  2 on Saint's Macbook Pro".  Enable Display 2.  Go the Switcher Cast on the
+  MACBOOK and accept the connection. You should see the PROCLAIM OUTPUT
+  appearing in various preview panels on the left of the Switcher Studio
+  interface.  **Note** — if you get a spinning icon on Switcher Studio for
+  Display 2, and fail to connect, and you are using WIRED connections, check
+  that the WiFi is off on the MACBOOK.  If it was on, turn it off, and restart
+  Switcher Studio on the IPAD.
 * Enable IPHONE 12 — run Switcher Cast on IPHONE 12, select "SHARE THIS
   DEVICE", then "SHARE THIS CAMERA", go to IPAD Switcher Interface, and select
-  "StBiPhone12".  Wave in front of the IPHONE 12 camera to confirm you can see
-  the live camera output in the Switcher Studio interface.
-* Enable IPHONE 8 — run Switcher Cast on IPHONE 8, select "SHARE THIS DEVICE",
-  then "SHARE THIS CAMERA", go to IPAD Swicher Interface, and select
+  "StBiPhone12".  Wave your hand in front of the IPHONE 12 camera to confirm
+  you can see the live camera output in the Switcher Studio interface.
+* Enable IPHONE 8 — run Switcher Cast on IPHONE 8, select "sHARE THIS DEVICE",
+  then "sHARE THIS CAMERA", go to IPAD Switcher Interface, and select
   "StBiPhone8". Wave in front of the IPHONE 8 camera to make sure it is live.
 
   ![Switcher video sources](images/switcher_video_sources.jpg)
@@ -384,8 +392,8 @@ You are now ready to accept the PROCLAIM OUTPUT to Switcher Studio on the IPAD.
 * Tee up next view in preview panel of switcher - typically the main chancel
   view with a text panel.
 
-You probably won't need to futz with the Switcher *stream configuration*, but if
-you do, see the Appendix.
+You probably won't need to futz with the Switcher *stream configuration*, but
+if you do, see the Appendix.
 
 ### YouTube stream setup
 
@@ -404,6 +412,9 @@ you do, see the Appendix.
 * You usually don't need to change the stream settings, but see the appendix at
   the end for a screenshot, in case you do.
 * Plan to start the live stream 15 minutes before the service.
+
+### Starting the YouTube stream
+
 * Go to IPAD, Switcher Studio.  Click on red button at top left, to start
   recording and live stream.
 
@@ -421,7 +432,7 @@ you do, see the Appendix.
   image straight on the screen.  Adjust zoom to taste, and focus.
 * If you have the projector straight in front of the screen you should not need
   to adjust the vertical keystone.  It seems to be about right when more or
-  less in the centre of its range. 
+  less in the centre of its range.
 * You may need to move the projector left and right a bit to get the horizontal
   keystone right. If that doesn't correct the keystone, you can try rotating
   the projector screen a little.
@@ -433,7 +444,10 @@ you do, see the Appendix.
   choruses.
 * Check with clergy about missing verses, and with musicians about any
   not-printed repeats to chorus verses.
-* Do a final check to make sure the Proclaim output is synchonized — you should
+
+### Pre-flight checks
+
+* Do a final check to make sure the Proclaim output is synchronized — you should
   see the green check mark next to the On Air button — see above:
 
   ![Proclaim synchronized check](images/proclaim_sync_check.png)
@@ -448,7 +462,7 @@ you do, see the Appendix.
 * When clergy have gone out of shot, after a little while, turn on Thank You
   panel.
 * When organ voluntary has finished, switch to end video.  Go to the USB Audio
-  Input panel and click Mute to turn off the ambient sound.
+  Input panel and click Mute to turn off the live sound from the church:
 
   ![Switcher end video](images/switcher_end_video.png)
 
