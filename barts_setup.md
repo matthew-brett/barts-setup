@@ -511,6 +511,7 @@ If WIRED - Ethernet cable from NODE to ETHERNET SWITCH.
         * Ethernet cable from USB to Ethernet adaptor to ETHERNET SWITCH.
         * L2USB lightning input to USB-A power on extension block.
 
+## Troubleshooting
 
 ### MACBOOK Display troubleshooting
 
@@ -524,3 +525,16 @@ If WIRED - Ethernet cable from NODE to ETHERNET SWITCH.
 5. When the displays are giving the right output, start Switcher Cast again, go
    to the IPAD, and connect Switcher Studio to the MACBOOK display output
    again.
+
+### Steam errors
+
+We have been seeing a large number of streaming errors of form
+"Broadcasting communication error: Transmission failed".  See the [Broadcast
+Error
+Messages](https://support.switcherstudio.com/article/371-broadcasting-error-messages)
+page for Switcher Studio.  The errors are caused by insufficient upload speed
+via the network.   This might be because of problems communicating with the
+router, via the WiFi network, or our broadband upload speed could be too low.
+We're investigating using a Powerline wired connection to the router, to
+eliminate problems in the WiFi, but we may need to drop the live stream
+quality, and / or investigate our broadband.
