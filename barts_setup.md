@@ -526,7 +526,7 @@ If WIRED - Ethernet cable from NODE to ETHERNET SWITCH.
    to the IPAD, and connect Switcher Studio to the MACBOOK display output
    again.
 
-### Steam errors
+### Stream errors
 
 We have been seeing a large number of streaming errors of form
 "Broadcasting communication error: Transmission failed".  See the [Broadcast
@@ -537,4 +537,4 @@ via the network.   This might be because of problems communicating with the
 router, via the WiFi network, or our broadband upload speed could be too low.
 We're investigating using a Powerline wired connection to the router, to
 eliminate problems in the WiFi, but we may need to drop the live stream
-quality, and / or investigate our broadband.
+quality, and / or investigate our broadband upload speeds.
