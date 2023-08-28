@@ -535,6 +535,8 @@ Messages](https://support.switcherstudio.com/article/371-broadcasting-error-mess
 page for Switcher Studio.  The errors are caused by insufficient upload speed
 via the network.   This might be because of problems communicating with the
 router, via the WiFi network, or our broadband upload speed could be too low.
-We're investigating using a Powerline wired connection to the router, to
-eliminate problems in the WiFi, but we may need to drop the live stream
-quality, and / or investigate our broadband upload speeds.
+We're investigating using
+a [Powerline](https://www.cable.co.uk/broadband/guides/powerline-networking/)
+wired connection to the router, to eliminate problems in the WiFi, but we may
+need to drop the live stream quality, and / or investigate our broadband upload
+speeds.
