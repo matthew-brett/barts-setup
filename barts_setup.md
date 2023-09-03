@@ -83,6 +83,10 @@ For the two IPHONES, we use the *Switcher Cast* application to transmit the
 
 For the MACBOOK, we use Switcher Cast to transit the PROCLAIM OUTPUT.
 
+## The map
+
+![Diagram of connections](images/setup_diagram.png)
+
 ### Two options for networking
 
 There are two options for networking in this setup:
