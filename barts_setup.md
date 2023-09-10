@@ -172,7 +172,7 @@ EXTENSION BLOCK.  Wait for the light on the NODE to stop flashing, at which
 point it is connected to the network.
 
 Plug the ETHERNET SWITCH power supply into the EXTENSION BLOCK.  Connect the
-ETHERNET SWITCH and the NODE with an Ethernet cable (maybe the 2 metre blue
+ETHERNET SWITCH and the NODE with an Ethernet cable (maybe the 3 metre blue
 Ethernet cable).
 
 The colour of the Ethernet cable tells you its length:
