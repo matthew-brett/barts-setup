@@ -92,7 +92,7 @@ For the MACBOOK, we use Switcher Cast to transit the PROCLAIM OUTPUT.
 There are two options for networking in this setup:
 
 1. Fully wireless — WIFI
-2. Fully wired  — WIRED
+2. Nearly all wired  — WIRED
 
 The following picture is the whole setup, except the IPHONE 12 and projector,
 using the WIRED configuration.
@@ -129,24 +129,33 @@ NODE.
 
 Our current setup is this:
 
-* All COMPUTERISHES connect to an ETHERNET SWITCH via Ethernet cables.  The
-  ETHERNET SWITCH connects to the NODE, and therefore to the rest of the church
-  network and the internet, via an Ethernet cable to the NODE.
+* All COMPUTERISHES except the IPHONE 12 connect to an ETHERNET SWITCH via
+  Ethernet cables.  The ETHERNET SWITCH connects to the NODE, and therefore to
+  the rest of the church network and the internet, via an Ethernet cable to the
+  NODE.  The IPHONE 12 connects to the NODE via Wifi, and thence to via the
+  Ethernet cables to the IPAD.
 
   ![ETHERNET SWITCH](images/hub.jpg)
 
-With that setup, all camera and video traffic goes via wired connections.
+With that setup, all camera and video traffic, except the IPHONE 12 camera
+stream goes via wired connections.
 
 In what follows, we distinguish steps for the two options: WIFI, and WIRED.
 
 ## Setup procedure
 
-* Get small black tripod and church sound cable with 3.5mm jack from behind and
-  to the right of the pulpit (right when facing towards the chancel).
-* Make sure the 4-plug extension cord is plugged into the socket at the aisle
-  end of the front pew.
+* Get black tripod and church sound cable with 3.5mm jack from behind and to
+  the right of the pulpit (right when facing towards the chancel).
+* Make sure the Powerline pass-through Ethernet adaptor (POWERLINE) is plugged
+  into the socket at the aisle end of the front pew. (The POWERLINE connects
+  via the power socket and mains wiring to a matching POWERLINE in the vestry.
+  This in turn connects via Ethernet to our broadband router, so the POWERLINE
+  Ethernet gives a very stable wired connection to the router).
+* Make sure the 4-plug extension cord is plugged into the POWERLINE.
 * Make sure the socket is turned on, confirm the extension lead has power
   lights on.
+* The NODE should be plugged into the extension cord, and there should be an
+  Ethernet cable between the POWERLINE and the NODE.
 * Plug the 6-plug EXTENSION BLOCK into the 4-plug extension lead.  You'll be
   plugging most of the equipment into the 6-plug extension block.
 
@@ -154,12 +163,13 @@ In what follows, we distinguish steps for the two options: WIFI, and WIRED.
 
 If a Eero NODE is not already plugged into the power extension cord under the
 front pew, go find one; there may be one plugged into the power for the sound
-desk next to the organ pipes. Unplug the NODE, and plug it into to the
+desk next to the organ pipes. Unplug the NODE.  Find an Ethernet cable to
+connect the NODE to the POWERLINE, and connect them.  Plug the NODE into to the
 EXTENSION BLOCK.  Wait for the light on the NODE to stop flashing, at which
-point it is connected to the Mesh network.
+point it is connected to the network.
 
 Plug the ETHERNET SWITCH power supply into the EXTENSION BLOCK.  Connect the
-ETHERNET SWITCH and the NODE with an Ethernet cable (maybe the 2 metre red
+ETHERNET SWITCH and the NODE with an Ethernet cable (maybe the 2 metre blue
 Ethernet cable).
 
 The colour of the Ethernet cable tells you its length:
@@ -167,7 +177,6 @@ The colour of the Ethernet cable tells you its length:
 * 10cm : white
 * 2 metres : red
 * 3 metres : blue
-* 6 metres : yellow
 
 ### Projector
 
@@ -193,11 +202,10 @@ and it has display signal coming from the MACBOOK.
 
 ![Clergy monitor](images/clergy_monitor.jpg)
 
-### For both IPHONE 12 and IPHONE 8
+### IPHONE 8
 
 * Turn on phone.  Log in with PIN in blue book.
-* You will need the red 3 metre lightning to USB cable for the IPHONE 8.  Use
-  the green 5 metre lighting to USB cable for the IPHONE 12.
+* You will need the red 3 metre lightning to USB cable.
 * If WIFI:
     * _Turn on the phone WiFi_.  Connect to StBartholomewPrivate.
     * Plug lightning to USB-A cable from phone into USB-A power somewhere; the
@@ -210,10 +218,20 @@ and it has display signal coming from the MACBOOK.
       ![IPHONE 8 with L2USB connector and Ethernet connector](images/iphone_8_connected.jpg)
 
     * Plug lightning to USB-A cable into L2USB connector, and into USB-A power
-      somewhere; the USB-A power sockets on the EXTENSION BLOCK are convenient.
+      somewhere; consider using a dedicated USB power plug plugged into the
+      EXTENSION BLOCK.
     * Connect Ethernet cable between the Ethernet connector and the ETHERNET
-      SWITCH; blue 3 meter cable for IPHONE 8, yellow 6 meter cable for IPHONE
-      12.
+      SWITCH; use the blue 3 meter cable.
+
+### IPHONE 12
+
+* Turn on phone.  Log in with PIN in blue book.
+* You will need a lightning to USB cable; consider the long (5 metre) green
+  cable.
+* _Turn on the phone WiFi_.  Connect to StBartholomewPrivate.  This will
+  connect the phone to the NODE via WiFi.
+* Plug lightning to USB-A cable from phone into USB-A power somewhere; consider
+  using a dedicated USB power plug plugged into the 4-socket extension cord.
 
 
 ### MACBOOK
@@ -289,9 +307,9 @@ See the end of the document for display troubleshooting.
 
 *If the wired network is not working*:
 
-1. Check that WiFi is _off_ for all COMPUTERISHES.
-2. Check that all COMPUTERISHES have Ethernet cable connections to the ETHERNET
-   SWITCH.
+1. Check that WiFi is _off_ for all COMPUTERISHES except the IPHONE 12.
+2. Check that all COMPUTERISHES (but the IPHONE 12) have Ethernet cable
+   connections to the ETHERNET SWITCH.
 3. Check that there is a connection from the ETHERNET SWITCH to the MESH NODE.
 4. Check that there is a green light on the ETHERNET SWITCH corresponding to
    each COMPUTERISH Ethernet connection, and the NODE Ethernet connection. This
@@ -370,7 +388,7 @@ You are now ready to accept the PROCLAIM OUTPUT to Switcher Studio on the IPAD.
   that the WiFi is off on the MACBOOK.  If it was on, turn it off, and restart
   Switcher Studio on the IPAD.  You'll have to go back and reconfigure the
   sound using the steps above, if you had to restart Switcher Studio.
-* Follow the next set of steps for both the IPHONE 12 and IPHONE 8:
+* IPHONE 8:
     * If WIFI:
         * Confirm that iPhone WiFi is on, and you are connected to
           the "StBartholomewPrivate" WiFi network.
@@ -379,19 +397,24 @@ You are now ready to accept the PROCLAIM OUTPUT to Switcher Studio on the IPAD.
           corresponding cable has a green light on the ETHERNET SWITCH,
           indicating a live connection.
     * Run Switcher Cast on iPhone, select "SHARE THIS DEVICE", then "SHARE THIS CAMERA".
-    * Go to IPAD Switcher Interface, and select "StBiPhone12" (IPHONE 12) or
-      "StBiPhone8" (IPHONE 8).  Wave your hand in front of the iPhone camera to
-      confirm you can see the live camera output in the Switcher Studio
-      interface.
+    * Go to IPAD Switcher Interface, and select "StBiPhone8" (IPHONE 8).  Wave
+      your hand in front of the iPhone camera to confirm you can see the live
+      camera output in the Switcher Studio interface.
 
   ![Switcher video sources](images/switcher_video_sources.jpg)
+
+* IPHONE 12:
+    * Confirm that iPhone WiFi is on, and you are connected to
+        the "StBartholomewPrivate" WiFi network.
+    * Run Switcher Cast on iPhone, select "SHARE THIS DEVICE", then "SHARE THIS CAMERA".
+    * Go to IPAD Switcher Interface, and select "StBiPhone12".
 
 * Move silver tripod to aisle end of pew.  Mount IPHONE 12, and adjust for good
   view of the chancel, with the left hand view just taking in the lectern, so
   we can see the readings if necessary from this camera.
-* Pull out legs and extend central column of the small black tripod, put in
-  front of front pew next to the equipment table.  Mount IPHONE 8.  Adjust so
-  the camera has a good view of the musicians and the lectern.
+* Pull out legs and extend central column of the black tripod (if necessary),
+  put in front of front pew next to the equipment table.  Mount IPHONE 8.
+  Adjust so the camera has a good view of the musicians and the lectern.
 * Select main chancel view to be current on Switcher Studio.
 * Click on appropriate "Welcome to" message as overlay.
 
@@ -506,7 +529,7 @@ If WIRED - Ethernet cable from NODE to ETHERNET SWITCH.
         * USB-C to USB-C power adapter
         * If WIRED:
             * Ethernet cable from USB-C HUB to ETHERNET SWITCH.
-* IPHONE 8 and IPHONE 12:
+* IPHONE 8:
     * If WIFI:
         * Lightning to USB-A power on extension block.
     * If WIRED:
@@ -514,6 +537,8 @@ If WIRED - Ethernet cable from NODE to ETHERNET SWITCH.
         * USB to Ethernet adapter plugged into L2USB adapter.
         * Ethernet cable from USB to Ethernet adaptor to ETHERNET SWITCH.
         * L2USB lightning input to USB-A power on extension block.
+* IPHONE 12:
+    * Lightning to USB-A power on extension block.
 
 ## Troubleshooting
 
@@ -524,7 +549,7 @@ If WIRED - Ethernet cable from NODE to ETHERNET SWITCH.
 3. Unplug both DVI connectors from the MACBOOK.  Wait a few seconds.  Plug them
    back in again.
 4. Check you can see the PROCLAIM OUTPUT on both the projector and the clergy
-   monitor.   If not, check the System Settings -> Displays setup, as above.
+   monitor.  If not, check the System Settings -> Displays setup, as above.
    Unplug and replug the DVI cables again.
 5. When the displays are giving the right output, start Switcher Cast again, go
    to the IPAD, and connect Switcher Studio to the MACBOOK display output
@@ -532,15 +557,14 @@ If WIRED - Ethernet cable from NODE to ETHERNET SWITCH.
 
 ### Stream errors
 
-We have been seeing a large number of streaming errors of form
-"Broadcasting communication error: Transmission failed".  See the [Broadcast
-Error
+At one point we were seeing a large number of streaming errors of form "Broadcasting
+communication error: Transmission failed".  See the [Broadcast Error
 Messages](https://support.switcherstudio.com/article/371-broadcasting-error-messages)
-page for Switcher Studio.  The errors are caused by insufficient upload speed
-via the network.   This might be because of problems communicating with the
-router, via the WiFi network, or our broadband upload speed could be too low.
-We're investigating using
+page for Switcher Studio.  The errors were caused by insufficient upload speed
+via the network.   This might have been because of problems communicating with
+the router, via the WiFi network, or our broadband upload speed could have been
+too slow. We've addressed Wifi communication with the router using
 a [Powerline](https://www.cable.co.uk/broadband/guides/powerline-networking/)
-wired connection to the router, to eliminate problems in the WiFi, but we may
-need to drop the live stream quality, and / or investigate our broadband upload
-speeds.
+wired connection to the router, and that seems to be working for now.  If that
+starts to fail,  we may need to drop the live stream quality, and / or
+investigate our broadband upload speeds.
