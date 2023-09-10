@@ -152,7 +152,7 @@ In what follows, we distinguish steps for the two options: WIFI, and WIRED.
   This in turn connects via Ethernet to our broadband router, so the POWERLINE
   Ethernet gives a very stable wired connection to the router).
 
-  [!POWERLINE passthrough adaptor](images/powerline_passthrough.png)
+  ![POWERLINE passthrough adaptor](images/powerline_passthrough.png)
 
 * Make sure the 4-plug extension cord is plugged into the POWERLINE.
 * Make sure the socket is turned on, confirm the extension lead has power
