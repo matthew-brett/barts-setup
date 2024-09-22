@@ -169,7 +169,7 @@ and it has display signal coming from the MACBOOK.
 * Find the green 5 meter USB-A to lightning cable (usually in the draw in the
   cupboard under the front pew).
 * Plug the USB-A end of the cable into the USB-C connector, and the lightning
-  end into the IPHONE 8.
+  end into the IPHONE 12.
 
 ### MACBOOK
 
