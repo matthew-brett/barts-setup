@@ -104,10 +104,11 @@ The basic setup is:
 WiFi should be *off* for the IPHONE 8 and IPHONE 12 (because they are connected
 for data via the USB cables).
 
-Optionally, you can connect the IPAD and MACBOOK via and ethernet cable, of
+Optionally, you can connect the IPAD and MACBOOK via an Ethernet cable, of
 which more below.  Call this configuration OPTIONAL ETHERNET, and the setup without optional Ethernet — the STANDARD CONFIGURATION.
 
-The following picture is the whole setup, except the IPHONE 12 and projector, in the STANDARD CONFIGURATION.
+The following picture is the whole setup, except the IPHONES 8 and 12 and
+projector, in the STANDARD CONFIGURATION.
 
 ![Stardard setup](images/desk_no_ethernet.jpg).
 
@@ -120,8 +121,8 @@ See the appendices for setup that should already be done and waiting for you.  n
 * Open the drawer in the cabinet under the table, to find the 4-plug lead.
 * Plug the 4-plug lead into the 6-plug extension block under the pew.
 * Fetch the USB-C HUB from the cabinet drawer, and put it on the table ready to
-  plug into the IPAD.  Notice that USB-C HUB should already be connected to the
-  USB power adapter, that, in turn, is plugged into the 4-plug extension.
+  plug into the IPAD.  The USB-C HUB should already be connected to the USB
+  power adapter, that, in turn, is plugged into the 4-plug extension.
 * Fetch the MACBOOK end of the Macbook power adaptor cable from the cabinet,
   ready to plug into the MACBOOK.
 
@@ -227,7 +228,7 @@ between the MACBOOK and the IPAD.  You would do this because you wanted the fast
 * Plug the white Ethernet cable into the USB-C HUB Ethernet port, and the USB-A
   end of the Apple Ethernet connector into a MACBOOK USB-A port.
 * *Turn off the Wifi on the IPAD* (because all traffic should now flow via the
-  Ethernet cable.
+  Ethernet cable).
 
 This is what the OPTIONAL ETHERNET configuration looks like with the white Ethernet cable connected:
 
