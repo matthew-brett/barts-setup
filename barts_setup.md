@@ -2,7 +2,7 @@
 # YAML metadata
 title: "Setup for St Bartholomew's YouTube casting"
 author: "Matthew Brett"
-date: "26 February 2023"
+date: "22 September 2024"
 linkcolor: blue
 urlcolor: blue
 ---
@@ -19,15 +19,13 @@ We have four computer-like things:
 * An iPhone 12 (IPHONE 12).
 * An iPhone 8 (IPHONE 8).
 
-Call these four — the COMPUTERISHES.
-
 ![IPAD](images/ipad_pro.jpg)
 
 ![MACBOOK](images/macbook_pro.jpg)
 
-![IPHONE 12](images/iphone_12.jpg)
+![IPHONE 12](images/iphone12_connected.jpg)
 
-![IPHONE 8](images/iphone_8.jpg)
+![IPHONE 8](images/iphone8_connected.jpg)
 
 The church has WiFi via a Mesh network carried by several Eero Wifi nodes
 - call these NODEs.
@@ -83,112 +81,61 @@ For the two IPHONES, we use the *Switcher Cast* application to transmit the
 
 For the MACBOOK, we use Switcher Cast to transit the PROCLAIM OUTPUT.
 
-## The map
+## The USB-C hub
 
-![Diagram of connections](images/setup_diagram.png)
+We connect devices and power to the IPAD using an Anker USB-C hub (USB-C HUB):
 
-### Two options for networking
+![USB-C hub](images/usbc_hub_no_ethernet.png){height=50%}
 
-There are two options for networking in this setup:
+## The setup in detail
 
-1. Fully wireless — WIFI
-2. Nearly all wired  — WIRED
+![Diagram of connections](images/barts_map.png)
 
-The following picture is the whole setup, except the IPHONE 12 and projector,
-using the WIRED configuration.
+## Networking
 
-![Whole setup using WIRED connections](images/whole_setup_with_iphone.jpg).
+The basic setup is:
 
-#### WIFI
+* IPAD connected to IPHONE 12 via USB-C HUB (giving power and data).
+* IPAD connected to IPHONE 8 via USB-C HUB (power and data).
+* IPAD connected to USB SOUND via USB-C HUB (power and data).
+* IPAD network connection to MACBOOK via WiFi NODE.
+* MACBOOK network connection to internet via WiFi NODE.
 
-All COMPUTERISHES join the "StBartholomewPrivate" Wifi network, carried by the
-NODEs.
+WiFi should be *off* for the IPHONE 8 and IPHONE 12 (because they are connected
+for data via the USB cables).
 
-All network traffic between COMPUTERISHES therefore goes through the nearest Wifi NODE.
+Optionally, you can connect the IPAD and MACBOOK via and ethernet cable, of
+which more below.  Call this configuration OPTIONAL ETHERNET, and the setup without optional Ethernet — the STANDARD CONFIGURATION.
 
-This is a _lot_ of network traffic carried on Wifi via the NODE, because we
-have:
+The following picture is the whole setup, except the IPHONE 12 and projector, in the STANDARD CONFIGURATION.
 
-1. HD camera IPHONE 12 via Switcher Cast to IPAD.
-2. HD camera IPHONE 8 via Switcher Cast to IPAD.
-3. High resolution PROCLAIM OUTPUT from MACBOOK via Switcher Cast to IPAD.
-4. Output video stream from IPAD to MACBOOK
-5. YouTube stream from MACBOOK to internet.
-
-As a result, when running this way, you will see many dropped packets and some
-freezing on the IPAD Switcher Studio interface, and considerable delay between
-the PROCLAIM OUTPUT and the IPAD Switcher Studio view of that output.
-
-It's not clear whether this results in freezing in the YouTube stream.
-
-#### WIRED
-
-All traffic between the COMPUTERISHES and to the NODE goes via a wired
-Ethernet connection, greatly reducing the WiFi traffic going to and from the
-NODE.
-
-Our current setup is this:
-
-* All COMPUTERISHES except the IPHONE 12 connect to an ETHERNET SWITCH via
-  Ethernet cables.  The ETHERNET SWITCH connects to the NODE, and therefore to
-  the rest of the church network and the internet, via an Ethernet cable to the
-  NODE.  The IPHONE 12 connects to the NODE via Wifi, and thence to via the
-  Ethernet cables to the IPAD.
-
-  ![ETHERNET SWITCH](images/hub.jpg)
-
-With that setup, all camera and video traffic, except the IPHONE 12 camera
-stream goes via wired connections.
-
-In what follows, we distinguish steps for the two options: WIFI, and WIRED.
+![Stardard setup](images/desk_no_ethernet.jpg).
 
 ## Setup procedure
 
+See the appendices for setup that should already be done and waiting for you.  now to the usual setup for streaming.
+
 * Get black tripod and church sound cable with 3.5mm jack from behind and to
   the right of the pulpit (right when facing towards the chancel).
-* Make sure the Powerline pass-through Ethernet adaptor (POWERLINE) is plugged
-  into the socket at the aisle end of the front pew. (The POWERLINE connects
-  via the power socket and mains wiring to a matching POWERLINE in the vestry.
-  This in turn connects via Ethernet to our broadband router, so the POWERLINE
-  Ethernet gives a very stable wired connection to the router).
-
-  ![POWERLINE passthrough adaptor](images/powerline_passthrough.png){width=35%}
-
-* Make sure the 4-plug extension cord is plugged into the POWERLINE.
-* Make sure the socket is turned on, confirm the extension lead has power
-  lights on.
-* The NODE should be plugged into the extension cord, and there should be an
-  Ethernet cable between the POWERLINE and the NODE.
-* Plug the 6-plug EXTENSION BLOCK into the 4-plug extension lead.  You'll be
-  plugging most of the equipment into the 6-plug extension block.
-
-### Extra network setup if WIRED network
-
-If a Eero NODE is not already plugged into the power extension cord under the
-front pew, go find one; there may be one plugged into the power for the sound
-desk next to the organ pipes. Unplug the NODE.  Find an Ethernet cable to
-connect the NODE to the POWERLINE, and connect them.  Plug the NODE into to the
-EXTENSION BLOCK.  Wait for the light on the NODE to stop flashing, at which
-point it is connected to the network.
-
-Plug the ETHERNET SWITCH power supply into the EXTENSION BLOCK.  Connect the
-ETHERNET SWITCH and the NODE with an Ethernet cable (maybe the 3 metre blue
-Ethernet cable).
-
-The colour of the Ethernet cable tells you its length:
-
-* 10cm : white
-* 2 metres : red
-* 3 metres : blue
+* Open the drawer in the cabinet under the table, to find the 4-plug lead.
+* Plug the 4-plug lead into the 6-plug extension block under the pew.
+* Fetch the USB-C HUB from the cabinet drawer, and put it on the table ready to
+  plug into the IPAD.  Notice that USB-C HUB should already be connected to the
+  USB power adapter, that, in turn, is plugged into the 4-plug extension.
+* Fetch the MACBOOK end of the Macbook power adaptor cable from the cabinet,
+  ready to plug into the MACBOOK.
 
 ### Projector
+
+The projector ends of the power and VGA cables should be coiled up at the
+aisle-end of the third pew.
 
 * Put projector on table.
 * It should be directly in front of the screen, because the projector has no
   horizontal keystone settings.  You'll find this means the projector should be
   about half way between the aisle edge of the pew and the pillar.
-* Plug VGA cable into projector.
-* Plug power cable into projector.
+* Plug the VGA cable into projector.
+* Plug the power cable into projector.
 * Connect power cable plug to extension power.
 * Turn on projector to let it warm up.
 
@@ -201,58 +148,35 @@ and it has display signal coming from the MACBOOK.
 
 * Put on table next to projector screen.  Adjust angle so someone can read it
   from the top of the steps in the chancel.
-* Plug power into EXTENSION BLOCK.
+* Plug power into the 4-plug EXTENSION BLOCK in the cabinet under the table.
 
 ![Clergy monitor](images/clergy_monitor.jpg)
 
 ### IPHONE 8
 
 * Turn on phone.  Log in with PIN in blue book.
-* You will need the red 3 metre lightning to USB cable.
-* If WIFI:
-    * _Turn on the phone WiFi_.  Connect to StBartholomewPrivate.
-    * Plug lightning to USB-A cable from phone into USB-A power somewhere; the
-      USB-A power sockets on the EXTENSION BLOCK are convenient.
-* If WIRED:
-    * _Turn off the phone WiFi_.
-    * Plug lightning to USB-A / lightning power adapter (L2USB) into phone.
-    * Plug USB-A to Ethernet connector into the L2USB connector.
-
-      ![IPHONE 8 with L2USB connector and Ethernet connector](images/iphone_8_connected.jpg)
-
-    * Plug lightning to USB-A cable into L2USB connector, and into USB-A power
-      somewhere; consider using a dedicated USB power plug plugged into the
-      EXTENSION BLOCK.
-    * Connect Ethernet cable between the Ethernet connector and the ETHERNET
-      SWITCH; use the blue 3 meter cable.
+* Make sure the WiFi is *off*.
+* Find the red 3 meter USB-A to lightning cable (usually in the draw in the
+  cupboard under the front pew).
+* Plug the USB-A end of the cable into the USB-C connector, and the lightning
+  end into the IPHONE 8.
 
 ### IPHONE 12
 
 * Turn on phone.  Log in with PIN in blue book.
-* You will need a lightning to USB cable; consider the long (5 metre) green
-  cable.
-* _Turn on the phone WiFi_.  Connect to StBartholomewPrivate.  This will
-  connect the phone to the NODE via WiFi.
-* Plug lightning to USB-A cable from phone into USB-A power somewhere; consider
-  using a dedicated USB power plug plugged into the 4-socket extension cord.
-
+* Make sure the WiFi is *off*.
+* Find the green 5 meter USB-A to lightning cable (usually in the draw in the
+  cupboard under the front pew).
+* Plug the USB-A end of the cable into the USB-C connector, and the lightning
+  end into the IPHONE 8.
 
 ### MACBOOK
 
 * Turn on MACBOOK, log in as St Bartholomew's, password in blue book.
-* Plug power adapter into EXTENSION BLOCK, connect other end of power cable
-  (magsafe) to MACBOOK.
-* If WIFI:
-    * Turn on WiFi.
-    * Connect WiFi to StBartholomewsPrivate
-* If WIRED:
-    * _Turn off Wifi_.
-    * Plug in USB-A to 3 x USB-A / Ethernet hub (USB-A HUB).
-
-      ![USB-A HUB](images/usb_a_hub.jpg)
-
-    * Connect USB-A HUB to the ETHERNET SWITCH with an Ethernet cable.
-
+* Plug the magsafe power cable from the cabinet under the table onto the
+  MACBOOK power socket.
+* Turn on WiFi.
+* Connect WiFi to StBartholomewsPrivate (this will likely be automatic).
 * Plug both mini-DVI to VGA adapters into mini-DVI / Thunderbolt ports.
 * Plug clergy monitor VGA cable into VGA adapter nearer the back of the laptop.
 * Plug projector VGA cable into the other VGA adapter.
@@ -272,53 +196,42 @@ See the end of the document for display troubleshooting.
 
 ### USB SOUND
 
-* Connect 3.5mm church sound headphone jack to left input.
-* Plug USB-C to USB-A cable into USB-C socket at the back of the box.  You will
-  soon connect the USB-A end to the USB-C hub connected to the IPAD (see
-  below).
+* Connect 3.5mm church sound headphone jack to left input (see picture of setup
+  above).
+* Plug the red USB-C to USB-C cable from the USB-C HUB into the USB-C socket at
+  the back of the box.
 
 ### IPAD
 
 * Turn on IPAD.
 * PIN to log in is in small blue book.
-* Connect USB-C hub (USB-C HUB).
+* Connect male USB-C connector from the USB-C hub (USB-C HUB) to USB-C socket
+  on IPAD.
+* The USB-C HUB should already carry USB power from its connection to the USB
+  power adapter plugged into the 4-plug extension lead.
+* For the STANDARD CONFIGURATION, make sure the WiFi is *on* and connected to
+  "St Bartholomew's Private".  Go to System Preferences, _turn on WiFi_.
 
-![USB-C HUB](images/usb_c_hub.png)
+### IPAD OPTIONAL ETHERNET configuration
 
-* Plug USB-C power adapter plug into EXTENSION BLOCK.  Plug USB-C to USB-C
-  cable into power adapter and into USB-C HUB.
-* Connect USB SOUND to USB-C HUB via USB-C to USB-A cable.
-* If WIFI:
-    * Go to System Preferences, _turn on WiFi_.
-* If WIRED:
-    * Go to System Preferences on IPAD, _turn off WiFi_.
-    * Plug Ethernet cable into USB-C HUB.
-    * Plug other end of the Ethernet cable into the ETHERNET SWITCH.
-* Start Switcher Studio application.  You should not need to log in, but if you
-  do have to log in, see username and password in the blue book.
-* Go to Switcher Studio sound settings by selecting sound icon from panel at
-  bottom right.
+If you are feeling brave, you might want to set up an Ethernet connection
+between the MACBOOK and the IPAD.  You would do this because you wanted the fastest possible connection sending display traffic from the MACBOOK and getting back streaming traffic from the IPAD.  You might not do this because it's an extra point of failure.  Your call.  If you do want to do this:
 
-  ![Switcher sound icone](images/switcher_sound.png)
+* Make sure that the MACBOOK has Internet Sharing set up, as in the
+  screenshot below.  This should already be the case.
 
-* Configure USB sound to Mono Left Channel.  Confirm that sound
-  monitor bar at top of screen shows sound for left and right channels.
-* Connect Bluetooth headphones by turning them on.  Monitor sound level.
-  Adjust level with left hand input level volume control on USB sound box.
+  ![Macbook internet sharing](images/macbook_internet_sharing.jpg)
 
-### To reset WIRED network
+* Find the short white Ethernet cable and the Apple Ethernet adapter.  They
+  should be in the cabinet under the table (see image below).
+* Plug the white Ethernet cable into the USB-C HUB Ethernet port, and the USB-A
+  end of the Apple Ethernet connector into a MACBOOK USB-A port.
+* *Turn off the Wifi on the IPAD* (because all traffic should now flow via the
+  Ethernet cable.
 
-*If the wired network is not working*:
+This is what the OPTIONAL ETHERNET configuration looks like with the white Ethernet cable connected:
 
-1. Check that WiFi is _off_ for all COMPUTERISHES except the IPHONE 12.
-2. Check that all COMPUTERISHES (but the IPHONE 12) have Ethernet cable
-   connections to the ETHERNET SWITCH.
-3. Check that there is a connection from the ETHERNET SWITCH to the MESH NODE.
-4. Check that there is a green light on the ETHERNET SWITCH corresponding to
-   each COMPUTERISH Ethernet connection, and the NODE Ethernet connection. This
-   tells you that the cable is carrying a live Ethernet connection.
-5. Unplug the power to the ETHERNET SWITCH. Wait a few seconds.  Plug the power
-   back in again. This should reset the IP addresses for all the COMPUTERISHES.
+![Optional Ethernet setup](images/desk_ethernet.jpg).
 
 ### Proclaim setup
 
@@ -356,23 +269,21 @@ You are now ready to accept the PROCLAIM OUTPUT to Switcher Studio on the IPAD.
 
 ### Switcher Studio and camera setup
 
-* Make sure Switcher Studio application is running on the IPAD.
-* Go to Audio settings by selecting the audio icon from the line at the bottom
-  left of the interface:
+* Start Switcher Studio application.  You should not need to log in, but if you
+  do have to log in, see username and password in the blue book.
+* From the options at the bottom-left, select "New livestream":
 
-  ![Switcher icons - sound](images/switcher_sound.png)
+  ![Switcher new livestream](images/ipad_new_livestream.png)
 
-* Look at the USB Audio Input panel, and check sound is coming through on
-  left monitor bar:
+* Select "Horizontal" and "Enter Studio" to start the interface.
 
-  ![Switcher USB Sound](images/switcher_usb_audio.png)
+  ![Switcher horizontal](images/ipad_horizontal.png)
 
-* Select the Settings icon for the USB Audio Input panel, and select Left to
-  Mono, confirm, to make the left channel go to both channels.
-* Look at the output sound monitoring panel at the top of the interface to
-  confirm that sound is now coming through on both channels:
+* You should now be looking at the Output tab on the Switcher interface.
+  Select the Broadcast Mode list box and choose "Custom RMTP".  *If you do not
+  do this, the IPAD will not send a stream to the MACBOOK*.
 
-  ![Switcher top sound monitoring panel](images/switcher_top_sound.png)
+  ![Switcher broadcast mode](images/ipad_broadcast_mode.png)
 
 * Go to the video input panel by selecting the video icon from line at the
   bottom right of the interface.
@@ -380,26 +291,38 @@ You are now ready to accept the PROCLAIM OUTPUT to Switcher Studio on the IPAD.
   ![Switcher icons - video](images/switcher_video.png)
 
 * Disable the IPAD camera by unchecking the "Built-in Camera".
-* Enable PROCLAIM OUTPUT. Making sure that Switcher Cast is running on the
-  MACBOOK, and that Proclaim is "On Air" (see above).  In Switcher Studio on
-  the IPAD, you should see "Display 1 on Saint's Macbook Pro" and "Display
-  2 on Saint's Macbook Pro".  Enable Display 2.  Go the Switcher Cast on the
-  MACBOOK and accept the connection. You should see the PROCLAIM OUTPUT
+* Go to Switcher Studio sound settings by selecting the sound icon from the
+  panel at bottom right.
+
+  ![Switcher sound icone](images/switcher_sound.png)
+
+* Look at the USB Audio Input panel, and check sound is coming through on
+  left monitor bar:
+
+  ![Switcher USB Sound](images/switcher_usb_audio.png)
+
+* Configure USB sound to Mono Left Channel.  Confirm that sound
+  monitor bar at top of screen shows sound for left and right channels.
+* Note — if you forgot to disable off the IPAD camera (see above), and you do
+  this later, you will have to go back to the sound settings and configure as
+  Mono Left Channel again.  For some reason, the camera and sound settings seem to interact.
+* Connect Bluetooth headphones by turning them on.  Monitor sound level.
+  Adjust level with left hand input level volume control on USB sound box.
+* Look at the output sound monitoring panel at the top of the interface to
+  confirm that sound is now coming through on both channels:
+
+  ![Switcher top sound monitoring panel](images/switcher_top_sound.png)
+
+* To connect the PROCLAIM OUTPUT, first make sure that Switcher Cast is running
+  on the MACBOOK, and that Proclaim is "On Air" (see above).  In Switcher
+  Studio on the IPAD, you should see "Display 1 on Saint's Macbook Pro" and
+  "Display 2 on Saint's Macbook Pro".  Enable Display 2.  Go the Switcher Cast
+  on the MACBOOK and accept the connection. You should see the PROCLAIM OUTPUT
   appearing in various preview panels on the left of the Switcher Studio
-  interface.  **Note** — if you get a spinning icon on Switcher Studio for
-  Display 2, and fail to connect, and you are using WIRED connections, check
-  that the WiFi is off on the MACBOOK.  If it was on, turn it off, and restart
-  Switcher Studio on the IPAD.  You'll have to go back and reconfigure the
-  sound using the steps above, if you had to restart Switcher Studio.
+  interface.
 * IPHONE 8:
-    * If WIFI:
-        * Confirm that iPhone WiFi is on, and you are connected to
-          the "StBartholomewPrivate" WiFi network.
-    * If WIRED:
-        * Confirm that WiFi is off, the Ethernet cable is connected, and the
-          corresponding cable has a green light on the ETHERNET SWITCH,
-          indicating a live connection.
-    * Run Switcher Cast on iPhone, select "SHARE THIS DEVICE", then "SHARE THIS CAMERA".
+    * Run Switcher Cast on iPhone, select "SHARE THIS DEVICE", then "SHARE THIS
+      CAMERA".
     * Go to IPAD Switcher Interface, and select "StBiPhone8" (IPHONE 8).  Wave
       your hand in front of the iPhone camera to confirm you can see the live
       camera output in the Switcher Studio interface.
@@ -407,9 +330,8 @@ You are now ready to accept the PROCLAIM OUTPUT to Switcher Studio on the IPAD.
   ![Switcher video sources](images/switcher_video_sources.jpg)
 
 * IPHONE 12:
-    * Confirm that iPhone WiFi is on, and you are connected to
-        the "StBartholomewPrivate" WiFi network.
-    * Run Switcher Cast on iPhone, select "SHARE THIS DEVICE", then "SHARE THIS CAMERA".
+    * Run Switcher Cast on iPhone, select "SHARE THIS DEVICE", then "SHARE THIS
+      CAMERA".
     * Go to IPAD Switcher Interface, and select "StBiPhone12".
 
 * Move silver tripod to aisle end of pew.  Mount IPHONE 12, and adjust for good
@@ -507,6 +429,42 @@ if you do, see the Appendix.
 
 ## Appendices
 
+### Setup that should be done already
+
+#### Projector cabling
+
+The power and VGA cable to the projector should already be in place.  The power
+cable runs from the 6-socket extension lead under the front pew.  The VGA cable
+also runs from under the front pew.  The projector-end connectors for both
+should be coiled up in a basket at the aisle-end of the third pew, ready for
+plugging into the projector.
+
+#### Ethernet connection from vestry to pew NODE
+
+We have set up a more direct connection between the outside world and the NODE that the streaming uses.
+
+The church connection to the outside world internet is via a router in the vestry. To improve network stability for streaming, we have set up an Ethernet connection between the router in the vestry and the NODE under the front pew, to which our streaming devices connect. This works by having:
+
+* An Ethernet cable between the router in the vestry and a Powerline device,
+  plugged into the mains.  Powerline devices allow Ethernet connections between two Powerline devices, running over the mains power cables.  It essentially allows us to use the mains power cables as Ethernet connections.
+* We have another Powerline device connected to the mains under the front pew.
+* We have an Ethernet cable connecting the Powerline device under the front pew
+  to the NODE towards the centre of the front pew.  This is the NODE to which
+  nearby streaming devices will connect when using WiFi.
+
+This should all be set up for you, but in case you need to set this up again, here are the instructions:
+
+* Make sure the Powerline pass-through Ethernet adaptor (POWERLINE) is plugged
+  into the socket at the aisle end of the front pew.
+
+  ![POWERLINE passthrough adaptor](images/powerline_passthrough.png){width=35%}
+
+* Make sure the 6-plug extension cord is plugged into the POWERLINE.
+* Make sure the socket is turned on, confirm the extension lead has power
+  lights on.
+* The NODE should be plugged into the extension cord, and there should be an
+  Ethernet cable between the POWERLINE and the NODE.
+
 ### Miscellaneous settings
 
 ![IPAD info](images/ipad_info.jpg)
@@ -517,31 +475,26 @@ if you do, see the Appendix.
 
 ### Full list of physical connections
 
-If WIRED - Ethernet cable from NODE to ETHERNET SWITCH.
-
 * MACBOOK:
     * Magsafe power.
     * mini-DVI to VGA to clergy monitor.
     * mini-DVI to VGA to projector.
-    * If WIRED:
-        * USB-A to USB-A HUB.
-        * Ethernet from USB-A HUB to ETHERNET SWITCH.
+    * If OPTIONAL ETHERNET configuration:
+        * USB-A to Apple Ethernet connector.
+        * Ethernet from Apple Ethernet connector to USB-C HUB.
 * IPAD:
     * USB-C HUB:
-        * USB-A to external USB SOUND
-        * USB-C to USB-C power adapter
-        * If WIRED:
-            * Ethernet cable from USB-C HUB to ETHERNET SWITCH.
+        * USB-C to external USB SOUND.
+        * USB-C to USB-C power adapter.
+        * USB-A to IPHONE 8 lightning connector.
+        * USB-A to IPHONE 12 lightning connector.
+        * If OPTIONAL ETHERNET configuration:
+            * Ethernet cable from USB-C HUB to Apple Ether
 * IPHONE 8:
-    * If WIFI:
-        * Lightning to USB-A power on extension block.
-    * If WIRED:
-        * L2USB adapter plugged into lightning port.
-        * USB to Ethernet adapter plugged into L2USB adapter.
-        * Ethernet cable from USB to Ethernet adaptor to ETHERNET SWITCH.
-        * L2USB lightning input to USB-A power on extension block.
+    * USB-C HUB USB-A to IPHONE 8 lightning connector.
+
 * IPHONE 12:
-    * Lightning to USB-A power on extension block.
+    * USB-C HUB USB-A to IPHONE 12 lightning connector.
 
 ## Troubleshooting
 
