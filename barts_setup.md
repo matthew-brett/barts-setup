@@ -79,7 +79,7 @@ IPHONE 12, IPHONE 8 and the MACBOOK run the Switcher Cast application.
 For the two IPHONES, we use the *Switcher Cast* application to transmit the
 *camera* video output.
 
-For the MACBOOK, we use Switcher Cast to transit the PROCLAIM OUTPUT.
+For the MACBOOK, we use Switcher Cast to transmit the PROCLAIM OUTPUT.
 
 ## The USB-C hub
 
@@ -114,7 +114,7 @@ projector, in the STANDARD CONFIGURATION.
 
 ## Setup procedure
 
-See the appendices for setup that should already be done and waiting for you.  now to the usual setup for streaming.
+See the appendices for setup that should already be done and waiting for you.  Now to the usual setup for streaming.
 
 * Get black tripod and church sound cable with 3.5mm jack from behind and to
   the right of the pulpit (right when facing towards the chancel).
@@ -123,6 +123,7 @@ See the appendices for setup that should already be done and waiting for you.  n
 * Fetch the USB-C HUB from the cabinet drawer, and put it on the table ready to
   plug into the IPAD.  The USB-C HUB should already be connected to the USB
   power adapter, that, in turn, is plugged into the 4-plug extension.
+* Fetch the USB SOUND box from the cabinet drawer.
 * Fetch the MACBOOK end of the Macbook power adaptor cable from the cabinet,
   ready to plug into the MACBOOK.
 
@@ -138,7 +139,8 @@ aisle-end of the third pew.
 * Plug the VGA cable into projector.
 * Plug the power cable into projector.
 * Connect power cable plug to extension power.
-* Turn on projector to let it warm up.
+* *Don't turn on the projector yet*.  We have seen the screen setup on the
+  MACBOOK get confused when you do this early.
 
 ![Projector placement](images/projector_placement.jpg)
 
@@ -157,7 +159,7 @@ and it has display signal coming from the MACBOOK.
 
 * Turn on phone.  Log in with PIN in blue book.
 * Make sure the WiFi is *off*.
-* Find the red 3 meter USB-A to lightning cable (usually in the draw in the
+* Find the red 3 meter USB-A to lightning cable (usually in the drawer in the
   cupboard under the front pew).
 * Plug the USB-A end of the cable into the USB-C connector, and the lightning
   end into the IPHONE 8.
@@ -166,7 +168,7 @@ and it has display signal coming from the MACBOOK.
 
 * Turn on phone.  Log in with PIN in blue book.
 * Make sure the WiFi is *off*.
-* Find the green 5 meter USB-A to lightning cable (usually in the draw in the
+* Find the green 5 meter USB-A to lightning cable (usually in the drawer in the
   cupboard under the front pew).
 * Plug the USB-A end of the cable into the USB-C connector, and the lightning
   end into the IPHONE 12.
@@ -206,8 +208,7 @@ See the end of the document for display troubleshooting.
 
 * Turn on IPAD.
 * PIN to log in is in small blue book.
-* Connect male USB-C connector from the USB-C hub (USB-C HUB) to USB-C socket
-  on IPAD.
+* Connect male USB-C connector from the USB-C HUB to USB-C socket on IPAD.
 * The USB-C HUB should already carry USB power from its connection to the USB
   power adapter plugged into the 4-plug extension lead.
 * For the STANDARD CONFIGURATION, make sure the WiFi is *on* and connected to
@@ -281,7 +282,7 @@ You are now ready to accept the PROCLAIM OUTPUT to Switcher Studio on the IPAD.
   ![Switcher horizontal](images/ipad_horizontal.png)
 
 * You should now be looking at the Output tab on the Switcher interface.
-  Select the Broadcast Mode list box and choose "Custom RMTP".  *If you do not
+  Select the Broadcast Mode list box and choose "Custom RTMP".  *If you do not
   do this, the IPAD will not send a stream to the MACBOOK*.
 
   ![Switcher broadcast mode](images/ipad_broadcast_mode.png)
@@ -291,7 +292,7 @@ You are now ready to accept the PROCLAIM OUTPUT to Switcher Studio on the IPAD.
 
   ![Switcher icons - video](images/switcher_video.png)
 
-* Disable the IPAD camera by unchecking the "Built-in Camera".
+* Disable the IPAD camera as an input by unchecking the "Built-in Camera".
 * Go to Switcher Studio sound settings by selecting the sound icon from the
   panel at bottom right.
 
@@ -304,11 +305,14 @@ You are now ready to accept the PROCLAIM OUTPUT to Switcher Studio on the IPAD.
 
 * Configure USB sound to Mono Left Channel.  Confirm that sound
   monitor bar at top of screen shows sound for left and right channels.
-* Note — if you forgot to disable off the IPAD camera (see above), and you do
-  this later, you will have to go back to the sound settings and configure as
-  Mono Left Channel again.  For some reason, the camera and sound settings seem to interact.
+* Note — if you forgot to disable the IPAD camera as an input (see above), and
+  you do this later, you will have to go back to the sound settings and
+  configure as Mono Left Channel again.  For some reason, the camera and sound
+  settings seem to interact.
 * Connect Bluetooth headphones by turning them on.  Monitor sound level.
   Adjust level with left hand input level volume control on USB sound box.
+  *Bluetooth headphones are the only way to monitor the sound reaching Switcher
+  Studio*.
 * Look at the output sound monitoring panel at the top of the interface to
   confirm that sound is now coming through on both channels:
 
@@ -378,13 +382,16 @@ if you do, see the Appendix.
   ![Switcher record button](images/switcher_record_button.png)
 
 * Go back to the MACBOOK YouTube interface. When the stream becomes available,
-  click Go Live.
+  click Go Live.   If the stream does not become available, check the
+  instructions above to make sure you chose "Custom RTMP" as the "Broadcast
+  mode" in Switcher Studio.
 
 ### Adjust projector
 
 * Make sure the projector is straight in front of the screen.
 * You will need a small book, such as the Book of Common Prayer, to rest the
   front projector leg on.
+* Turn on the projector.
 * Adjust the front projector leg and the right rear projector leg to get the
   image straight on the screen.  Adjust zoom to taste, and focus.
 * If you have the projector straight in front of the screen you should not need
@@ -418,15 +425,12 @@ if you do, see the Appendix.
 
 * When clergy have gone out of shot, after a little while, turn on Thank You
   panel.
-* When organ voluntary has finished, switch to end video.  Go to the USB Audio
-  Input panel and click Mute to turn off the live sound from the church:
-
-  ![Switcher end video](images/switcher_end_video.png)
-
 * Turn off projector.
-* When end video done, turn off stream with red button to top left of Switcher
-  Studio interface on IPAD.
-* Go to YouTube interface on Safari, on the MACBOOK, and turn off live stream.
+* When the organ voluntary has finished, turn off stream with red button to top
+  left of Switcher Studio interface on IPAD.
+* Go to YouTube interface on Safari, on the MACBOOK.  Wait for the stream to
+  start buffering on the interface (meaning the stream has finished) and turn
+  off live stream.
 
 ## Appendices
 
@@ -437,8 +441,8 @@ if you do, see the Appendix.
 The power and VGA cable to the projector should already be in place.  The power
 cable runs from the 6-socket extension lead under the front pew.  The VGA cable
 also runs from under the front pew.  The projector-end connectors for both
-should be coiled up in a basket at the aisle-end of the third pew, ready for
-plugging into the projector.
+should be coiled up in a basket at the aisle-end of the third pew, ready to
+plug into the projector.
 
 #### Ethernet connection from vestry to pew NODE
 
