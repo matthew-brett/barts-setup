@@ -525,6 +525,10 @@ via the network.   This might have been because of problems communicating with
 the router, via the WiFi network, or our broadband upload speed could have been
 too slow. We've addressed Wifi communication with the router using
 a [Powerline](https://www.cable.co.uk/broadband/guides/powerline-networking/)
-wired connection to the router, and that seems to be working for now.  If that
-starts to fail,  we may need to drop the live stream quality, and / or
-investigate our broadband upload speeds.
+wired connection to the router, and that seems to be working for now.  We also
+had to call out the BT / OpenReach engineers to fix slow internet speeds to the
+router. If the speed starts to fail again,  we may need to drop the live stream
+quality, and / or reinvestigate our broadband upload speeds.
+
+We may soon (around November 2024) get an offer of full-fibre internet, which
+we should take.
