@@ -145,7 +145,7 @@ aisle-end of the third pew.
 ![Projector placement](images/projector_placement.jpg)
 
 See below for the section on *adjusting the projector*, when it has warmed up,
-and it has display signal coming from the MACBOOK.
+and it is sending display signal to the MACBOOK.
 
 ### Clergy monitor
 
@@ -497,7 +497,6 @@ This should all be set up for you, but in case you need to set this up again, he
             * Ethernet cable from USB-C HUB to Apple Ether
 * IPHONE 8:
     * USB-C HUB USB-A to IPHONE 8 lightning connector.
-
 * IPHONE 12:
     * USB-C HUB USB-A to IPHONE 12 lightning connector.
 
