@@ -68,8 +68,8 @@ inputs:
 
   ![USB SOUND](images/usb_sound.jpg)
 
-* Video camera input via the network from the IPHONE 12.
-* Video camera input via the network from the IPHONE 8.
+* Video camera input from the IPHONE 12.
+* Video camera input from the IPHONE 8.
 * Video screen input via the network from the MACBOOK PROCLAIM OUTPUT.
 
 
@@ -107,8 +107,8 @@ for data via the USB cables).
 Optionally, you can connect the IPAD and MACBOOK via an Ethernet cable, of
 which more below.  Call this configuration OPTIONAL ETHERNET, and the setup without optional Ethernet — the STANDARD CONFIGURATION.
 
-The following picture is the whole setup, except the IPHONES 8 and 12 and
-projector, in the STANDARD CONFIGURATION.
+The following picture is of the IPAD, MACBOOK, USB SOUND and USB-C HUB, in the
+STANDARD CONFIGURATION.
 
 ![Stardard setup](images/desk_no_ethernet.jpg).
 
