@@ -526,7 +526,7 @@ the router, via the WiFi network, or our broadband upload speed could have been
 too slow. We've addressed Wifi communication with the router using
 a [Powerline](https://www.cable.co.uk/broadband/guides/powerline-networking/)
 wired connection to the router (as above), and that seems to be working for
-now.  We get ping speeds to the router (currently at 192.168.2.1) of about 5ms,
+now.  We get ping speeds to the router (currently at 192.168.4.1) of about 5ms,
 occasionally blipping up to 11ms.   Ping speeds to youtube.com are about 17ms,
 blipping up to the occasional 100ms. We also had to call out the BT / OpenReach
 engineers to fix slow internet speeds to the router. If the speed starts to
