@@ -105,7 +105,8 @@ WiFi should be *off* for the IPHONE 8 and IPHONE 12 (because they are connected
 for data via the USB cables).
 
 Optionally, you can connect the IPAD and MACBOOK via an Ethernet cable, of
-which more below.  Call this configuration OPTIONAL ETHERNET, and the setup without optional Ethernet — the STANDARD CONFIGURATION.
+which more below.  Call this configuration OPTIONAL ETHERNET, and the setup
+without optional Ethernet — the STANDARD CONFIGURATION.
 
 The following picture is of the IPAD, MACBOOK, USB SOUND and USB-C HUB, in the
 STANDARD CONFIGURATION.
@@ -217,7 +218,10 @@ See the end of the document for display troubleshooting.
 ### IPAD OPTIONAL ETHERNET configuration
 
 If you are feeling brave, you might want to set up an Ethernet connection
-between the MACBOOK and the IPAD.  You would do this because you wanted the fastest possible connection sending display traffic from the MACBOOK and getting back streaming traffic from the IPAD.  You might not do this because it's an extra point of failure.  Your call.  If you do want to do this:
+between the MACBOOK and the IPAD.  You would do this because you wanted the
+fastest possible connection sending display traffic from the MACBOOK and
+getting back streaming traffic from the IPAD.  You might not do this because
+it's an extra point of failure.  Your call.  If you do want to do this:
 
 * Make sure that the MACBOOK has Internet Sharing set up, as in the
   screenshot below.  This should already be the case.
@@ -335,9 +339,16 @@ You are now ready to accept the PROCLAIM OUTPUT to Switcher Studio on the IPAD.
   ![Switcher video sources](images/switcher_video_sources.jpg)
 
 * IPHONE 12:
+    * Remember to turn off WiFi on the iPhone.
     * Run Switcher Cast on iPhone, select "SHARE THIS DEVICE", then "SHARE THIS
       CAMERA".
     * Go to IPAD Switcher Interface, and select "StBiPhone12".
+    * **Careful**.  If you forgot to turn of the Wifi on the iPhone, and you
+      have already connected to Switcher Studio by selecting "StBiPhone12" as
+      above, **don't go back and switch off the iPhone WiFi**.  Switcher seems
+      to hold onto the Wifi-based connection even after restarting Switcher on
+      the IPHONE 12 and the IPAD.   Just leave the Wifi on if you get to that
+      point.
 
 * Move silver tripod to aisle end of pew.  Mount IPHONE 12, and adjust for good
   view of the chancel, with the left hand view just taking in the lectern, so
@@ -380,6 +391,12 @@ if you do, see the Appendix.
   recording and live stream.
 
   ![Switcher record button](images/switcher_record_button.png)
+
+  If you get a message "No event available" (see below), choose "Cancel" in the
+  dialog box, and go back to check that you had selected "Custom RTMP" output
+  in the "Broadcast mode" dropdown (see above).
+
+  ![No event available](images/no_event_available.jpg)
 
 * Go back to the MACBOOK YouTube interface. When the stream becomes available,
   click Go Live.   If the stream does not become available, check the
