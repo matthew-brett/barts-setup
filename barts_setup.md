@@ -343,7 +343,7 @@ You are now ready to accept the PROCLAIM OUTPUT to Switcher Studio on the IPAD.
     * Run Switcher Cast on iPhone, select "SHARE THIS DEVICE", then "SHARE THIS
       CAMERA".
     * Go to IPAD Switcher Interface, and select "StBiPhone12".
-    * **Careful**.  If you forgot to turn of the Wifi on the iPhone, and you
+    * **Careful**.  If you forgot to turn off the Wifi on the iPhone, and you
       have already connected to Switcher Studio by selecting "StBiPhone12" as
       above, **don't go back and switch off the iPhone WiFi**.  Switcher seems
       to hold onto the Wifi-based connection even after restarting Switcher on
