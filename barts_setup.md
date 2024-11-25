@@ -511,7 +511,8 @@ This should all be set up for you, but in case you need to set this up again, he
         * USB-A to IPHONE 8 lightning connector.
         * USB-A to IPHONE 12 lightning connector.
         * If OPTIONAL ETHERNET configuration:
-            * Ethernet cable from USB-C HUB to Apple Ether
+            * Apple Ethernet adapter plugged into MACBOOK USB, and an Ethernet
+              cable from USB-C HUB to Apple Ethernet adapter.
 * IPHONE 8:
     * USB-C HUB USB-A to IPHONE 8 lightning connector.
 * IPHONE 12:
