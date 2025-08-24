@@ -193,8 +193,8 @@ and it is sending display signal to the MACBOOK.
   ![Mac monitor setup](images/mac_monitor_setup.jpg)
 
   Specifically, in System Settings -> Displays, we have set the laptop display
-  to be one display, and then set the projector to *mirror* the clergy display,
-  so they form a single display.
+  to be one display, the clergy monitor as an extended display, and then set
+  the projector to *mirror* the clergy display, so they form a single display.
 
 See the end of the document for display troubleshooting.
 
@@ -461,37 +461,26 @@ also runs from under the front pew.  The projector-end connectors for both
 should be coiled up in a basket at the aisle-end of the third pew, ready to
 plug into the projector.
 
-#### Ethernet connection from vestry to pew NODE
-
-We have set up a more direct connection between the outside world and the NODE that the streaming uses.
-
-The church connection to the outside world internet is via a router in the vestry. To improve network stability for streaming, we have set up an Ethernet connection between the router in the vestry and the NODE under the front pew, to which our streaming devices connect. This works by having:
-
-* An Ethernet cable between the router in the vestry and a Powerline device,
-  plugged into the mains.  Powerline devices allow Ethernet connections between two Powerline devices, running over the mains power cables.  It essentially allows us to use the mains power cables as Ethernet connections.
-* We have another Powerline device connected to the mains under the front pew.
-* We have an Ethernet cable connecting the Powerline device under the front pew
-  to the NODE towards the centre of the front pew.  This is the NODE to which
-  nearby streaming devices will connect when using WiFi.
-
-This should all be set up for you, but in case you need to set this up again, here are the instructions:
-
-* Make sure the Powerline pass-through Ethernet adaptor (POWERLINE) is plugged
-  into the socket at the aisle end of the front pew.
-
-  ![POWERLINE passthrough adaptor](images/powerline_passthrough.png){width=35%}
-
-* Make sure the 6-plug extension cord is plugged into the POWERLINE.
-* Make sure the socket is turned on, confirm the extension lead has power
-  lights on.
-* The NODE should be plugged into the extension cord, and there should be an
-  Ethernet cable between the POWERLINE and the NODE.
-
 ### Miscellaneous settings
 
 ![IPAD info](images/ipad_info.jpg)
 
+Switcher Studio output configuration:
+
 ![Switcher stream config](images/switcher_stream_config.png)
+
+Click on the ">" to the right of "St Bartholomew's Edgbaston above, to get the RTMP channel configuration pane:
+
+![RTMP channel config](images/rtmp_channel_config.png)
+
+Click on the "..." settings icon to get this RTMP settings config for our channel.
+
+![Barts RTMP config](images/rtmp_config.png)
+
+Note the "Video resolution" selection of 1280x720.  Our broadband may not be
+able to handle faster speeds (see troubleshooting at end of document).
+
+The YouTube configuration from Safari on the MAC:
 
 ![YouTube stream settings](images/youtube_stream_settings.jpg)
 
@@ -524,32 +513,40 @@ This should all be set up for you, but in case you need to set this up again, he
 
 1. Make sure Proclaim is running and in "On Air" mode.
 2. Close the Switcher Cast application on the MACBOOK.
-3. Unplug both DVI connectors from the MACBOOK.  Wait a few seconds.  Plug them
-   back in again.
+3. Unplug both DVI connectors from the MACBOOK.  Wait a few seconds.  *First*
+   plug the clergy monitor cable into the rear mini-DVI port, and *then* plug
+   the projector cable into the front mini-DVI port.
 4. Check you can see the PROCLAIM OUTPUT on both the projector and the clergy
    monitor.  If not, check the System Settings -> Displays setup, as above.
-   Unplug and replug the DVI cables again.
+   Unplug and replug the DVI cables again, as above.
 5. When the displays are giving the right output, start Switcher Cast again, go
    to the IPAD, and connect Switcher Studio to the MACBOOK display output
    again.
 
 ### Stream errors
 
-At one point we were seeing a large number of streaming errors of form "Broadcasting
-communication error: Transmission failed".  See the [Broadcast Error
-Messages](https://support.switcherstudio.com/article/371-broadcasting-error-messages)
-page for Switcher Studio.  The errors were caused by insufficient upload speed
-via the network.   This might have been because of problems communicating with
-the router, via the WiFi network, or our broadband upload speed could have been
-too slow. We've addressed Wifi communication with the router using
-a [Powerline](https://www.cable.co.uk/broadband/guides/powerline-networking/)
-wired connection to the router (as above), and that seems to be working for
-now.  We get ping speeds to the router (currently at 192.168.4.1) of about 5ms,
-occasionally blipping up to 11ms.   Ping speeds to youtube.com are about 17ms,
-blipping up to the occasional 100ms. We also had to call out the BT / OpenReach
-engineers to fix slow internet speeds to the router. If the speed starts to
-fail again,  we may need to drop the live stream quality, and / or
-reinvestigate our broadband upload speeds.
+**Not yet solved**
 
-We may soon (around November 2024) get an offer of full-fibre internet, which
-we should take.
+From the beginning of April 2025, we started to get very jittery video in
+Switcher Studio on the iPad.
+
+We found that our BT Broadband was giving us very slow upload speeds (around
+3Mbs), which was too slow to support even low resolution streaming to YouTube;
+we were getting many YouTube warnings about insufficient bandwidth.  BT support
+said they could not guarantee higher speeds without paying for a dedicated broadband connection, at about £300 per month.
+
+In mid-June we experimented with Three 5G broadband, but this was not giving us
+good enough signal to stream, and we switched to 4G Broadband in mid July, and
+added an external aerial at the end of July.
+
+Since then upload speeds have been reasonable, usually at about 20Mbs.  With
+output YouTube streaming resolution at 720p (1280x720 pixels — see above), we
+have not had bandwidth warnings, although they do occur at maximum 1020p
+resolution.
+
+At first, this seemed to solve the jittery video, but on Sunday 24th August, the signal seemed good, but the video was persistently jittery.
+
+We should do some more broadband speed tests to check upload speed, to rule
+this out as a problem, but the next step should be using another higher spec
+iPad, in case the problem is saturation of the iPad CPU, perhaps exacerbated by
+variations in upload speed.
