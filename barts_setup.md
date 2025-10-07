@@ -484,15 +484,18 @@ The YouTube configuration from Safari on the MAC:
 
 ![YouTube stream settings](images/youtube_stream_settings.jpg)
 
-We have a TPLink 4G router.  You can configure the router in various ways,
-including tuning 4G settings, by using the browser to navigate to (currently):
-<http://192.168.1.1>.  The password there is the same as for the laptop (check
-in the blue book for the laptop password, if forgotten).  You may then want to
-select the "Advanced" tab, and look at the "Status" page to see various 4G
-settings that may be relevant.  In particular, when things are going well, you
-should see "Signal strength" of 100%, and an [RSRP
+We have a TPLink 4G mobile broadband router, connected to a [Poynting XPOL1
+anntenna](https://poynting.tech/antennas/xpol-1-5g). You can configure the
+router in various ways, including tuning 4G settings, by using the browser to
+navigate to (currently): <http://192.168.1.1>.  The password there is the same
+as for the laptop (check in the blue book for the laptop password, if
+forgotten).  You may then want to select the "Advanced" tab, and look at the
+"Status" page to see various 4G settings that may be relevant.  In particular,
+when things are going well, you should see "Signal strength" of 100%, and an
+[RSRP
 value](https://poynting.tech/articles/antenna-faq/signal-strength-measure-rsrp-rsrq-and-sinr-reference-for-lte-cheat-sheet)
-that is closer to zero than 96 or so.
+that is closer to zero than -100 or so (e.g -90).  Last I (MB) looked, it was
+-96.
 
 ### Full list of physical connections
 
